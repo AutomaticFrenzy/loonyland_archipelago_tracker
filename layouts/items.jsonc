@@ -17,12 +17,12 @@
             "h_alignment": "left",
             "rows": [
               [
-                "toggle",
-                "progressive"
+                "Heart",
+                "Arrow"
               ],
               [
-                "consumable",
-                "progressive_toggle"
+                "Lightning",
+                "Pants"
               ]
             ]
           }

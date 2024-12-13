@@ -1,57 +1,88 @@
 [
   {
-    "name": "Example Parent",
+    "name": "Overworld",
     "children": [
       {
-        "name": "Example Location 1",
+        "name": "A Cabin",
         "access_rules": [
           //read as: progressive_2 or toggle
-          "progressive_2",
-          "toggle"
         ],
         "sections": [
           {
-            "name": "Example Section 1",
-            "item_count": 1
-          },
-          {
-            "name": "Example Section 2",
-            "item_count": 3
+            "name": "Q: Tree Trimming"
           }
         ],
         "map_locations": [
           {
-            "map": "map1",
-            "x": 1750,
-            "y": 700
-          },
-          {
-            "map": "map2",
-            "x": 1000,
-            "y": 500
+            "map": "Overworld",
+            "x": 2640,
+            "y": 2415
           }
         ]
       },
       {
-        "name": "Example Location 2",
+        "name": "Tiny Cabin",
         "access_rules": [
-          //read as: progressive_toggle_2 and has more than 4 consumable
-          "progressive_toggle_2, $has_more_then_n_consumable|4"
+          //read as: progressive_2 or toggle
         ],
         "sections": [
           {
-            "name": "Example Section 1",
-            "item_count": 1
+            "name": "A Tiny Cabin"
           }
         ],
         "map_locations": [
           {
-            "map": "map1",
-            "x": 1500,
-            "y": 400
+            "map": "Overworld",
+            "x": 2573,
+            "y": 1958
           }
         ]
-      }
+      },
+      {
+        "name": "Tiny Cabin",
+        "access_rules": [
+          //read as: progressive_2 or toggle
+        ],
+        "sections": [
+          {
+            "name": "Q: The Collection"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2907,
+            "y": 2078
+          }
+        ]
+      },
+      {
+        "name": "The Witch's Cabin",
+        "access_rules": [
+          //read as: progressive_2 or toggle
+        ],
+        "sections": [
+          {
+            "name": "Q: Ghostbusting"
+          },
+          {
+            "name": "Q: Witch Mushrooms"
+          },
+          {
+            "name": "Witch's Cabin: Bedroom"
+          },
+          {
+            "name": "Witch's Cabin: Backroom"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3263,
+            "y": 2029
+          }
+        ]
+      },
     ]
-  }
+    }
 ]

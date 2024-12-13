@@ -32,16 +32,7 @@
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
-                ]
-              }
-            },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
+                  "Overworld"
                 ]
               }
             }
@@ -83,16 +74,7 @@
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
-                ]
-              }
-            },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
+                  "Overworld"
                 ]
               }
             }
