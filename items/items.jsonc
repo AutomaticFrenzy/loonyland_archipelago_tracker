@@ -1,218 +1,203 @@
 [
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
-  {
-      "name": "Heart",
-      "type": "consumable",
-      "max_quantity": 20,
-      "img": "images/items/game items/itm_heart.png",
-      "codes": "Heart"
-  },
-  {
-    "name": "Lightning",
-    "type": "consumable",
-    "max_quantity": 10,
-    "img": "images/items/game items/itm_lightning.png",
-    "codes": "Lightning"
-  },
-  {
-    "name": "Arrow",
-    "type": "consumable",
-    "max_quantity": 10,
-    "img": "images/items/game items/itm_arrow.png",
-    "codes": "Arrow"
-  },
-  {
-    "name": "Pants",
-    "type": "consumable",
-    "max_quantity": 10,
-    "img": "images/items/game items/itm_pants.png",
-    "codes": "Pants"
-  },
-  {
-    "name": "Mushroom",
-    "type": "consumable",
-    "max_quantity": 10,
-    "img": "images/items/game items/itm_mushroom.png",
-    "codes": "Mushroom"
-  },
-  {
-    "name": "Orb",
-    "type": "consumable",
-    "max_quantity": 4,
-    "img": "images/items/game items/itm_mys_orb.png",
-    "codes": "Orb"
-  },
-  {
-    "name": "Bombs",
-    "type": "toggle",
-    "img": "images/items/game items/itm_wep_bomb.png",
-    "codes": "Bombs"
-  },
-  {
-    "name": "Shock Wand",
-    "type": "toggle",
-    "img": "images/items/game items/itm_wep_shock.png",
-    "codes": "Shock Wand"
-  },
-  {
-    "name": "Ice Spear",
-    "type": "toggle",
-    "img": "images/items/game items/itm_wep_ice.png",
-    "codes": "Ice Spear"
-  },
-  {
-    "name": "Cactus",
-    "type": "toggle",
-    "img": "images/items/game items/itm_wep_cactus.png",
-    "codes": "Cactus"
-  },
-  {
-    "name": "Boomerang",
-    "type": "toggle",
-    "img": "images/items/game items/itm_wep_boomerang.png",
-    "codes": "Boomerang"
-  },
-  {
-    "name": "Whoopee",
-    "type": "toggle",
-    "img": "images/items/game items/itm_wep_whoopee.png",
-    "codes": "Whoopee"
-  },
-  {
-    "name": "Hot Pants",
-    "type": "toggle",
-    "img": "images/items/game items/itm_wep_hotpants.png",
-    "codes": "Hot Pants"
-  },
-  {
-    "name": "Skull Key",
-    "type": "toggle",
-    "img": "images/items/game items/itm_skull_key.png",
-    "codes": "Skull Key"
-  },
-  {
-    "name": "Bat Key",
-    "type": "toggle",
-    "img": "images/items/game items/itm_bat_key.png",
-    "codes": "Bat Key"
-  },
-  {
-    "name": "Pumpkin Key",
-    "type": "toggle",
-    "img": "images/items/game items/itm_pumpkin_key.png",
-    "codes":  "Pumpkin Key"
-  },
-  {
-    "name": "Boots",
-    "type": "toggle",
-    "img": "images/items/game items/itm_boots.png",
-    "codes": "Boots"
-  },
-  {
-    "name": "Stick",
-    "type": "toggle",
-    "img": "images/items/game items/itm_stick.png",
-    "codes": "Stick"
-  },
-  {
-    "name": "Fertilizer",
-    "type": "toggle",
-    "img": "images/items/game items/itm_fertilizer.png",
-    "codes": "Fertilizer"
-  },
-
-  {
-    "name": "Silver",
-    "type": "toggle",
-    "img": "images/items/game items/itm_silver.png",
-    "codes": "Silver"
-  },
-  {
-    "name": "Doom Daisy",
-    "type": "toggle",
-    "img": "images/items/game items/itm_daisy.png",
-    "codes": "Doom Daisy"
-  },
-  {
-    "name": "Ghost Potion",
-    "type": "toggle",
-    "img": "images/items/game items/itm_ghost_potion.png",
-    "codes": "Ghost Potion"
-  },
-  {
-    "name": "Vamp Statue",
-    "type": "consumable",
-    "max_quantity": 8,
-    "img": "images/items/game items/itm_vamp_bust.png",
-    "codes": "Vamp Statue"
-  },
-  {
-    "name": "Cat",
-    "type": "toggle",
-    "img": "images/items/game items/itm_cat.png",
-    "codes": "Cat"
-  },
-  {
-    "name": "Big Gem",
-    "type": "consumable",
-    "max_quantity": 6,
-    "img": "images/items/game items/itm_gem.png",
-    "codes": "Big Gem"
-  },
-  {
-    "name": "Zombie Reward",
-    "type": "toggle",
-    "img": "images/items/game items/itm_100_gem.png",
-    "codes": "Zombie Reward"
-  },
-  {
-    "name": "Triple Fire",
-    "type": "toggle",
-    "img": "images/items/game items/itm_triple_fire.png",
-    "codes": "Triple Fire"
-  },
-  {
-    "name": "Happy Stick",
-    "type": "toggle",
-    "img": "images/items/game items/itm_happy_stick.png",
-    "codes": "Happy Stick"
-  },
-  {
-    "name": "Bat Statue",
-    "type": "consumable",
-    "max_quantity": 4,
-    "img": "images/items/game items/itm_bat_statue.png",
-    "codes": "Bat Statue"
-  },
-  {
-    "name": "Lantern",
-    "type": "toggle",
-    "img": "images/items/game items/itm_lantern.png",
-    "codes": "Lantern"
-  },
-  {
-    "name": "Reflect",
-    "type": "toggle",
-    "img": "images/items/game items/itm_reflect.png",
-    "codes": "Reflect"
-  },
-  {
-    "name": "Silver Sling",
-    "type": "progressive",
-    "img": "images/items/game items/itm_lantern.png",
-    "allow_disabled": false,
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/interface/int_sling.png",
-        "codes": "Sling",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/game items/itm_silver_sling.png",
-        "codes": "Silver Sling",
-        "inherit_codes": false
-      }
-    ]
-  }
+    {
+        "name": "Heart",
+        "type": "consumable",
+        "max_quantity": 20,
+        "img": "images/items/game_items/itm_heart.png",
+        "codes": "Heart"
+    },
+    {
+        "name": "Lightning",
+        "type": "consumable",
+        "max_quantity": 10,
+        "img": "images/items/game_items/itm_lightning.png",
+        "codes": "Lightning"
+    },
+    {
+        "name": "Arrow",
+        "type": "consumable",
+        "max_quantity": 10,
+        "img": "images/items/game_items/itm_arrow.png",
+        "codes": "Arrow"
+    },
+    {
+        "name": "Pants",
+        "type": "consumable",
+        "max_quantity": 10,
+        "img": "images/items/game_items/itm_pants.png",
+        "codes": "Pants"
+    },
+    {
+        "name": "Mushroom",
+        "type": "consumable",
+        "max_quantity": 10,
+        "img": "images/items/game_items/itm_mushroom.png",
+        "codes": "Mushroom"
+    },
+    {
+        "name": "Orb",
+        "type": "consumable",
+        "max_quantity": 4,
+        "img": "images/items/game_items/itm_orb.png",
+        "codes": "Orb"
+    },
+    {
+        "name": "Bombs",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_bombs.png",
+        "codes": "Bombs"
+    },
+    {
+        "name": "Shock Wand",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_shock_wand.png",
+        "codes": "Shock Wand"
+    },
+    {
+        "name": "Ice Spear",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_ice_spear.png",
+        "codes": "Ice Spear"
+    },
+    {
+        "name": "Cactus",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_cactus.png",
+        "codes": "Cactus"
+    },
+    {
+        "name": "Boomerang",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_boomerang.png",
+        "codes": "Boomerang"
+    },
+    {
+        "name": "Whoopee",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_whoopee.png",
+        "codes": "Whoopee"
+    },
+    {
+        "name": "Hot Pants",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_hot_pants.png",
+        "codes": "Hot Pants"
+    },
+    {
+        "name": "Skull Key",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_skull_key.png",
+        "codes": "Skull Key"
+    },
+    {
+        "name": "Bat Key",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_bat_key.png",
+        "codes": "Bat Key"
+    },
+    {
+        "name": "Pumpkin Key",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_pumpkin_key.png",
+        "codes": "Pumpkin Key"
+    },
+    {
+        "name": "Boots",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_boots.png",
+        "codes": "Boots"
+    },
+    {
+        "name": "Stick",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_stick.png",
+        "codes": "Stick"
+    },
+    {
+        "name": "Fertilizer",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_fertilizer.png",
+        "codes": "Fertilizer"
+    },
+    {
+        "name": "Silver",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_silver.png",
+        "codes": "Silver"
+    },
+    {
+        "name": "Doom Daisy",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_doom_daisy.png",
+        "codes": "Doom Daisy"
+    },
+    {
+        "name": "Ghost Potion",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_ghost_potion.png",
+        "codes": "Ghost Potion"
+    },
+    {
+        "name": "Vampire Bust",
+        "type": "consumable",
+        "max_quantity": 8,
+        "img": "images/items/game_items/itm_vampire_bust.png",
+        "codes": "Vampire Bust"
+    },
+    {
+        "name": "Cat",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_cat.png",
+        "codes": "Cat"
+    },
+    {
+        "name": "Big Gem",
+        "type": "consumable",
+        "max_quantity": 6,
+        "img": "images/items/game_items/itm_big_gem.png",
+        "codes": "Big Gem"
+    },
+    {
+        "name": "100 Gems",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_100_gems.png",
+        "codes": "100 Gems"
+    },
+    {
+        "name": "Triple Fire",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_triple_fire.png",
+        "codes": "Triple Fire"
+    },
+    {
+        "name": "Happy Stick",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_happy_stick.png",
+        "codes": "Happy Stick"
+    },
+    {
+        "name": "Bat Statue",
+        "type": "consumable",
+        "max_quantity": 4,
+        "img": "images/items/game_items/itm_bat_statue.png",
+        "codes": "Bat Statue"
+    },
+    {
+        "name": "Lantern",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_lantern.png",
+        "codes": "Lantern"
+    },
+    {
+        "name": "Reflect",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_reflect.png",
+        "codes": "Reflect"
+    },
+    {
+        "name": "Silver Sling",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_silver_sling.png",
+        "codes": "Silver Sling"
+    }
 ]
