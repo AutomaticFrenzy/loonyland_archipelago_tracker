@@ -3,28 +3,405 @@
     "name": "Overworld",
     "children": [
       {
-        "name": "A Cabin",
-        "access_rules": [
-          //read as: progressive_2 or toggle
-        ],
+        "name": "Swamp: Mud Path",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Q: Tree Trimming"
+            "name": "Swamp: Mud Path"
           }
         ],
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 2640,
-            "y": 2415
+            "x": 6240,
+            "y": 144
           }
         ]
       },
       {
-        "name": "Tiny Cabin",
-        "access_rules": [
-          //read as: progressive_2 or toggle
+        "name": "Swamp: Bog Beast",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp: Bog Beast"
+          }
         ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 6016,
+            "y": 2712
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Upper Ledge",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rocky Cliffs: Upper Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 96,
+            "y": 1128
+          }
+        ]
+      },
+      {
+        "name": "Swamp: Sapling Shrine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp: Sapling Shrine"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4224,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Terror Glade: South Trees",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Terror Glade: South Trees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2688,
+            "y": 3504
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Vine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rocky Cliffs: Vine"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 64,
+            "y": 1776
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Grand Pharoh",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rocky Cliffs: Grand Pharoh"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 992,
+            "y": 960
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Rock Corner",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rocky Cliffs: Rock Corner"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2240,
+            "y": 1440
+          }
+        ]
+      },
+      {
+        "name": "Swamp: Outside Luniton",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp: Outside Luniton"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3712,
+            "y": 1704
+          }
+        ]
+      },
+      {
+        "name": "Swamp: East 1",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp: East 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 5120,
+            "y": 2064
+          }
+        ]
+      },
+      {
+        "name": "Swamp: Top Left dry",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp: Top Left dry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3776,
+            "y": 816
+          }
+        ]
+      },
+      {
+        "name": "Swamp: East 2",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp: East 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 5408,
+            "y": 2376
+          }
+        ]
+      },
+      {
+        "name": "Woods: Above Castle",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Woods: Above Castle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 6336,
+            "y": 3888
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Entrance Ledge",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rocky Cliffs: Entrance Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 544,
+            "y": 1488
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Peak",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rocky Cliffs: Peak"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 928,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Woods: SW of Cabin",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Woods: SW of Cabin"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4320,
+            "y": 4392
+          }
+        ]
+      },
+      {
+        "name": "The Witch's Cabin",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Witch's Cabin: Bedroom"
+          },
+          {
+            "name": "Witch's Cabin: Backroom"
+          },
+          {
+            "name": "Q: Mushroom Hunt"
+          },
+          {
+            "name": "Q: Ghostbusting"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3264,
+            "y": 2016
+          }
+        ]
+      },
+      {
+        "name": "Bonita's Cabin",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Bonita's Cabin: Barrel Maze"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3168,
+            "y": 2376
+          }
+        ]
+      },
+      {
+        "name": "The Bog Pit",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Bog Pit: Top Door"
+          },
+          {
+            "name": "Bog Pit: Posts Room"
+          },
+          {
+            "name": "Bog Pit: Drippy Window"
+          },
+          {
+            "name": "Bog Pit: Green room"
+          },
+          {
+            "name": "Bog Pit: Arena"
+          },
+          {
+            "name": "Bog Pit: Sw Switch"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4160,
+            "y": 1344
+          }
+        ]
+      },
+      {
+        "name": "Underground Tunnel",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tunnel: Swampdog Pumpkin Door"
+          },
+          {
+            "name": "Tunnel: Scratch Wall"
+          },
+          {
+            "name": "Tunnel: Narrow Passage"
+          },
+          {
+            "name": "Tunnel: Top Frogs"
+          },
+          {
+            "name": "Tunnel: Torch Island"
+          },
+          {
+            "name": "Tunnel: Small Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4960,
+            "y": 2736
+          }
+        ]
+      },
+      {
+        "name": "Swamp Gas Cavern",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp Gas: Scratch Wall"
+          },
+          {
+            "name": "Swamp Gas: Bat Door"
+          },
+          {
+            "name": "Swamp Gas: Rock Prison"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 6112,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Swamp Gas Cavern Back",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swamp Gas: Stair room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4992,
+            "y": 408
+          }
+        ]
+      },
+      {
+        "name": "A Tiny Cabin",
+        "access_rules": [],
         "sections": [
           {
             "name": "A Tiny Cabin"
@@ -33,16 +410,677 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 2573,
-            "y": 1958
+            "x": 2560,
+            "y": 1968
           }
         ]
       },
       {
-        "name": "Tiny Cabin",
-        "access_rules": [
-          //read as: progressive_2 or toggle
+        "name": "A Cabin Seer",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Seer: Bedside"
+          }
         ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 320,
+            "y": 4656
+          }
+        ]
+      },
+      {
+        "name": "Dusty Crypt",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Dusty Crypt: Pumpkin Door"
+          },
+          {
+            "name": "Dusty Crypt: Maze"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 1952,
+            "y": 4416
+          }
+        ]
+      },
+      {
+        "name": "Musty Crypt",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Musty Crypt: Maze Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 544,
+            "y": 3552
+          }
+        ]
+      },
+      {
+        "name": "Rusty Crypt",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Rusty Crypt: Vine"
+          },
+          {
+            "name": "Rusty Crypt: Boulders"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2752,
+            "y": 4632
+          }
+        ]
+      },
+      {
+        "name": "A Messy Cabin",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "A Messy Cabin"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 192,
+            "y": 4656
+          }
+        ]
+      },
+      {
+        "name": "Under The Lake",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Under The Lake: Behind Lightning Rod"
+          },
+          {
+            "name": "Under The Lake: Bat Door"
+          },
+          {
+            "name": "Deeper Lake: Corner"
+          },
+          {
+            "name": "Deeper Lake: Rhombus"
+          },
+          {
+            "name": "Frankenjulie's Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 480,
+            "y": 2400
+          }
+        ]
+      },
+      {
+        "name": "Haunted Tower",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Tower: Barracks"
+          },
+          {
+            "name": "Tower F2: Skull Puzzle"
+          },
+          {
+            "name": "PolterGuy's Reward"
+          },
+          {
+            "name": "Tower Basement: DoorDoorDoorDoorDoorDoor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 6240,
+            "y": 4560
+          }
+        ]
+      },
+      {
+        "name": "Abandoned Mines",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Abandoned Mine: Shaft"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 352,
+            "y": 1224
+          }
+        ]
+      },
+      {
+        "name": "The Shrine of Bombulus",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Shrine of Bombulus: Prize"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 224,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "A Gloomy Cavern",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Gloomy Cavern: Lockpick"
+          },
+          {
+            "name": "Q: The Rescue"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 1088,
+            "y": 1488
+          }
+        ]
+      },
+      {
+        "name": "Happy Stick Woods",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Happy Stick: Hidden"
+          },
+          {
+            "name": "Happy Stick: Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3936,
+            "y": 4752
+          }
+        ]
+      },
+      {
+        "name": "The Wolf Den",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Wolf Den: Top Left"
+          },
+          {
+            "name": "Wolf Den: Pumpkin Door"
+          },
+          {
+            "name": "Wolf Den: Vine"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 1344,
+            "y": 3144
+          }
+        ]
+      },
+      {
+        "name": "Upper Creepy Caverns",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Upper Cavern: Three Gold Skeletons"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 1472,
+            "y": 144
+          }
+        ]
+      },
+      {
+        "name": "Under the Ravine",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Under The Ravine: Left Vine"
+          },
+          {
+            "name": "Under The Ravine: Right Vine"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 1792,
+            "y": 144
+          }
+        ]
+      },
+      {
+        "name": "Creepy Caverns Middle",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Creepy Caverns M: Pharaoh Bat Door"
+          },
+          {
+            "name": "Creepy Caverns M: Gargoyles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 1632,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Creepy Caverns Right",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Creepy Caverns R: Top Pharaohs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 1952,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Castle Vampy: Top Room"
+          },
+          {
+            "name": "Castle Vampy: Maze"
+          },
+          {
+            "name": "Castle Vampy: Gauntlet"
+          },
+          {
+            "name": "Castle Vampy: Bat Closet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 864
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy II",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Castle Vampy II: Candle Room"
+          },
+          {
+            "name": "Castle Vampy II: Bloodsucker Room"
+          },
+          {
+            "name": "Castle Vampy II: Vampire Lord"
+          },
+          {
+            "name": "Castle Vampy II: Bat Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 744
+          }
+        ]
+      },
+      {
+        "name": "Cabin In The Woods",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Cabin in the Woods: Gold Skull"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4576,
+            "y": 3912
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy III",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Castle Vampy III: Center"
+          },
+          {
+            "name": "Castle Vampy III: Behind the Pews"
+          },
+          {
+            "name": "Castle Vampy III: AMBUSH!"
+          },
+          {
+            "name": "Castle Vampy III: Halloween"
+          },
+          {
+            "name": "Castle Vampy III: Bat room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 624
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy IV",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Castle Vampy IV: Right Path"
+          },
+          {
+            "name": "Castle Vampy IV: Left Path"
+          },
+          {
+            "name": "Castle Vampy IV: Ballroom Right"
+          },
+          {
+            "name": "Castle Vampy IV: Right Secret Wall"
+          },
+          {
+            "name": "Castle Vampy IV: Ballroom Left"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy Roof NW",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Roof NW: Gutsy the Elder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2496,
+            "y": 312
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy Roof NE",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Roof NE: Stoney the Elder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3072,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy Roof SW",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Roof SW: Drippy the Elder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2496,
+            "y": 696
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy Roof SE",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Roof SE: Toasty the Elder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3072,
+            "y": 696
+          }
+        ]
+      },
+      {
+        "name": "The Heart of Terror",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Bonkula"
+          }
+        ],
+        "map_locations": []
+      },
+      {
+        "name": "A Hidey-Hole",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Hidey-Hole: Bat Door"
+          },
+          {
+            "name": "Hidey-Hole: Pebbles"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 5152,
+            "y": 3840
+          }
+        ]
+      },
+      {
+        "name": "Swampdog Lair",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Swampdog Lair: Entrance"
+          },
+          {
+            "name": "Swampdog Lair: End"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 6016,
+            "y": 1944
+          }
+        ]
+      },
+      {
+        "name": "The Heart Of Terror",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Q: Save Halloween Hill"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "A Cabin Trees",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Q: Tree Trimming"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2624,
+            "y": 2424
+          }
+        ]
+      },
+      {
+        "name": "Q: Scaredy Cat",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Q: Scaredy Cat"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3040,
+            "y": 2544
+          }
+        ]
+      },
+      {
+        "name": "Q: Sticky Shoes",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Q: Sticky Shoes"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3328,
+            "y": 2520
+          }
+        ]
+      },
+      {
+        "name": "Q: Zombie Stomp",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Q: Zombie Stomp"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 704,
+            "y": 4344
+          }
+        ]
+      },
+      {
+        "name": "Q: Smashing Pumpkins",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Q: Smashing Pumpkins"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2976,
+            "y": 4080
+          }
+        ]
+      },
+      {
+        "name": "Q: Silver Bullet",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Q: Silver Bullet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 256,
+            "y": 4512
+          }
+        ]
+      },
+      {
+        "name": "A Cabin Larry",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Q: Hairy Larry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 800,
+            "y": 4608
+          }
+        ]
+      },
+      {
+        "name": "A Cabin Collector",
+        "access_rules": [],
         "sections": [
           {
             "name": "Q: The Collection"
@@ -51,38 +1089,11 @@
         "map_locations": [
           {
             "map": "Overworld",
-            "x": 2907,
-            "y": 2078
+            "x": 2880,
+            "y": 2088
           }
         ]
-      },
-      {
-        "name": "The Witch's Cabin",
-        "access_rules": [
-          //read as: progressive_2 or toggle
-        ],
-        "sections": [
-          {
-            "name": "Q: Ghostbusting"
-          },
-          {
-            "name": "Q: Witch Mushrooms"
-          },
-          {
-            "name": "Witch's Cabin: Bedroom"
-          },
-          {
-            "name": "Witch's Cabin: Backroom"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 3263,
-            "y": 2029
-          }
-        ]
-      },
+      }
     ]
-    }
+  }
 ]
