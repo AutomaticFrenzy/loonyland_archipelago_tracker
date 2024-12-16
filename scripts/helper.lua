@@ -58,11 +58,10 @@ function State:new(definition)
     }, self)
 end
 
-function State:has(item_name)
-    return Tracker:ProviderCountForCode(item_name) > 0
-end
-
 function State:has(item_name, count)
+    if count == nil then
+        return Tracker:ProviderCountForCode(item_name) > 0
+    end
     return Tracker:ProviderCountForCode(item_name) >= count
 end
 
@@ -153,15 +152,18 @@ function Region:connect(connecting_region, name, rule)
     if name == nil then
         name = self.name .. " -> " .. connecting_region.name
     end
+    print(name)
     local exit = self:create_exit(name)
     if rule then
         exit.access_rule = rule
+        --print("has rule" .. rule)
     end
     exit:connect(connecting_region)
     return exit
 end
 
 function Region:add_exits(exits, rules)
+
     -- TODO: implement exits for Dict[str, Optional[str]] type
     -- TODO: implement rules: Dict[str, Callable[[CollectionState], bool]] = None) -> None:
     if rules then
@@ -175,7 +177,25 @@ function Region:add_exits(exits, rules)
             error("No such region " .. connecting_region_name)
         end
         self:connect(destination, name)
+        print("connected em")
     end
+end
+
+function Region:add_exit(exit, rules)
+
+    -- TODO: implement exits for Dict[str, Optional[str]] type
+    -- TODO: implement rules: Dict[str, Callable[[CollectionState], bool]] = None) -> None:
+    if rules then
+        error("rules handling not implemented in Region:add_exit")
+    end
+
+    name = nil -- TODO
+    local destination = self.definition:get_region(exit)
+    if not destination then
+        error("No such region " .. connecting_region_name)
+    end
+    self:connect(destination)
+    print("connected em!")
 end
 
 function Region:can_reach(state)

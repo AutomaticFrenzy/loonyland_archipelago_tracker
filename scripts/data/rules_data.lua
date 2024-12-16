@@ -33,6 +33,7 @@ access_rules = {
         ["Q: Mushroom Hunt"] = function(state) return state:has("Mushroom", 10) end,
         ["Q: Zombie Stomp"] = function(state) return can_cleanse_crypts(state) end,
         ["Q: Smashing Pumpkins"] = function(state) return can_cleanse_crypts(state) end,
+        ["Q: Silver Bullet"] = function(state) return can_cleanse_crypts(state) and state:has("Silver") end,
         ["Q: Hairy Larry"] = function(state) return have_light_source(state) and state:has("Silver Sling") and state:has("Boots") end,
         ["Q: Ghostbusting"] = function(state) return state:has("Big Gem") and state:has("Doom Daisy") and state:has("Mushroom", 10) end,
         ["Q: The Collection"] = function(state) return state:has("Silver Sling") and state:has("Ghost Potion") and can_enter_vampy(state) end,

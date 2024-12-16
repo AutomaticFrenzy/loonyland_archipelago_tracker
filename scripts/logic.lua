@@ -22,6 +22,15 @@ local state = State:new(def)  -- TODO: add caching and update in watch for code
 -- patch up State.has and State.count to match the codes
 local _count = State.count
 
+--[[State.has_any(item_names)
+    for _, item_name in ipairs(item_names) do
+        if state:has(item_name) then
+            return true
+        end
+    end
+    return false
+end
+
 State.has = function(state, name)
     return state:count(name) > 0  -- use count to only implement the crazy mappings once
 end
@@ -38,7 +47,7 @@ State.count = function(state, name)
     end
     return _count(state, name)
 end
-
+--]]
 
 -- logic resolvers (called from json locations)
 
@@ -65,20 +74,21 @@ function have_all_vamps()
 end
 
 function have_special_weapon_damage() 
-    return (
-        state:has_any("Bombs", "Shock Wand", "Cactus", "Boomerang", "Whoopee", "Hot Pants")
+    
+    return (   
+    state:has_any{"Bombs", "Shock Wand", "Cactus", "Boomerang", "Whoopee", "Hot Pants"}
     )
 end
 
 function have_special_weapon_bullet() 
     return (
-        state:has_any("Bombs", "Ice Spear", "Cactus", "Boomerang", "Whoopee", "Hot Pants")
+        state:has_any {"Bombs","Ice Spear", "Cactus", "Boomerang", "Whoopee", "Hot Pants"}
     )
 end
 
 function have_special_weapon_range_damage() 
     return (
-        state:has_any("Bombs", "Shock Wand", "Cactus", "Boomerang")
+        state:has_any{"Bombs", "Shock Wand", "Cactus", "Boomerang"}
     )
 end
 
@@ -118,6 +128,9 @@ function can_enter_vampy_iv()
 end
 
 function can_reach(location_name)
+    if not hasAnyWatch then
+        state.stale = true
+    end
     local loc = def:get_region(location_name)
     return loc:can_reach(state)
 end
@@ -134,6 +147,19 @@ function _create_regions(def)
         local region = def:get_region(loc_data.region)
         local new_loc = Location:new(loc_name, loc_data.id, region)
         region.locations:append(new_loc)
+    end
+
+    --for _, entry in ipairs(loonyland_entrance_table) do
+    --    local region = def:get_region(entry.source)
+    --    print(region.name)
+    --    region:add_exit(entry.dest)
+    --end
+    
+    for _, entry in ipairs(loonyland_entrance_table) do
+        local region = def:get_region(entry.source)
+        local dest = def:get_region(entry.dest)
+
+        region:connect(dest, entry.source .. " -> " .. entry.dest, entry.rule)
     end
 
 
@@ -162,14 +188,43 @@ function set_rules()
 
 
 
+    ---for _, entry in ipairs(loonyland_entrance_table) do
+    ---    local region = def:get_region(entry.source)
+    ---    local dest = def:get_region(entry.dest)
+
+    ---    region:connect(dest, entry.source .. " -> " .. entry.dest, entry.rule)
+    ---end
+
+    ---for _, entry in ipairs(loonyland_entrance_table) do
+    --    local region = def:get_region(entry.source)
+    --    region:add_exits(entry.dest)
+    --end
+
+    
     for _, entry in ipairs(loonyland_entrance_table) do
-        local region = def:get_region(entry.source)
-        local dest = def:get_region(entry.dest)
-        region:connect(dest, entry.source .. " -> " .. entry.dest, entry.rule)
+        local entrance = def:get_entrance(entry.source .. " -> " .. entry.dest)
+        if entrance then
+            entrance:set_rule(entry.rule)
+        else
+            print("Missing entrance: " .. entry.source)
+        end
     end
+    
+
+end
+
+function stateChanged(code)  -- run by watch for code "*" (any)
+    if DEBUG then
+        if code ~= "obscure" and code:find("^logic") == nil then
+            print(code .. " changed")
+        end
+    end
+    state.stale = true
 end
 
 -- initialize logic
 create_regions()  -- NOTE: we don't handle can_create for Locations, so this needs to only be run once
 set_rules()
 
+
+--ScriptHost:AddWatchForCode("stateChanged", "*", stateChanged)

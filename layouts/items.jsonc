@@ -33,24 +33,25 @@
                 "Skull Key",
                 "Bat Key",
                 "Pumpkin Key",
+              ],
+              [
                 "Boots",
-                "Stick",
-                "Fertilizer",
-                "Silver",
-                "Doom Daisy",
-                "Ghost Potion",
-                "Vampire Bust",
-                "Cat",
-                "Big Gem",
-                "100 Gems",
-                "Triple Fire",
-                "Happy Stick",
-                "Bat Statue",
-                "Lantern",
-                "Reflect",
-                "Silver Sling",
-
-              ]
+              "Stick",
+              "Fertilizer",
+              "Silver",
+              "Doom Daisy",
+              "Ghost Potion",
+              "Vampire Bust",
+              "Cat",
+              "Big Gem",
+              "100 Gems",
+              "Triple Fire Gem",
+              "Happy Stick",
+              "Bat Statue",
+              "Lantern",
+              "Reflect Gem",
+              "Silver Sling",
+            ]
             ]
           }
         ]

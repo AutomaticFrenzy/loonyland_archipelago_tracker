@@ -164,17 +164,16 @@
         "codes": "100 Gems"
     },
     {
-        "name": "Triple Fire",
+        "name": "Triple Fire Gem",
         "type": "toggle",
-        "img": "images/items/game_items/itm_triple_fire.png",
-        "codes": "Triple Fire"
+        "img": "images/items/game_items/itm_triple_fire_gem.png",
+        "codes": "Triple Fire Gem"
     },
     {
         "name": "Happy Stick",
         "type": "toggle",
         "img": "images/items/game_items/itm_happy_stick.png",
-        "codes": "Happy Stick",
-        "initial_active_state": true
+        "codes": "Happy Stick"
     },
     {
         "name": "Bat Statue",
@@ -190,10 +189,10 @@
         "codes": "Lantern"
     },
     {
-        "name": "Reflect",
+        "name": "Reflect Gem",
         "type": "toggle",
-        "img": "images/items/game_items/itm_reflect.png",
-        "codes": "Reflect"
+        "img": "images/items/game_items/itm_reflect_gem.png",
+        "codes": "Reflect Gem"
     },
     {
         "name": "Silver Sling",

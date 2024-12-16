@@ -81,12 +81,6 @@
             "access_rules": [
               "$can_cleanse_crypts"
             ]
-          },
-          {
-            "name": "Q: Silver Bullet",
-            "access_rules": [
-              ""
-            ]
           }
         ],
         "map_locations": []
@@ -138,6 +132,12 @@
             "name": "Q: Zombie Stomp",
             "access_rules": [
               "$can_cleanse_crypts"
+            ]
+          },
+          {
+            "name": "Q: Silver Bullet",
+            "access_rules": [
+              "$can_cleanse_crypts, Silver"
             ]
           }
         ],
@@ -804,7 +804,7 @@
             ]
           },
           {
-            "ref": "Overworld/Haunted Tower, Floor 2/Tower F2: Skull Puzzle"
+            "ref": "Overworld/Haunted Tower Floor 2/Tower F2: Skull Puzzle"
           },
           {
             "ref": "Overworld/Haunted Tower Roof/PolterGuy's Reward"
@@ -822,9 +822,9 @@
         ]
       },
       {
-        "name": "Haunted Tower, Floor 2",
+        "name": "Haunted Tower Floor 2",
         "access_rules": [
-          "$can_reach|Haunted Tower, Floor 2"
+          "$can_reach|Haunted Tower Floor 2"
         ],
         "sections": [
           {
@@ -837,9 +837,9 @@
         "map_locations": []
       },
       {
-        "name": "Haunted Tower, Floor 3",
+        "name": "Haunted Tower Floor 3",
         "access_rules": [
-          "$can_reach|Haunted Tower, Floor 3"
+          "$can_reach|Haunted Tower Floor 3"
         ],
         "sections": [],
         "map_locations": []
@@ -2178,6 +2178,81 @@
             "map": "Overworld",
             "x": 4320,
             "y": 4392
+          }
+        ]
+      },
+      {
+        "name": "Q: Scaredy Cat",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Q: Scaredy Cat"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3040,
+            "y": 2544
+          }
+        ]
+      },
+      {
+        "name": "Q: Sticky Shoes",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Q: Sticky Shoes"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3328,
+            "y": 2520
+          }
+        ]
+      },
+      {
+        "name": "Q: Zombie Stomp",
+        "sections": [
+          {
+            "ref": "Overworld/Zombiton/Q: Zombie Stomp"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 704,
+            "y": 4344
+          }
+        ]
+      },
+      {
+        "name": "Q: Smashing Pumpkins",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Q: Smashing Pumpkins"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2976,
+            "y": 4080
+          }
+        ]
+      },
+      {
+        "name": "Q: Silver Bullet",
+        "sections": [
+          {
+            "ref": "Overworld/Zombiton/Q: Silver Bullet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 256,
+            "y": 4512
           }
         ]
       }
