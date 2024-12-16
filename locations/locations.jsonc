@@ -227,6 +227,12 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/The Witch's Cabin Front/Witch's Cabin: Bedroom"
+          },
+          {
+            "ref": "Overworld/The Witch's Cabin Back/Witch's Cabin: Backroom"
+          },
+          {
             "ref": "Overworld/The Witch's Cabin Front/Q: Mushroom Hunt"
           },
           {
@@ -503,9 +509,6 @@
           "$can_reach|Swamp Gas Cavern Back"
         ],
         "sections": [
-          {
-            "ref": "Overworld/Swamp Gas Cavern Back/Swamp Gas: Stair room"
-          },
           {
             "name": "Swamp Gas: Stair room",
             "access_rules": [
@@ -1790,7 +1793,7 @@
         ],
         "sections": [
           {
-            "name": "Bonkula",
+            "name": "Bonkula Item",
             "access_rules": [
               ""
             ]
@@ -1937,6 +1940,246 @@
         ],
         "sections": [],
         "map_locations": []
+      },
+      {
+        "name": "Swamp: Mud Path",
+        "sections": [
+          {
+            "ref": "Overworld/Slurpy Swamp Mud/Swamp: Mud Path"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 6240,
+            "y": 144
+          }
+        ]
+      },
+      {
+        "name": "Swamp: Bog Beast",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Swamp: Bog Beast"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 6016,
+            "y": 2712
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Upper Ledge",
+        "sections": [
+          {
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Upper Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 96,
+            "y": 1128
+          }
+        ]
+      },
+      {
+        "name": "Swamp: Sapling Shrine",
+        "sections": [
+          {
+            "ref": "Overworld/Slurpy Swamp Mud/Swamp: Sapling Shrine"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4224,
+            "y": 648
+          }
+        ]
+      },
+      {
+        "name": "Terror Glade: South Trees",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Terror Glade: South Trees"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2688,
+            "y": 3504
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Vine",
+        "sections": [
+          {
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Vine"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 64,
+            "y": 1776
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Grand Pharoh",
+        "sections": [
+          {
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Grand Pharoh"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 992,
+            "y": 960
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Rock Corner",
+        "sections": [
+          {
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Rock Corner"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2240,
+            "y": 1440
+          }
+        ]
+      },
+      {
+        "name": "Swamp: Outside Luniton",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Swamp: Outside Luniton"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3712,
+            "y": 1704
+          }
+        ]
+      },
+      {
+        "name": "Swamp: East 1",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Swamp: East 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 5120,
+            "y": 2064
+          }
+        ]
+      },
+      {
+        "name": "Swamp: Top Left dry",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Swamp: Top Left dry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3776,
+            "y": 816
+          }
+        ]
+      },
+      {
+        "name": "Swamp: East 2",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Swamp: East 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 5408,
+            "y": 2376
+          }
+        ]
+      },
+      {
+        "name": "Woods: Above Castle",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Woods: Above Castle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 6336,
+            "y": 3888
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Entrance Ledge",
+        "sections": [
+          {
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Entrance Ledge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 544,
+            "y": 1488
+          }
+        ]
+      },
+      {
+        "name": "Rocky Cliffs: Peak",
+        "sections": [
+          {
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Peak"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 928,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Woods: SW of Cabin",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Woods: SW of Cabin"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4320,
+            "y": 4392
+          }
+        ]
       }
     ]
   }

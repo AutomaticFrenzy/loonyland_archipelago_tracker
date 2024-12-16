@@ -173,7 +173,8 @@
         "name": "Happy Stick",
         "type": "toggle",
         "img": "images/items/game_items/itm_happy_stick.png",
-        "codes": "Happy Stick"
+        "codes": "Happy Stick",
+        "initial_active_state": true
     },
     {
         "name": "Bat Statue",
