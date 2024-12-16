@@ -17,51 +17,15 @@
         ],
         "sections": [
           {
-            "name": "Swamp: Mud Path",
-            "access_rules": [
-              "Boots"
-            ]
-          },
-          {
             "name": "Swamp: Bog Beast",
             "access_rules": [
               ""
             ]
           },
           {
-            "name": "Rocky Cliffs: Upper Ledge",
-            "access_rules": [
-              ""
-            ]
-          },
-          {
-            "name": "Swamp: Sapling Shrine",
-            "access_rules": [
-              "Boots"
-            ]
-          },
-          {
             "name": "Terror Glade: South Trees",
             "access_rules": [
               ""
-            ]
-          },
-          {
-            "name": "Rocky Cliffs: Vine",
-            "access_rules": [
-              "Fertilizer"
-            ]
-          },
-          {
-            "name": "Rocky Cliffs: Grand Pharoh",
-            "access_rules": [
-              ""
-            ]
-          },
-          {
-            "name": "Rocky Cliffs: Rock Corner",
-            "access_rules": [
-              "$have_bombs"
             ]
           },
           {
@@ -95,19 +59,31 @@
             ]
           },
           {
-            "name": "Rocky Cliffs: Entrance Ledge",
-            "access_rules": [
-              ""
-            ]
-          },
-          {
-            "name": "Rocky Cliffs: Peak",
-            "access_rules": [
-              ""
-            ]
-          },
-          {
             "name": "Woods: SW of Cabin",
+            "access_rules": [
+              ""
+            ]
+          },
+          {
+            "name": "Q: Scaredy Cat",
+            "access_rules": [
+              "Cat"
+            ]
+          },
+          {
+            "name": "Q: Sticky Shoes",
+            "access_rules": [
+              ""
+            ]
+          },
+          {
+            "name": "Q: Smashing Pumpkins",
+            "access_rules": [
+              "$can_cleanse_crypts"
+            ]
+          },
+          {
+            "name": "Q: Silver Bullet",
             "access_rules": [
               ""
             ]
@@ -120,7 +96,20 @@
         "access_rules": [
           "$can_reach|Slurpy Swamp Mud"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Swamp: Mud Path",
+            "access_rules": [
+              "Boots"
+            ]
+          },
+          {
+            "name": "Swamp: Sapling Shrine",
+            "access_rules": [
+              "Boots"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -144,7 +133,14 @@
         "access_rules": [
           "$can_reach|Zombiton"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Q: Zombie Stomp",
+            "access_rules": [
+              "$can_cleanse_crypts"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -152,7 +148,44 @@
         "access_rules": [
           "$can_reach|Rocky Cliffs"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Rocky Cliffs: Upper Ledge",
+            "access_rules": [
+              ""
+            ]
+          },
+          {
+            "name": "Rocky Cliffs: Vine",
+            "access_rules": [
+              "Fertilizer"
+            ]
+          },
+          {
+            "name": "Rocky Cliffs: Grand Pharoh",
+            "access_rules": [
+              ""
+            ]
+          },
+          {
+            "name": "Rocky Cliffs: Rock Corner",
+            "access_rules": [
+              "$have_bombs"
+            ]
+          },
+          {
+            "name": "Rocky Cliffs: Entrance Ledge",
+            "access_rules": [
+              ""
+            ]
+          },
+          {
+            "name": "Rocky Cliffs: Peak",
+            "access_rules": [
+              ""
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -169,6 +202,9 @@
           "$can_reach|A Cabin Trees"
         ],
         "sections": [
+          {
+            "ref": "Overworld/A Cabin Trees/Q: Tree Trimming"
+          },
           {
             "name": "Q: Tree Trimming",
             "access_rules": [
@@ -191,28 +227,10 @@
         ],
         "sections": [
           {
-            "name": "Witch's Cabin: Bedroom",
-            "access_rules": [
-              "$have_light_source"
-            ]
+            "ref": "Overworld/The Witch's Cabin Front/Q: Mushroom Hunt"
           },
           {
-            "name": "Witch's Cabin: Backroom",
-            "access_rules": [
-              ""
-            ]
-          },
-          {
-            "name": "Q: Mushroom Hunt",
-            "access_rules": [
-              "Mushroom:10"
-            ]
-          },
-          {
-            "name": "Q: Ghostbusting",
-            "access_rules": [
-              "Big Gem, Doom Daisy, Mushroom:10"
-            ]
+            "ref": "Overworld/The Witch's Cabin Front/Q: Ghostbusting"
           }
         ],
         "map_locations": [
@@ -228,7 +246,26 @@
         "access_rules": [
           "$can_reach|The Witch's Cabin Front"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Witch's Cabin: Bedroom",
+            "access_rules": [
+              "$have_light_source"
+            ]
+          },
+          {
+            "name": "Q: Mushroom Hunt",
+            "access_rules": [
+              "Mushroom:10"
+            ]
+          },
+          {
+            "name": "Q: Ghostbusting",
+            "access_rules": [
+              "Big Gem, Doom Daisy, Mushroom:10"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -236,7 +273,14 @@
         "access_rules": [
           "$can_reach|The Witch's Cabin Back"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Witch's Cabin: Backroom",
+            "access_rules": [
+              ""
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -318,6 +362,39 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Swampdog Pumpkin Door"
+          },
+          {
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Scratch Wall"
+          },
+          {
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Narrow Passage"
+          },
+          {
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Top Frogs"
+          },
+          {
+            "ref": "Overworld/Underground Tunnel Mud/Tunnel: Torch Island"
+          },
+          {
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Small Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4960,
+            "y": 2736
+          }
+        ]
+      },
+      {
+        "name": "Underground Tunnel Top",
+        "access_rules": [
+          "$can_reach|Underground Tunnel Top"
+        ],
+        "sections": [
+          {
             "name": "Tunnel: Swampdog Pumpkin Door",
             "access_rules": [
               "Pumpkin Key"
@@ -342,53 +419,28 @@
             ]
           },
           {
-            "name": "Tunnel: Torch Island",
-            "access_rules": [
-              "Boots"
-            ]
-          },
-          {
             "name": "Tunnel: Small Room",
             "access_rules": [
               ""
             ]
           }
         ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 4960,
-            "y": 2736
-          }
-        ]
-      },
-      {
-        "name": "Underground Tunnel Top",
-        "access_rules": [
-          "$can_reach|Underground Tunnel Top"
-        ],
-        "sections": [],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 4960,
-            "y": 2736
-          }
-        ]
+        "map_locations": []
       },
       {
         "name": "Underground Tunnel Mud",
         "access_rules": [
           "$can_reach|Underground Tunnel Mud"
         ],
-        "sections": [],
-        "map_locations": [
+        "sections": [
           {
-            "map": "Overworld",
-            "x": 4960,
-            "y": 2736
+            "name": "Tunnel: Torch Island",
+            "access_rules": [
+              "Boots"
+            ]
           }
-        ]
+        ],
+        "map_locations": []
       },
       {
         "name": "Underground Tunnel Zombie",
@@ -396,18 +448,26 @@
           "$can_reach|Underground Tunnel Zombie"
         ],
         "sections": [],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 4960,
-            "y": 2736
-          }
-        ]
+        "map_locations": []
       },
       {
         "name": "Swamp Gas Cavern",
         "access_rules": [
           "$can_reach|Swamp Gas Cavern"
+        ],
+        "sections": [],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 6112,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Swamp Gas Cavern Front",
+        "access_rules": [
+          "$can_reach|Swamp Gas Cavern Front"
         ],
         "sections": [
           {
@@ -438,25 +498,14 @@
         ]
       },
       {
-        "name": "Swamp Gas Cavern Front",
-        "access_rules": [
-          "$can_reach|Swamp Gas Cavern Front"
-        ],
-        "sections": [],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 6112,
-            "y": 504
-          }
-        ]
-      },
-      {
         "name": "Swamp Gas Cavern Back",
         "access_rules": [
           "$can_reach|Swamp Gas Cavern Back"
         ],
         "sections": [
+          {
+            "ref": "Overworld/Swamp Gas Cavern Back/Swamp Gas: Stair room"
+          },
           {
             "name": "Swamp Gas: Stair room",
             "access_rules": [
@@ -499,6 +548,9 @@
           "$can_reach|A Cabin Seer"
         ],
         "sections": [
+          {
+            "ref": "Overworld/A Cabin Seer/Seer: Bedside"
+          },
           {
             "name": "Seer: Bedside",
             "access_rules": [
@@ -667,22 +719,13 @@
             ]
           },
           {
-            "name": "Deeper Lake: Corner",
-            "access_rules": [
-              ""
-            ]
+            "ref": "Overworld/Deeper Under The Lake/Deeper Lake: Corner"
           },
           {
-            "name": "Deeper Lake: Rhombus",
-            "access_rules": [
-              ""
-            ]
+            "ref": "Overworld/Deeper Under The Lake/Deeper Lake: Rhombus"
           },
           {
-            "name": "Frankenjulie's Reward",
-            "access_rules": [
-              ""
-            ]
+            "ref": "Overworld/Frankenjulie's Laboratory/Frankenjulie's Reward"
           }
         ],
         "map_locations": [
@@ -714,7 +757,20 @@
         "access_rules": [
           "$can_reach|Deeper Under The Lake"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Deeper Lake: Corner",
+            "access_rules": [
+              ""
+            ]
+          },
+          {
+            "name": "Deeper Lake: Rhombus",
+            "access_rules": [
+              ""
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -722,7 +778,14 @@
         "access_rules": [
           "$can_reach|Frankenjulie's Laboratory"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Frankenjulie's Reward",
+            "access_rules": [
+              ""
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -738,22 +801,13 @@
             ]
           },
           {
-            "name": "Tower F2: Skull Puzzle",
-            "access_rules": [
-              "Ghost Potion"
-            ]
+            "ref": "Overworld/Haunted Tower, Floor 2/Tower F2: Skull Puzzle"
           },
           {
-            "name": "PolterGuy's Reward",
-            "access_rules": [
-              ""
-            ]
+            "ref": "Overworld/Haunted Tower Roof/PolterGuy's Reward"
           },
           {
-            "name": "Tower Basement: DoorDoorDoorDoorDoorDoor",
-            "access_rules": [
-              "Bat Key, Skull Key, Pumpkin Key"
-            ]
+            "ref": "Overworld/Haunted Basement/Tower Basement: DoorDoorDoorDoorDoorDoor"
           }
         ],
         "map_locations": [
@@ -769,7 +823,14 @@
         "access_rules": [
           "$can_reach|Haunted Tower, Floor 2"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Tower F2: Skull Puzzle",
+            "access_rules": [
+              "Ghost Potion"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -785,7 +846,14 @@
         "access_rules": [
           "$can_reach|Haunted Tower Roof"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "PolterGuy's Reward",
+            "access_rules": [
+              ""
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -793,7 +861,14 @@
         "access_rules": [
           "$can_reach|Haunted Basement"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Tower Basement: DoorDoorDoorDoorDoorDoor",
+            "access_rules": [
+              "Bat Key, Skull Key, Pumpkin Key"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -838,7 +913,14 @@
         "access_rules": [
           "$can_reach|The Shrine Of Bombulus"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Shrine of Bombulus: Prize",
+            "access_rules": [
+              ""
+            ]
+          }
+        ],
         "map_locations": [
           {
             "map": "Overworld",
@@ -858,6 +940,9 @@
             "access_rules": [
               ""
             ]
+          },
+          {
+            "ref": "Overworld/A Gloomy Cavern/Q: The Rescue"
           },
           {
             "name": "Q: The Rescue",
@@ -964,6 +1049,9 @@
           "$can_reach|A Cabin Larry"
         ],
         "sections": [
+          {
+            "ref": "Overworld/A Cabin Larry/Q: Hairy Larry"
+          },
           {
             "name": "Q: Hairy Larry",
             "access_rules": [
@@ -1088,10 +1176,16 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/Creepy Caverns Middle/Creepy Caverns M: Pharaoh Bat Door"
+          },
+          {
             "name": "Creepy Caverns M: Pharaoh Bat Door",
             "access_rules": [
               "Bat Key"
             ]
+          },
+          {
+            "ref": "Overworld/Creepy Caverns Middle/Creepy Caverns M: Gargoyles"
           },
           {
             "name": "Creepy Caverns M: Gargoyles",
@@ -1131,6 +1225,9 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/Creepy Caverns Right/Creepy Caverns R: Top Pharaohs"
+          },
+          {
             "name": "Creepy Caverns R: Top Pharaohs",
             "access_rules": [
               ""
@@ -1168,10 +1265,16 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/Castle Vampy/Castle Vampy: Top Room"
+          },
+          {
             "name": "Castle Vampy: Top Room",
             "access_rules": [
               ""
             ]
+          },
+          {
+            "ref": "Overworld/Castle Vampy/Castle Vampy: Maze"
           },
           {
             "name": "Castle Vampy: Maze",
@@ -1180,10 +1283,16 @@
             ]
           },
           {
+            "ref": "Overworld/Castle Vampy/Castle Vampy: Gauntlet"
+          },
+          {
             "name": "Castle Vampy: Gauntlet",
             "access_rules": [
               ""
             ]
+          },
+          {
+            "ref": "Overworld/Castle Vampy/Castle Vampy: Bat Closet"
           },
           {
             "name": "Castle Vampy: Bat Closet",
@@ -1215,6 +1324,33 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Candle Room"
+          },
+          {
+            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Bloodsucker Room"
+          },
+          {
+            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Vampire Lord"
+          },
+          {
+            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Bat Room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 744
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy II Main",
+        "access_rules": [
+          "$can_reach|Castle Vampy II Main"
+        ],
+        "sections": [
+          {
             "name": "Castle Vampy II: Candle Room",
             "access_rules": [
               ""
@@ -1239,20 +1375,6 @@
             ]
           }
         ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 2784,
-            "y": 744
-          }
-        ]
-      },
-      {
-        "name": "Castle Vampy II Main",
-        "access_rules": [
-          "$can_reach|Castle Vampy II Main"
-        ],
-        "sections": [],
         "map_locations": []
       },
       {
@@ -1317,6 +1439,36 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Center"
+          },
+          {
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Behind the Pews"
+          },
+          {
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: AMBUSH!"
+          },
+          {
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Halloween"
+          },
+          {
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Bat room"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 624
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy III Main",
+        "access_rules": [
+          "$can_reach|Castle Vampy III Main"
+        ],
+        "sections": [
+          {
             "name": "Castle Vampy III: Center",
             "access_rules": [
               ""
@@ -1347,20 +1499,6 @@
             ]
           }
         ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 2784,
-            "y": 624
-          }
-        ]
-      },
-      {
-        "name": "Castle Vampy III Main",
-        "access_rules": [
-          "$can_reach|Castle Vampy III Main"
-        ],
-        "sections": [],
         "map_locations": []
       },
       {
@@ -1410,6 +1548,36 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Right Path"
+          },
+          {
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Left Path"
+          },
+          {
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Ballroom Right"
+          },
+          {
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Right Secret Wall"
+          },
+          {
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Ballroom Left"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "Castle Vampy IV Main",
+        "access_rules": [
+          "$can_reach|Castle Vampy IV Main"
+        ],
+        "sections": [
+          {
             "name": "Castle Vampy IV: Right Path",
             "access_rules": [
               ""
@@ -1440,20 +1608,6 @@
             ]
           }
         ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 2784,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Castle Vampy IV Main",
-        "access_rules": [
-          "$can_reach|Castle Vampy IV Main"
-        ],
-        "sections": [],
         "map_locations": []
       },
       {
@@ -1495,6 +1649,9 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/A Cabin Collector/Q: The Collection"
+          },
+          {
             "name": "Q: The Collection",
             "access_rules": [
               "Silver Sling, Ghost Potion, $can_enter_vampy"
@@ -1515,6 +1672,9 @@
           "$can_reach|Castle Vampy Roof NE"
         ],
         "sections": [
+          {
+            "ref": "Overworld/Castle Vampy Roof NE/Roof NE: Stoney the Elder"
+          },
           {
             "name": "Roof NE: Stoney the Elder",
             "access_rules": [
@@ -1537,6 +1697,9 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/Castle Vampy Roof SE/Roof SE: Toasty the Elder"
+          },
+          {
             "name": "Roof SE: Toasty the Elder",
             "access_rules": [
               ""
@@ -1557,6 +1720,9 @@
           "$can_reach|Castle Vampy Roof SW"
         ],
         "sections": [
+          {
+            "ref": "Overworld/Castle Vampy Roof SW/Roof SW: Drippy the Elder"
+          },
           {
             "name": "Roof SW: Drippy the Elder",
             "access_rules": [
@@ -1579,6 +1745,9 @@
         ],
         "sections": [
           {
+            "ref": "Overworld/Castle Vampy Roof NW/Roof NW: Gutsy the Elder"
+          },
+          {
             "name": "Roof NW: Gutsy the Elder",
             "access_rules": [
               "$have_special_weapon_damage"
@@ -1598,7 +1767,14 @@
         "access_rules": [
           "$can_reach|The Evilizer"
         ],
-        "sections": [],
+        "sections": [
+          {
+            "name": "Q: Save Halloween Hill",
+            "access_rules": [
+              ""
+            ]
+          }
+        ],
         "map_locations": [
           {
             "map": "Overworld",
@@ -1615,12 +1791,6 @@
         "sections": [
           {
             "name": "Bonkula",
-            "access_rules": [
-              ""
-            ]
-          },
-          {
-            "name": "Q: Save Halloween Hill",
             "access_rules": [
               ""
             ]
