@@ -187,7 +187,7 @@
       {
         "name": "The Witch's Cabin",
         "access_rules": [
-          ""
+          "$can_reach|The Witch's Cabin"
         ],
         "sections": [
           {
@@ -368,7 +368,13 @@
           "$can_reach|Underground Tunnel Top"
         ],
         "sections": [],
-        "map_locations": []
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4960,
+            "y": 2736
+          }
+        ]
       },
       {
         "name": "Underground Tunnel Mud",
@@ -376,7 +382,13 @@
           "$can_reach|Underground Tunnel Mud"
         ],
         "sections": [],
-        "map_locations": []
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4960,
+            "y": 2736
+          }
+        ]
       },
       {
         "name": "Underground Tunnel Zombie",
@@ -384,7 +396,13 @@
           "$can_reach|Underground Tunnel Zombie"
         ],
         "sections": [],
-        "map_locations": []
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4960,
+            "y": 2736
+          }
+        ]
       },
       {
         "name": "Swamp Gas Cavern",

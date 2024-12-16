@@ -22,34 +22,33 @@ end
 
 function have_special_weapon_damage(state) 
     return (
-        state:has_any(("Bombs", "Shock Wand", "Cactus", "Boomerang", "Whoopee", "Hot Pants"))
+        state:has_any("Bombs", "Shock Wand", "Cactus", "Boomerang", "Whoopee", "Hot Pants")
     )
 end
 
 function have_special_weapon_bullet(state) 
     return (
-        state:has_any(("Bombs", "Ice Spear", "Cactus", "Boomerang", "Whoopee", "Hot Pants"))
+        state:has_any("Bombs", "Ice Spear", "Cactus", "Boomerang", "Whoopee", "Hot Pants")
     )
 end
 
 function have_special_weapon_range_damage(state) 
     return (
-        state:has_any(("Bombs", "Shock Wand", "Cactus", "Boomerang"))
+        state:has_any("Bombs", "Shock Wand", "Cactus", "Boomerang")
     )
 end
 
 function have_special_weapon_through_walls(state) 
     return (
-        state:has_any(("Bombs", "Shock Wand", "Whoopee"))
+        state:has_any("Bombs", "Shock Wand", "Whoopee")
        )
 end
 
 function can_cleanse_crypts(state) 
-    return (have_light_source(state) and can_enter_zombiton(state) and have_special_weapon_range_damage(
-        state))
+    return have_light_source(state) and can_enter_zombiton(state) and have_special_weapon_range_damage(
+        state)
     end
 
-# these will get removed in favor of region access reqs eventually
 function can_enter_zombiton(state) 
     return state:has("Boots")
 end

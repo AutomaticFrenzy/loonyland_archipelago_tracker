@@ -1,4 +1,4 @@
-const PICKUP = 0
+local PICKUP <const> = 0
 loonyland_location_table = {
     ["Swamp: Mud Path"]  = {id=0, type=PICKUP, region="Slurpy Swamp Mud"},
     ["Swamp: Bog Beast"]  = {id=1, type=PICKUP, region="Halloween Hill"},
