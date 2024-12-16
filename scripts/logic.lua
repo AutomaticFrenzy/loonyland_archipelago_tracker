@@ -7,8 +7,6 @@ DEBUG = true
 ScriptHost:LoadScript("scripts/logic/helper.lua") -- load helper for AP-style logic
 ScriptHost:LoadScript("scripts/logic/data/location_data.lua") -- load location_table
 ScriptHost:LoadScript("scripts/logic/data/region_data.lua") -- load region_table
-ScriptHost:LoadScript("scripts/logic/data/rules_data.lua") -- load region_table
-ScriptHost:LoadScript("scripts/logic/data/entrance_data.lua") -- load region_table
 
 -- shorthand names from imports
 local Definition = helper.Definition
@@ -68,6 +66,9 @@ end
 function create_regions()
     _create_regions(def)
 end
+
+ScriptHost:LoadScript("scripts/logic/data/rules_data.lua") -- load region_table
+ScriptHost:LoadScript("scripts/logic/data/entrance_data.lua") -- load region_table
 
 function set_rules()
 
