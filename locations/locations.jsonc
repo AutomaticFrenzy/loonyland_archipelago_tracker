@@ -203,9 +203,6 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/A Cabin Trees/Q: Tree Trimming"
-          },
-          {
             "name": "Q: Tree Trimming",
             "access_rules": [
               ""
@@ -227,16 +224,20 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/The Witch's Cabin Front/Witch's Cabin: Bedroom"
+            "ref": "Overworld/The Witch's Cabin Front/Witch's Cabin: Bedroom",
+            "name": "Witch's Cabin: Bedroom"
           },
           {
-            "ref": "Overworld/The Witch's Cabin Back/Witch's Cabin: Backroom"
+            "ref": "Overworld/The Witch's Cabin Back/Witch's Cabin: Backroom",
+            "name": "Witch's Cabin: Backroom"
           },
           {
-            "ref": "Overworld/The Witch's Cabin Front/Q: Mushroom Hunt"
+            "ref": "Overworld/The Witch's Cabin Front/Q: Mushroom Hunt",
+            "name": "Q: Mushroom Hunt"
           },
           {
-            "ref": "Overworld/The Witch's Cabin Front/Q: Ghostbusting"
+            "ref": "Overworld/The Witch's Cabin Front/Q: Ghostbusting",
+            "name": "Q: Ghostbusting"
           }
         ],
         "map_locations": [
@@ -368,22 +369,28 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel: Swampdog Pumpkin Door"
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Swampdog Pumpkin Door",
+            "name": "Tunnel: Swampdog Pumpkin Door"
           },
           {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel: Scratch Wall"
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Scratch Wall",
+            "name": "Tunnel: Scratch Wall"
           },
           {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel: Narrow Passage"
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Narrow Passage",
+            "name": "Tunnel: Narrow Passage"
           },
           {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel: Top Frogs"
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Top Frogs",
+            "name": "Tunnel: Top Frogs"
           },
           {
-            "ref": "Overworld/Underground Tunnel Mud/Tunnel: Torch Island"
+            "ref": "Overworld/Underground Tunnel Mud/Tunnel: Torch Island",
+            "name": "Tunnel: Torch Island"
           },
           {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel: Small Room"
+            "ref": "Overworld/Underground Tunnel Top/Tunnel: Small Room",
+            "name": "Tunnel: Small Room"
           }
         ],
         "map_locations": [
@@ -552,9 +559,6 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/A Cabin Seer/Seer: Bedside"
-          },
-          {
             "name": "Seer: Bedside",
             "access_rules": [
               ""
@@ -722,13 +726,16 @@
             ]
           },
           {
-            "ref": "Overworld/Deeper Under The Lake/Deeper Lake: Corner"
+            "ref": "Overworld/Deeper Under The Lake/Deeper Lake: Corner",
+            "name": "Deeper Lake: Corner"
           },
           {
-            "ref": "Overworld/Deeper Under The Lake/Deeper Lake: Rhombus"
+            "ref": "Overworld/Deeper Under The Lake/Deeper Lake: Rhombus",
+            "name": "Deeper Lake: Rhombus"
           },
           {
-            "ref": "Overworld/Frankenjulie's Laboratory/Frankenjulie's Reward"
+            "ref": "Overworld/Frankenjulie's Laboratory/Frankenjulie's Reward",
+            "name": "Frankenjulie's Reward"
           }
         ],
         "map_locations": [
@@ -804,13 +811,16 @@
             ]
           },
           {
-            "ref": "Overworld/Haunted Tower Floor 2/Tower F2: Skull Puzzle"
+            "ref": "Overworld/Haunted Tower Floor 2/Tower F2: Skull Puzzle",
+            "name": "Tower F2: Skull Puzzle"
           },
           {
-            "ref": "Overworld/Haunted Tower Roof/PolterGuy's Reward"
+            "ref": "Overworld/Haunted Tower Roof/PolterGuy's Reward",
+            "name": "PolterGuy's Reward"
           },
           {
-            "ref": "Overworld/Haunted Basement/Tower Basement: DoorDoorDoorDoorDoorDoor"
+            "ref": "Overworld/Haunted Basement/Tower Basement: DoorDoorDoorDoorDoorDoor",
+            "name": "Tower Basement: DoorDoorDoorDoorDoorDoor"
           }
         ],
         "map_locations": [
@@ -945,9 +955,6 @@
             ]
           },
           {
-            "ref": "Overworld/A Gloomy Cavern/Q: The Rescue"
-          },
-          {
             "name": "Q: The Rescue",
             "access_rules": [
               ""
@@ -1052,9 +1059,6 @@
           "$can_reach|A Cabin Larry"
         ],
         "sections": [
-          {
-            "ref": "Overworld/A Cabin Larry/Q: Hairy Larry"
-          },
           {
             "name": "Q: Hairy Larry",
             "access_rules": [
@@ -1179,16 +1183,10 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/Creepy Caverns Middle/Creepy Caverns M: Pharaoh Bat Door"
-          },
-          {
             "name": "Creepy Caverns M: Pharaoh Bat Door",
             "access_rules": [
               "Bat Key"
             ]
-          },
-          {
-            "ref": "Overworld/Creepy Caverns Middle/Creepy Caverns M: Gargoyles"
           },
           {
             "name": "Creepy Caverns M: Gargoyles",
@@ -1228,9 +1226,6 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/Creepy Caverns Right/Creepy Caverns R: Top Pharaohs"
-          },
-          {
             "name": "Creepy Caverns R: Top Pharaohs",
             "access_rules": [
               ""
@@ -1268,16 +1263,10 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/Castle Vampy/Castle Vampy: Top Room"
-          },
-          {
             "name": "Castle Vampy: Top Room",
             "access_rules": [
               ""
             ]
-          },
-          {
-            "ref": "Overworld/Castle Vampy/Castle Vampy: Maze"
           },
           {
             "name": "Castle Vampy: Maze",
@@ -1286,16 +1275,10 @@
             ]
           },
           {
-            "ref": "Overworld/Castle Vampy/Castle Vampy: Gauntlet"
-          },
-          {
             "name": "Castle Vampy: Gauntlet",
             "access_rules": [
               ""
             ]
-          },
-          {
-            "ref": "Overworld/Castle Vampy/Castle Vampy: Bat Closet"
           },
           {
             "name": "Castle Vampy: Bat Closet",
@@ -1327,16 +1310,20 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Candle Room"
+            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Candle Room",
+            "name": "Castle Vampy II: Candle Room"
           },
           {
-            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Bloodsucker Room"
+            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Bloodsucker Room",
+            "name": "Castle Vampy II: Bloodsucker Room"
           },
           {
-            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Vampire Lord"
+            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Vampire Lord",
+            "name": "Castle Vampy II: Vampire Lord"
           },
           {
-            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Bat Room"
+            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II: Bat Room",
+            "name": "Castle Vampy II: Bat Room"
           }
         ],
         "map_locations": [
@@ -1442,19 +1429,24 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Center"
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Center",
+            "name": "Castle Vampy III: Center"
           },
           {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Behind the Pews"
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Behind the Pews",
+            "name": "Castle Vampy III: Behind the Pews"
           },
           {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: AMBUSH!"
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: AMBUSH!",
+            "name": "Castle Vampy III: AMBUSH!"
           },
           {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Halloween"
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Halloween",
+            "name": "Castle Vampy III: Halloween"
           },
           {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Bat room"
+            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III: Bat room",
+            "name": "Castle Vampy III: Bat room"
           }
         ],
         "map_locations": [
@@ -1551,19 +1543,24 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Right Path"
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Right Path",
+            "name": "Castle Vampy IV: Right Path"
           },
           {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Left Path"
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Left Path",
+            "name": "Castle Vampy IV: Left Path"
           },
           {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Ballroom Right"
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Ballroom Right",
+            "name": "Castle Vampy IV: Ballroom Right"
           },
           {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Right Secret Wall"
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Right Secret Wall",
+            "name": "Castle Vampy IV: Right Secret Wall"
           },
           {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Ballroom Left"
+            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV: Ballroom Left",
+            "name": "Castle Vampy IV: Ballroom Left"
           }
         ],
         "map_locations": [
@@ -1652,9 +1649,6 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/A Cabin Collector/Q: The Collection"
-          },
-          {
             "name": "Q: The Collection",
             "access_rules": [
               "Silver Sling, Ghost Potion, $can_enter_vampy"
@@ -1675,9 +1669,6 @@
           "$can_reach|Castle Vampy Roof NE"
         ],
         "sections": [
-          {
-            "ref": "Overworld/Castle Vampy Roof NE/Roof NE: Stoney the Elder"
-          },
           {
             "name": "Roof NE: Stoney the Elder",
             "access_rules": [
@@ -1700,9 +1691,6 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/Castle Vampy Roof SE/Roof SE: Toasty the Elder"
-          },
-          {
             "name": "Roof SE: Toasty the Elder",
             "access_rules": [
               ""
@@ -1724,9 +1712,6 @@
         ],
         "sections": [
           {
-            "ref": "Overworld/Castle Vampy Roof SW/Roof SW: Drippy the Elder"
-          },
-          {
             "name": "Roof SW: Drippy the Elder",
             "access_rules": [
               ""
@@ -1747,9 +1732,6 @@
           "$can_reach|Castle Vampy Roof NW"
         ],
         "sections": [
-          {
-            "ref": "Overworld/Castle Vampy Roof NW/Roof NW: Gutsy the Elder"
-          },
           {
             "name": "Roof NW: Gutsy the Elder",
             "access_rules": [
@@ -1945,7 +1927,8 @@
         "name": "Swamp: Mud Path",
         "sections": [
           {
-            "ref": "Overworld/Slurpy Swamp Mud/Swamp: Mud Path"
+            "ref": "Overworld/Slurpy Swamp Mud/Swamp: Mud Path",
+            "name": "Swamp: Mud Path"
           }
         ],
         "map_locations": [
@@ -1960,7 +1943,8 @@
         "name": "Swamp: Bog Beast",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Swamp: Bog Beast"
+            "ref": "Overworld/Halloween Hill/Swamp: Bog Beast",
+            "name": "Swamp: Bog Beast"
           }
         ],
         "map_locations": [
@@ -1975,7 +1959,8 @@
         "name": "Rocky Cliffs: Upper Ledge",
         "sections": [
           {
-            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Upper Ledge"
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Upper Ledge",
+            "name": "Rocky Cliffs: Upper Ledge"
           }
         ],
         "map_locations": [
@@ -1990,7 +1975,8 @@
         "name": "Swamp: Sapling Shrine",
         "sections": [
           {
-            "ref": "Overworld/Slurpy Swamp Mud/Swamp: Sapling Shrine"
+            "ref": "Overworld/Slurpy Swamp Mud/Swamp: Sapling Shrine",
+            "name": "Swamp: Sapling Shrine"
           }
         ],
         "map_locations": [
@@ -2005,7 +1991,8 @@
         "name": "Terror Glade: South Trees",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Terror Glade: South Trees"
+            "ref": "Overworld/Halloween Hill/Terror Glade: South Trees",
+            "name": "Terror Glade: South Trees"
           }
         ],
         "map_locations": [
@@ -2020,7 +2007,8 @@
         "name": "Rocky Cliffs: Vine",
         "sections": [
           {
-            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Vine"
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Vine",
+            "name": "Rocky Cliffs: Vine"
           }
         ],
         "map_locations": [
@@ -2035,7 +2023,8 @@
         "name": "Rocky Cliffs: Grand Pharoh",
         "sections": [
           {
-            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Grand Pharoh"
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Grand Pharoh",
+            "name": "Rocky Cliffs: Grand Pharoh"
           }
         ],
         "map_locations": [
@@ -2050,7 +2039,8 @@
         "name": "Rocky Cliffs: Rock Corner",
         "sections": [
           {
-            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Rock Corner"
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Rock Corner",
+            "name": "Rocky Cliffs: Rock Corner"
           }
         ],
         "map_locations": [
@@ -2065,7 +2055,8 @@
         "name": "Swamp: Outside Luniton",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Swamp: Outside Luniton"
+            "ref": "Overworld/Halloween Hill/Swamp: Outside Luniton",
+            "name": "Swamp: Outside Luniton"
           }
         ],
         "map_locations": [
@@ -2080,7 +2071,8 @@
         "name": "Swamp: East 1",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Swamp: East 1"
+            "ref": "Overworld/Halloween Hill/Swamp: East 1",
+            "name": "Swamp: East 1"
           }
         ],
         "map_locations": [
@@ -2095,7 +2087,8 @@
         "name": "Swamp: Top Left dry",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Swamp: Top Left dry"
+            "ref": "Overworld/Halloween Hill/Swamp: Top Left dry",
+            "name": "Swamp: Top Left dry"
           }
         ],
         "map_locations": [
@@ -2110,7 +2103,8 @@
         "name": "Swamp: East 2",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Swamp: East 2"
+            "ref": "Overworld/Halloween Hill/Swamp: East 2",
+            "name": "Swamp: East 2"
           }
         ],
         "map_locations": [
@@ -2125,7 +2119,8 @@
         "name": "Woods: Above Castle",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Woods: Above Castle"
+            "ref": "Overworld/Halloween Hill/Woods: Above Castle",
+            "name": "Woods: Above Castle"
           }
         ],
         "map_locations": [
@@ -2140,7 +2135,8 @@
         "name": "Rocky Cliffs: Entrance Ledge",
         "sections": [
           {
-            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Entrance Ledge"
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Entrance Ledge",
+            "name": "Rocky Cliffs: Entrance Ledge"
           }
         ],
         "map_locations": [
@@ -2155,7 +2151,8 @@
         "name": "Rocky Cliffs: Peak",
         "sections": [
           {
-            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Peak"
+            "ref": "Overworld/Rocky Cliffs/Rocky Cliffs: Peak",
+            "name": "Rocky Cliffs: Peak"
           }
         ],
         "map_locations": [
@@ -2170,7 +2167,8 @@
         "name": "Woods: SW of Cabin",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Woods: SW of Cabin"
+            "ref": "Overworld/Halloween Hill/Woods: SW of Cabin",
+            "name": "Woods: SW of Cabin"
           }
         ],
         "map_locations": [
@@ -2185,7 +2183,8 @@
         "name": "Q: Scaredy Cat",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Q: Scaredy Cat"
+            "ref": "Overworld/Halloween Hill/Q: Scaredy Cat",
+            "name": "Q: Scaredy Cat"
           }
         ],
         "map_locations": [
@@ -2200,7 +2199,8 @@
         "name": "Q: Sticky Shoes",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Q: Sticky Shoes"
+            "ref": "Overworld/Halloween Hill/Q: Sticky Shoes",
+            "name": "Q: Sticky Shoes"
           }
         ],
         "map_locations": [
@@ -2215,7 +2215,8 @@
         "name": "Q: Zombie Stomp",
         "sections": [
           {
-            "ref": "Overworld/Zombiton/Q: Zombie Stomp"
+            "ref": "Overworld/Zombiton/Q: Zombie Stomp",
+            "name": "Q: Zombie Stomp"
           }
         ],
         "map_locations": [
@@ -2230,7 +2231,8 @@
         "name": "Q: Smashing Pumpkins",
         "sections": [
           {
-            "ref": "Overworld/Halloween Hill/Q: Smashing Pumpkins"
+            "ref": "Overworld/Halloween Hill/Q: Smashing Pumpkins",
+            "name": "Q: Smashing Pumpkins"
           }
         ],
         "map_locations": [
@@ -2245,7 +2247,8 @@
         "name": "Q: Silver Bullet",
         "sections": [
           {
-            "ref": "Overworld/Zombiton/Q: Silver Bullet"
+            "ref": "Overworld/Zombiton/Q: Silver Bullet",
+            "name": "Q: Silver Bullet"
           }
         ],
         "map_locations": [
