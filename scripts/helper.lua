@@ -152,7 +152,6 @@ function Region:connect(connecting_region, name, rule)
     if name == nil then
         name = self.name .. " -> " .. connecting_region.name
     end
-    print(name)
     local exit = self:create_exit(name)
     if rule then
         exit.access_rule = rule
@@ -177,7 +176,6 @@ function Region:add_exits(exits, rules)
             error("No such region " .. connecting_region_name)
         end
         self:connect(destination, name)
-        print("connected em")
     end
 end
 
@@ -195,7 +193,6 @@ function Region:add_exit(exit, rules)
         error("No such region " .. connecting_region_name)
     end
     self:connect(destination)
-    print("connected em!")
 end
 
 function Region:can_reach(state)
