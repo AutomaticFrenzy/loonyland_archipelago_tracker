@@ -1420,7 +1420,13 @@
             ]
           }
         ],
-        "map_locations": []
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4576,
+            "y": 3912
+          }
+        ]
       },
       {
         "name": "Castle Vampy III",
