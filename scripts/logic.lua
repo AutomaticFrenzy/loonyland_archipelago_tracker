@@ -127,6 +127,21 @@ function can_enter_vampy_iv()
     return can_enter_vampy_iii() and state:has("Pumpkin Key")
 end
 
+function access(location_name)
+    --print(location_name)
+    local loc = def:get_location(location_name)
+    --print(loc:can_reach(state))
+    return loc:can_reach(state)
+end
+
+function sequence_break(location_name)
+    return access(location_name)
+end
+
+function peek(location_name)
+    return false
+end
+
 function can_reach(location_name)
     if not hasAnyWatch then
         state.stale = true
@@ -200,7 +215,6 @@ function set_rules()
     --    region:add_exits(entry.dest)
     --end
 
-    
     for _, entry in ipairs(loonyland_entrance_table) do
         local entrance = def:get_entrance(entry.source .. " -> " .. entry.dest)
         if entrance then
@@ -227,4 +241,4 @@ create_regions()  -- NOTE: we don't handle can_create for Locations, so this nee
 set_rules()
 
 
---ScriptHost:AddWatchForCode("stateChanged", "*", stateChanged)
+ScriptHost:AddWatchForCode("stateChanged", "*", stateChanged)

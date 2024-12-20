@@ -126,6 +126,8 @@ function Location:set_rule(rule)
 end
 
 function Location:can_reach(state)
+    --print (self.access_rule(state))
+    --print (self.parent_region:can_reach(state))
     return self.access_rule(state) and self.parent_region:can_reach(state)
 end
 
@@ -199,6 +201,8 @@ function Region:can_reach(state)
     if state.stale then
         state:update_reachable_regions()
     end
+    --print("reg" .. self.name)
+    --print(not not state.reachable_regions[self])
     return not not state.reachable_regions[self]
 end
 
