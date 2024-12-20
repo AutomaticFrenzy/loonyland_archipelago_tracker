@@ -4,7 +4,6 @@
 -- addition it will keep track of what items are local items and which one are remote using the globals LOCAL_ITEMS and GLOBAL_ITEMS
 -- this is useful since remote items will not reset but local items might
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
-ScriptHost:LoadScript("scripts/data/item_mapping.lua")
 ScriptHost:LoadScript("scripts/data/location_mapping.lua")
 
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true

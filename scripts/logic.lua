@@ -6,7 +6,7 @@ DEBUG = true
 -- TODO: use require; this will need a PopTracker update to make "nested" require() work better
 ScriptHost:LoadScript("scripts/helper.lua") -- load helper for AP-style logic
 ScriptHost:LoadScript("scripts/data/location_data.lua") -- load location_table
-ScriptHost:LoadScript("scripts/data/region_data.lua") -- load region_table
+ScriptHost:LoadScript("scripts/data/game_data.lua") -- load region_table
 --ScriptHost:LoadScript("scripts/rules.lua") -- load region_table
 
 -- shorthand names from imports
@@ -22,32 +22,6 @@ local state = State:new(def)  -- TODO: add caching and update in watch for code
 -- patch up State.has and State.count to match the codes
 local _count = State.count
 
---[[State.has_any(item_names)
-    for _, item_name in ipairs(item_names) do
-        if state:has(item_name) then
-            return true
-        end
-    end
-    return false
-end
-
-State.has = function(state, name)
-    return state:count(name) > 0  -- use count to only implement the crazy mappings once
-end
-
-State.count = function(state, name)
-    -- handle the ones that are simple lookups
-    local code = name
-    if code then
-        return _count(state, code)
-    end
-    -- handle the ones that need special handling
-    if DEBUG then
-        print("Unknown item " .. name)
-    end
-    return _count(state, name)
-end
---]]
 
 -- logic resolvers (called from json locations)
 
@@ -81,9 +55,10 @@ function have_special_weapon_damage()
 end
 
 function have_special_weapon_bullet() 
-    return (
-        state:has_any {"Bombs","Ice Spear", "Cactus", "Boomerang", "Whoopee", "Hot Pants"}
-    )
+    return true
+    --return (
+    --    state:has_any {"Bombs","Ice Spear", "Cactus", "Boomerang", "Whoopee", "Hot Pants"}
+    --)
 end
 
 function have_special_weapon_range_damage() 
@@ -99,7 +74,7 @@ function have_special_weapon_through_walls()
 end
 
 function can_cleanse_crypts() 
-    return have_light_source() and can_enter_zombiton() and have_special_weapon_range_damage(
+    return have_light_source() and can_enter_zombiton() and have_special_weapon_bullet(
         )
     end
 
@@ -164,12 +139,6 @@ function _create_regions(def)
         region.locations:append(new_loc)
     end
 
-    --for _, entry in ipairs(loonyland_entrance_table) do
-    --    local region = def:get_region(entry.source)
-    --    print(region.name)
-    --    region:add_exit(entry.dest)
-    --end
-    
     for _, entry in ipairs(loonyland_entrance_table) do
         local region = def:get_region(entry.source)
         local dest = def:get_region(entry.dest)
@@ -185,7 +154,6 @@ function create_regions()
 end
 
 ScriptHost:LoadScript("scripts/data/rules_data.lua") -- load region_table
-ScriptHost:LoadScript("scripts/data/entrance_data.lua") -- load region_table
 
 function set_rules()
 
@@ -195,26 +163,7 @@ function set_rules()
         location:set_rule(rule_data)
     end
 
-    --[[for _, entry in pairs(loonyland_entrance_table) do
-        local region = def:get_region(region_name)
-        region:add_exits(exit_list)
-    end
-    --]]
-
-
-
-    ---for _, entry in ipairs(loonyland_entrance_table) do
-    ---    local region = def:get_region(entry.source)
-    ---    local dest = def:get_region(entry.dest)
-
-    ---    region:connect(dest, entry.source .. " -> " .. entry.dest, entry.rule)
-    ---end
-
-    ---for _, entry in ipairs(loonyland_entrance_table) do
-    --    local region = def:get_region(entry.source)
-    --    region:add_exits(entry.dest)
-    --end
-
+    --entrance rules
     for _, entry in ipairs(loonyland_entrance_table) do
         local entrance = def:get_entrance(entry.source .. " -> " .. entry.dest)
         if entrance then

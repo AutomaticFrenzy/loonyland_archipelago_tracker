@@ -282,34 +282,6 @@
         "name": "The Witch's Cabin",
         "sections": [
           {
-            "ref": "Overworld/The Witch's Cabin Front/Witch's Cabin Bedroom",
-            "name": "Witch's Cabin Bedroom"
-          },
-          {
-            "ref": "Overworld/The Witch's Cabin Back/Witch's Cabin Backroom",
-            "name": "Witch's Cabin Backroom"
-          },
-          {
-            "ref": "Overworld/The Witch's Cabin Front/Q Mushroom Hunt",
-            "name": "Q Mushroom Hunt"
-          },
-          {
-            "ref": "Overworld/The Witch's Cabin Front/Q Ghostbusting",
-            "name": "Q Ghostbusting"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 3264,
-            "y": 2016
-          }
-        ]
-      },
-      {
-        "name": "The Witch's Cabin Front",
-        "sections": [
-          {
             "name": "Witch's Cabin Bedroom",
             "access_rules": [
               [
@@ -318,6 +290,10 @@
               ],
               "{$peek|Witch's Cabin Bedroom}"
             ]
+          },
+          {
+            "ref": "Overworld/The Witch's Cabin Back/Witch's Cabin Backroom",
+            "name": "Witch's Cabin Backroom"
           },
           {
             "name": "Q Mushroom Hunt",
@@ -340,7 +316,13 @@
             ]
           }
         ],
-        "map_locations": []
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3264,
+            "y": 2016
+          }
+        ]
       },
       {
         "name": "The Witch's Cabin Back",
@@ -456,42 +438,6 @@
         "name": "Underground Tunnel",
         "sections": [
           {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel Swampdog Pumpkin Door",
-            "name": "Tunnel Swampdog Pumpkin Door"
-          },
-          {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel Scratch Wall",
-            "name": "Tunnel Scratch Wall"
-          },
-          {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel Narrow Passage",
-            "name": "Tunnel Narrow Passage"
-          },
-          {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel Top Frogs",
-            "name": "Tunnel Top Frogs"
-          },
-          {
-            "ref": "Overworld/Underground Tunnel Mud/Tunnel Torch Island",
-            "name": "Tunnel Torch Island"
-          },
-          {
-            "ref": "Overworld/Underground Tunnel Top/Tunnel Small Room",
-            "name": "Tunnel Small Room"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 4960,
-            "y": 2736
-          }
-        ]
-      },
-      {
-        "name": "Underground Tunnel Top",
-        "sections": [
-          {
             "name": "Tunnel Swampdog Pumpkin Door",
             "access_rules": [
               [
@@ -532,6 +478,10 @@
             ]
           },
           {
+            "ref": "Overworld/Underground Tunnel Mud/Tunnel Torch Island",
+            "name": "Tunnel Torch Island"
+          },
+          {
             "name": "Tunnel Small Room",
             "access_rules": [
               [
@@ -542,7 +492,13 @@
             ]
           }
         ],
-        "map_locations": []
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 4960,
+            "y": 2736
+          }
+        ]
       },
       {
         "name": "Underground Tunnel Mud",
@@ -567,17 +523,6 @@
       },
       {
         "name": "Swamp Gas Cavern",
-        "sections": [],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 6112,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Swamp Gas Cavern Front",
         "sections": [
           {
             "name": "Swamp Gas Scratch Wall",
@@ -949,6 +894,21 @@
         ]
       },
       {
+        "name": "Haunted Tower Entrance",
+        "sections": [],
+        "map_locations": []
+      },
+      {
+        "name": "Haunted Tower Stairs Up",
+        "sections": [],
+        "map_locations": []
+      },
+      {
+        "name": "Haunted Tower Stairs Down",
+        "sections": [],
+        "map_locations": []
+      },
+      {
         "name": "Haunted Tower Floor 2",
         "sections": [
           {
@@ -962,6 +922,26 @@
             ]
           }
         ],
+        "map_locations": []
+      },
+      {
+        "name": "Haunted Tower Floor 2 Entrance",
+        "sections": [],
+        "map_locations": []
+      },
+      {
+        "name": "Haunted Tower Floor 2 Exit",
+        "sections": [],
+        "map_locations": []
+      },
+      {
+        "name": "Haunted Tower Floor 3 Entrance",
+        "sections": [],
+        "map_locations": []
+      },
+      {
+        "name": "Haunted Tower Floor 3 Exit",
+        "sections": [],
         "map_locations": []
       },
       {
@@ -1156,6 +1136,16 @@
               ],
               "{$peek|Wolf Den Vine}"
             ]
+          },
+          {
+            "name": "Q Hairy Larry",
+            "access_rules": [
+              [
+                "[$access|Q Hairy Larry]",
+                "$sequence_break|Q Hairy Larry"
+              ],
+              "{$peek|Q Hairy Larry}"
+            ]
           }
         ],
         "map_locations": [
@@ -1178,18 +1168,7 @@
       },
       {
         "name": "A Cabin Larry",
-        "sections": [
-          {
-            "name": "Q Hairy Larry",
-            "access_rules": [
-              [
-                "[$access|Q Hairy Larry]",
-                "$sequence_break|Q Hairy Larry"
-              ],
-              "{$peek|Q Hairy Larry}"
-            ]
-          }
-        ],
+        "sections": [],
         "map_locations": [
           {
             "map": "Overworld",
@@ -1423,34 +1402,6 @@
         "name": "Castle Vampy II",
         "sections": [
           {
-            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II Candle Room",
-            "name": "Castle Vampy II Candle Room"
-          },
-          {
-            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II Bloodsucker Room",
-            "name": "Castle Vampy II Bloodsucker Room"
-          },
-          {
-            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II Vampire Lord",
-            "name": "Castle Vampy II Vampire Lord"
-          },
-          {
-            "ref": "Overworld/Castle Vampy II Main/Castle Vampy II Bat Room",
-            "name": "Castle Vampy II Bat Room"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 2784,
-            "y": 744
-          }
-        ]
-      },
-      {
-        "name": "Castle Vampy II Main",
-        "sections": [
-          {
             "name": "Castle Vampy II Candle Room",
             "access_rules": [
               [
@@ -1491,7 +1442,13 @@
             ]
           }
         ],
-        "map_locations": []
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 744
+          }
+        ]
       },
       {
         "name": "Castle Vampy II NW",
@@ -1544,38 +1501,6 @@
         "name": "Castle Vampy III",
         "sections": [
           {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III Center",
-            "name": "Castle Vampy III Center"
-          },
-          {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III Behind the Pews",
-            "name": "Castle Vampy III Behind the Pews"
-          },
-          {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III AMBUSH!",
-            "name": "Castle Vampy III AMBUSH!"
-          },
-          {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III Halloween",
-            "name": "Castle Vampy III Halloween"
-          },
-          {
-            "ref": "Overworld/Castle Vampy III Main/Castle Vampy III Bat room",
-            "name": "Castle Vampy III Bat room"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 2784,
-            "y": 624
-          }
-        ]
-      },
-      {
-        "name": "Castle Vampy III Main",
-        "sections": [
-          {
             "name": "Castle Vampy III Center",
             "access_rules": [
               [
@@ -1626,7 +1551,13 @@
             ]
           }
         ],
-        "map_locations": []
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 624
+          }
+        ]
       },
       {
         "name": "Castle Vampy III NW",
@@ -1655,38 +1586,6 @@
       },
       {
         "name": "Castle Vampy IV",
-        "sections": [
-          {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV Right Path",
-            "name": "Castle Vampy IV Right Path"
-          },
-          {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV Left Path",
-            "name": "Castle Vampy IV Left Path"
-          },
-          {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV Ballroom Right",
-            "name": "Castle Vampy IV Ballroom Right"
-          },
-          {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV Right Secret Wall",
-            "name": "Castle Vampy IV Right Secret Wall"
-          },
-          {
-            "ref": "Overworld/Castle Vampy IV Main/Castle Vampy IV Ballroom Left",
-            "name": "Castle Vampy IV Ballroom Left"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 2784,
-            "y": 504
-          }
-        ]
-      },
-      {
-        "name": "Castle Vampy IV Main",
         "sections": [
           {
             "name": "Castle Vampy IV Right Path",
@@ -1739,7 +1638,13 @@
             ]
           }
         ],
-        "map_locations": []
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2784,
+            "y": 504
+          }
+        ]
       },
       {
         "name": "Castle Vampy IV NW",
@@ -1917,11 +1822,6 @@
       },
       {
         "name": "The Heart Of Terror Entrance",
-        "sections": [],
-        "map_locations": []
-      },
-      {
-        "name": "The Heart Of Terror Exit",
         "sections": [],
         "map_locations": []
       },
