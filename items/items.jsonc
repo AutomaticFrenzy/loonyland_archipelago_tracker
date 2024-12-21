@@ -199,5 +199,245 @@
         "type": "toggle",
         "img": "images/items/game_items/itm_silver_sling.png",
         "codes": "Silver Sling"
+    },
+    {
+        "name": "20/20 Vision",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_20/20_vision.png",
+        "codes": "20/20 Vision"
+    },
+    {
+        "name": "Disco Mode",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_disco_mode.png",
+        "codes": "Disco Mode"
+    },
+    {
+        "name": "Terror Mode",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_terror_mode.png",
+        "codes": "Terror Mode"
+    },
+    {
+        "name": "Surprise Mode",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_surprise_mode.png",
+        "codes": "Surprise Mode"
+    },
+    {
+        "name": "Quick Mode",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_quick_mode.png",
+        "codes": "Quick Mode"
+    },
+    {
+        "name": "Infinite Gems",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_infinite_gems.png",
+        "codes": "Infinite Gems"
+    },
+    {
+        "name": "Sidekick",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_sidekick.png",
+        "codes": "Sidekick"
+    },
+    {
+        "name": "Homing Shots",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_homing_shots.png",
+        "codes": "Homing Shots"
+    },
+    {
+        "name": "Ultimate Firepower",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_ultimate_firepower.png",
+        "codes": "Ultimate Firepower"
+    },
+    {
+        "name": "Vintage Mode",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_vintage_mode.png",
+        "codes": "Vintage Mode"
+    },
+    {
+        "name": "Play As Bonkula",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_play_as_bonkula.png",
+        "codes": "Play As Bonkula"
+    },
+    {
+        "name": "Play As Toad",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_play_as_toad.png",
+        "codes": "Play As Toad"
+    },
+    {
+        "name": "Crystal Ball",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_crystal_ball.png",
+        "codes": "Crystal Ball"
+    },
+    {
+        "name": "Radar",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_radar.png",
+        "codes": "Radar"
+    },
+    {
+        "name": "Heavy Hitter",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_heavy_hitter.png",
+        "codes": "Heavy Hitter"
+    },
+    {
+        "name": "Rapid Fire",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_rapid_fire.png",
+        "codes": "Rapid Fire"
+    },
+    {
+        "name": "Touch Of Death",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_touch_of_death.png",
+        "codes": "Touch Of Death"
+    },
+    {
+        "name": "All Access Pass",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_all_access_pass.png",
+        "codes": "All Access Pass"
+    },
+    {
+        "name": "Play As Swampdog",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_play_as_swampdog.png",
+        "codes": "Play As Swampdog"
+    },
+    {
+        "name": "Hardcore Mode",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_hardcore_mode.png",
+        "codes": "Hardcore Mode"
+    },
+    {
+        "name": "Save Anywhere",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_save_anywhere.png",
+        "codes": "Save Anywhere"
+    },
+    {
+        "name": "Guided Shots",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_guided_shots.png",
+        "codes": "Guided Shots"
+    },
+    {
+        "name": "Slo-Mo",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_slo-mo.png",
+        "codes": "Slo-Mo"
+    },
+    {
+        "name": "Combo-Bombo",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_combo-bombo.png",
+        "codes": "Combo-Bombo"
+    },
+    {
+        "name": "Frog-o-rama",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_frog-o-rama.png",
+        "codes": "Frog-o-rama"
+    },
+    {
+        "name": "Play As Witch",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_play_as_witch.png",
+        "codes": "Play As Witch"
+    },
+    {
+        "name": "Play As Werewolf",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_play_as_werewolf.png",
+        "codes": "Play As Werewolf"
+    },
+    {
+        "name": "Enemy Overload",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_enemy_overload.png",
+        "codes": "Enemy Overload"
+    },
+    {
+        "name": "Kick The Cat!",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_kick_the_cat!.png",
+        "codes": "Kick The Cat!"
+    },
+    {
+        "name": "Infinite Survival",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_infinite_survival.png",
+        "codes": "Infinite Survival"
+    },
+    {
+        "name": "Play As Summony",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_play_as_summony.png",
+        "codes": "Play As Summony"
+    },
+    {
+        "name": "Play As Ninja Girl",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_play_as_ninja_girl.png",
+        "codes": "Play As Ninja Girl"
+    },
+    {
+        "name": "Molecular Dispersion",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_molecular_dispersion.png",
+        "codes": "Molecular Dispersion"
+    },
+    {
+        "name": "Guaranteed Survival",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_guaranteed_survival.png",
+        "codes": "Guaranteed Survival"
+    },
+    {
+        "name": "Bend It Like Bouapha",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_bend_it_like_bouapha.png",
+        "codes": "Bend It Like Bouapha"
+    },
+    {
+        "name": "Stinky Farley",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_stinky_farley.png",
+        "codes": "Stinky Farley"
+    },
+    {
+        "name": "Ultra Weapons Are Go!",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_ultra_weapons_are_go!.png",
+        "codes": "Ultra Weapons Are Go!"
+    },
+    {
+        "name": "Thorns Aura",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_thorns_aura.png",
+        "codes": "Thorns Aura"
+    },
+    {
+        "name": "Monster Regeneration",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_monster_regeneration.png",
+        "codes": "Monster Regeneration"
+    },
+    {
+        "name": "Farley Free Zone",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_farley_free_zone.png",
+        "codes": "Farley Free Zone"
     }
 ]

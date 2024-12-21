@@ -4,7 +4,108 @@
     "children": [
       {
         "name": "Menu",
-        "sections": [],
+        "sections": [
+          {
+            "name": "Greed",
+            "access_rules": [
+              [
+                "[$access|Greed]",
+                "$sequence_break|Greed"
+              ],
+              "{$peek|Greed}"
+            ]
+          },
+          {
+            "name": "Monster Slayin'",
+            "access_rules": [
+              [
+                "[$access|Monster Slayin']",
+                "$sequence_break|Monster Slayin'"
+              ],
+              "{$peek|Monster Slayin'}"
+            ]
+          },
+          {
+            "name": "Monster Poundin'",
+            "access_rules": [
+              [
+                "[$access|Monster Poundin']",
+                "$sequence_break|Monster Poundin'"
+              ],
+              "{$peek|Monster Poundin'}"
+            ]
+          },
+          {
+            "name": "Combo Plate",
+            "access_rules": [
+              [
+                "[$access|Combo Plate]",
+                "$sequence_break|Combo Plate"
+              ],
+              "{$peek|Combo Plate}"
+            ]
+          },
+          {
+            "name": "Advanced Winnin'",
+            "access_rules": [
+              [
+                "[$access|Advanced Winnin']",
+                "$sequence_break|Advanced Winnin'"
+              ],
+              "{$peek|Advanced Winnin'}"
+            ]
+          },
+          {
+            "name": "Witchcraft",
+            "access_rules": [
+              [
+                "[$access|Witchcraft]",
+                "$sequence_break|Witchcraft"
+              ],
+              "{$peek|Witchcraft}"
+            ]
+          },
+          {
+            "name": "Ninjitsu",
+            "access_rules": [
+              [
+                "[$access|Ninjitsu]",
+                "$sequence_break|Ninjitsu"
+              ],
+              "{$peek|Ninjitsu}"
+            ]
+          },
+          {
+            "name": "Swampdoggin'",
+            "access_rules": [
+              [
+                "[$access|Swampdoggin']",
+                "$sequence_break|Swampdoggin'"
+              ],
+              "{$peek|Swampdoggin'}"
+            ]
+          },
+          {
+            "name": "Scorin'",
+            "access_rules": [
+              [
+                "[$access|Scorin']",
+                "$sequence_break|Scorin'"
+              ],
+              "{$peek|Scorin'}"
+            ]
+          },
+          {
+            "name": "Digitally Masterin'",
+            "access_rules": [
+              [
+                "[$access|Digitally Masterin']",
+                "$sequence_break|Digitally Masterin'"
+              ],
+              "{$peek|Digitally Masterin'}"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -119,6 +220,16 @@
               ],
               "{$peek|Q Smashing Pumpkins}"
             ]
+          },
+          {
+            "name": "Huntin'",
+            "access_rules": [
+              [
+                "[$access|Huntin']",
+                "$sequence_break|Huntin'"
+              ],
+              "{$peek|Huntin'}"
+            ]
           }
         ],
         "map_locations": []
@@ -144,6 +255,16 @@
                 "$sequence_break|Swamp Sapling Shrine"
               ],
               "{$peek|Swamp Sapling Shrine}"
+            ]
+          },
+          {
+            "name": "Hedge Clippin'",
+            "access_rules": [
+              [
+                "[$access|Hedge Clippin']",
+                "$sequence_break|Hedge Clippin'"
+              ],
+              "{$peek|Hedge Clippin'}"
             ]
           }
         ],
@@ -180,6 +301,16 @@
                 "$sequence_break|Q Silver Bullet"
               ],
               "{$peek|Q Silver Bullet}"
+            ]
+          },
+          {
+            "name": "Vandalizin'",
+            "access_rules": [
+              [
+                "[$access|Vandalizin']",
+                "$sequence_break|Vandalizin'"
+              ],
+              "{$peek|Vandalizin'}"
             ]
           }
         ],
@@ -247,6 +378,16 @@
               ],
               "{$peek|Rocky Cliffs Peak}"
             ]
+          },
+          {
+            "name": "Cleanin' Up",
+            "access_rules": [
+              [
+                "[$access|Cleanin' Up]",
+                "$sequence_break|Cleanin' Up"
+              ],
+              "{$peek|Cleanin' Up}"
+            ]
           }
         ],
         "map_locations": []
@@ -313,6 +454,26 @@
                 "$sequence_break|Q Ghostbusting"
               ],
               "{$peek|Q Ghostbusting}"
+            ]
+          },
+          {
+            "name": "Lookin'",
+            "access_rules": [
+              [
+                "[$access|Lookin']",
+                "$sequence_break|Lookin'"
+              ],
+              "{$peek|Lookin'}"
+            ]
+          },
+          {
+            "name": "Annoyance",
+            "access_rules": [
+              [
+                "[$access|Annoyance]",
+                "$sequence_break|Annoyance"
+              ],
+              "{$peek|Annoyance}"
             ]
           }
         ],
@@ -631,7 +792,18 @@
       },
       {
         "name": "Benny's Cocktails",
-        "sections": [],
+        "sections": [
+          {
+            "name": "Brawlin'",
+            "access_rules": [
+              [
+                "[$access|Brawlin']",
+                "$sequence_break|Brawlin'"
+              ],
+              "{$peek|Brawlin'}"
+            ]
+          }
+        ],
         "map_locations": [
           {
             "map": "Overworld",
@@ -855,6 +1027,16 @@
               ],
               "{$peek|Frankenjulie's Reward}"
             ]
+          },
+          {
+            "name": "Frankenfryin'",
+            "access_rules": [
+              [
+                "[$access|Frankenfryin']",
+                "$sequence_break|Frankenfryin'"
+              ],
+              "{$peek|Frankenfryin'}"
+            ]
           }
         ],
         "map_locations": []
@@ -883,6 +1065,16 @@
           {
             "ref": "Overworld/Haunted Basement/Tower Basement DoorDoorDoorDoorDoorDoor",
             "name": "Tower Basement DoorDoorDoorDoorDoorDoor"
+          },
+          {
+            "name": "Sneakin'",
+            "access_rules": [
+              [
+                "[$access|Sneakin']",
+                "$sequence_break|Sneakin'"
+              ],
+              "{$peek|Sneakin'}"
+            ]
           }
         ],
         "map_locations": [
@@ -960,6 +1152,16 @@
                 "$sequence_break|PolterGuy's Reward"
               ],
               "{$peek|PolterGuy's Reward}"
+            ]
+          },
+          {
+            "name": "Ghostbustin'",
+            "access_rules": [
+              [
+                "[$access|Ghostbustin']",
+                "$sequence_break|Ghostbustin'"
+              ],
+              "{$peek|Ghostbustin'}"
             ]
           }
         ],
@@ -1057,6 +1259,16 @@
               ],
               "{$peek|Q The Rescue}"
             ]
+          },
+          {
+            "name": "Civic Duty",
+            "access_rules": [
+              [
+                "[$access|Civic Duty]",
+                "$sequence_break|Civic Duty"
+              ],
+              "{$peek|Civic Duty}"
+            ]
           }
         ],
         "map_locations": [
@@ -1093,6 +1305,16 @@
                 "$sequence_break|Happy Stick Reward"
               ],
               "{$peek|Happy Stick Reward}"
+            ]
+          },
+          {
+            "name": "Witch Hunt",
+            "access_rules": [
+              [
+                "[$access|Witch Hunt]",
+                "$sequence_break|Witch Hunt"
+              ],
+              "{$peek|Witch Hunt}"
             ]
           }
         ],
@@ -1145,6 +1367,26 @@
                 "$sequence_break|Q Hairy Larry"
               ],
               "{$peek|Q Hairy Larry}"
+            ]
+          },
+          {
+            "name": "Animal Control",
+            "access_rules": [
+              [
+                "[$access|Animal Control]",
+                "$sequence_break|Animal Control"
+              ],
+              "{$peek|Animal Control}"
+            ]
+          },
+          {
+            "name": "Findin'",
+            "access_rules": [
+              [
+                "[$access|Findin']",
+                "$sequence_break|Findin'"
+              ],
+              "{$peek|Findin'}"
             ]
           }
         ],
@@ -1788,6 +2030,46 @@
               ],
               "{$peek|Q Save Halloween Hill}"
             ]
+          },
+          {
+            "name": "Evil Smashin'",
+            "access_rules": [
+              [
+                "[$access|Evil Smashin']",
+                "$sequence_break|Evil Smashin'"
+              ],
+              "{$peek|Evil Smashin'}"
+            ]
+          },
+          {
+            "name": "Ultimate Victory",
+            "access_rules": [
+              [
+                "[$access|Ultimate Victory]",
+                "$sequence_break|Ultimate Victory"
+              ],
+              "{$peek|Ultimate Victory}"
+            ]
+          },
+          {
+            "name": "Winnin'",
+            "access_rules": [
+              [
+                "[$access|Winnin']",
+                "$sequence_break|Winnin'"
+              ],
+              "{$peek|Winnin'}"
+            ]
+          },
+          {
+            "name": "Mad Skeelz",
+            "access_rules": [
+              [
+                "[$access|Mad Skeelz]",
+                "$sequence_break|Mad Skeelz"
+              ],
+              "{$peek|Mad Skeelz}"
+            ]
           }
         ],
         "map_locations": [
@@ -1809,6 +2091,16 @@
                 "$sequence_break|Bonkula Item"
               ],
               "{$peek|Bonkula Item}"
+            ]
+          },
+          {
+            "name": "Vampire Slayin'",
+            "access_rules": [
+              [
+                "[$access|Vampire Slayin']",
+                "$sequence_break|Vampire Slayin'"
+              ],
+              "{$peek|Vampire Slayin'}"
             ]
           }
         ],
@@ -1901,32 +2193,148 @@
       },
       {
         "name": "Larry's Lair",
-        "sections": [],
+        "sections": [
+          {
+            "name": "Puppy Poundin'",
+            "access_rules": [
+              [
+                "[$access|Puppy Poundin']",
+                "$sequence_break|Puppy Poundin'"
+              ],
+              "{$peek|Puppy Poundin'}"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
         "name": "Bowling",
-        "sections": [],
+        "sections": [
+          {
+            "name": "Bowlin'",
+            "access_rules": [
+              [
+                "[$access|Bowlin']",
+                "$sequence_break|Bowlin'"
+              ],
+              "{$peek|Bowlin'}"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
         "name": "Survival",
-        "sections": [],
+        "sections": [
+          {
+            "name": "Extreme Survivin'",
+            "access_rules": [
+              [
+                "[$access|Extreme Survivin']",
+                "$sequence_break|Extreme Survivin'"
+              ],
+              "{$peek|Extreme Survivin'}"
+            ]
+          },
+          {
+            "name": "Survivin'",
+            "access_rules": [
+              [
+                "[$access|Survivin']",
+                "$sequence_break|Survivin'"
+              ],
+              "{$peek|Survivin'}"
+            ]
+          },
+          {
+            "name": "Combo Magic",
+            "access_rules": [
+              [
+                "[$access|Combo Magic]",
+                "$sequence_break|Combo Magic"
+              ],
+              "{$peek|Combo Magic}"
+            ]
+          },
+          {
+            "name": "Stayin' Alive",
+            "access_rules": [
+              [
+                "[$access|Stayin' Alive]",
+                "$sequence_break|Stayin' Alive"
+              ],
+              "{$peek|Stayin' Alive}"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
         "name": "Boss Bash",
-        "sections": [],
+        "sections": [
+          {
+            "name": "Boss Bashin'",
+            "access_rules": [
+              [
+                "[$access|Boss Bashin']",
+                "$sequence_break|Boss Bashin'"
+              ],
+              "{$peek|Boss Bashin'}"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
         "name": "Loony Ball",
-        "sections": [],
+        "sections": [
+          {
+            "name": "Kickin'",
+            "access_rules": [
+              [
+                "[$access|Kickin']",
+                "$sequence_break|Kickin'"
+              ],
+              "{$peek|Kickin'}"
+            ]
+          },
+          {
+            "name": "Hooliganin'",
+            "access_rules": [
+              [
+                "[$access|Hooliganin']",
+                "$sequence_break|Hooliganin'"
+              ],
+              "{$peek|Hooliganin'}"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
         "name": "Remix",
-        "sections": [],
+        "sections": [
+          {
+            "name": "R-R-R-Remix!",
+            "access_rules": [
+              [
+                "[$access|R-R-R-Remix!]",
+                "$sequence_break|R-R-R-Remix!"
+              ],
+              "{$peek|R-R-R-Remix!}"
+            ]
+          },
+          {
+            "name": "Minin' For Treasure",
+            "access_rules": [
+              [
+                "[$access|Minin' For Treasure]",
+                "$sequence_break|Minin' For Treasure"
+              ],
+              "{$peek|Minin' For Treasure}"
+            ]
+          }
+        ],
         "map_locations": []
       },
       {
@@ -2182,86 +2590,6 @@
             "map": "Overworld",
             "x": 4320,
             "y": 4392
-          }
-        ]
-      },
-      {
-        "name": "Q Scaredy Cat",
-        "sections": [
-          {
-            "ref": "Overworld/Halloween Hill/Q Scaredy Cat",
-            "name": "Q Scaredy Cat"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 3040,
-            "y": 2544
-          }
-        ]
-      },
-      {
-        "name": "Q Sticky Shoes",
-        "sections": [
-          {
-            "ref": "Overworld/Halloween Hill/Q Sticky Shoes",
-            "name": "Q Sticky Shoes"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 3328,
-            "y": 2520
-          }
-        ]
-      },
-      {
-        "name": "Q Zombie Stomp",
-        "sections": [
-          {
-            "ref": "Overworld/Zombiton/Q Zombie Stomp",
-            "name": "Q Zombie Stomp"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 704,
-            "y": 4344
-          }
-        ]
-      },
-      {
-        "name": "Q Smashing Pumpkins",
-        "sections": [
-          {
-            "ref": "Overworld/Halloween Hill/Q Smashing Pumpkins",
-            "name": "Q Smashing Pumpkins"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 2976,
-            "y": 4080
-          }
-        ]
-      },
-      {
-        "name": "Q Silver Bullet",
-        "sections": [
-          {
-            "ref": "Overworld/Zombiton/Q Silver Bullet",
-            "name": "Q Silver Bullet"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Overworld",
-            "x": 256,
-            "y": 4512
           }
         ]
       }

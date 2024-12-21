@@ -5,7 +5,6 @@ DEBUG = true
 
 -- TODO: use require; this will need a PopTracker update to make "nested" require() work better
 ScriptHost:LoadScript("scripts/helper.lua") -- load helper for AP-style logic
-ScriptHost:LoadScript("scripts/data/location_data.lua") -- load location_table
 ScriptHost:LoadScript("scripts/data/game_data.lua") -- load region_table
 --ScriptHost:LoadScript("scripts/rules.lua") -- load region_table
 
@@ -102,6 +101,18 @@ function can_enter_vampy_iv()
     return can_enter_vampy_iii() and state:has("Pumpkin Key")
 end
 
+function hundred_percent()
+    return false
+end
+
+function have_39_badges()
+    return false -- state.has_from_list_unique(state.multiworld.worlds[player].item_name_groups["cheats"], player, 39)
+end
+
+function have_all_weapons()
+    return false -- state.has_all(state.multiworld.worlds[player].item_name_groups["special_weapons"], player)
+end
+
 function access(location_name)
     --print(location_name)
     local loc = def:get_location(location_name)
@@ -153,8 +164,6 @@ function create_regions()
     _create_regions(def)
 end
 
-ScriptHost:LoadScript("scripts/data/rules_data.lua") -- load region_table
-
 function set_rules()
 
     --set location rules
@@ -184,6 +193,7 @@ function stateChanged(code)  -- run by watch for code "*" (any)
     end
     state.stale = true
 end
+
 
 -- initialize logic
 create_regions()  -- NOTE: we don't handle can_create for Locations, so this needs to only be run once
