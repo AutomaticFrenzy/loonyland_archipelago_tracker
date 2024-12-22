@@ -6,6 +6,16 @@
         "name": "Menu",
         "sections": [
           {
+            "name": "Q Picking Daisies",
+            "access_rules": [
+              [
+                "[$access|Q Picking Daisies]",
+                "$sequence_break|Q Picking Daisies"
+              ],
+              "{$peek|Q Picking Daisies}"
+            ]
+          },
+          {
             "name": "Greed",
             "access_rules": [
               [
@@ -219,6 +229,16 @@
                 "$sequence_break|Q Smashing Pumpkins"
               ],
               "{$peek|Q Smashing Pumpkins}"
+            ]
+          },
+          {
+            "name": "Q Mystery Lake",
+            "access_rules": [
+              [
+                "[$access|Q Mystery Lake]",
+                "$sequence_break|Q Mystery Lake"
+              ],
+              "{$peek|Q Mystery Lake}"
             ]
           },
           {
@@ -714,6 +734,16 @@
               ],
               "{$peek|Swamp Gas Rock Prison}"
             ]
+          },
+          {
+            "name": "Q Curse The Darkness",
+            "access_rules": [
+              [
+                "[$access|Q Curse The Darkness]",
+                "$sequence_break|Q Curse The Darkness"
+              ],
+              "{$peek|Q Curse The Darkness}"
+            ]
           }
         ],
         "map_locations": [
@@ -969,6 +999,14 @@
           {
             "ref": "Overworld/Frankenjulie's Laboratory/Frankenjulie's Reward",
             "name": "Frankenjulie's Reward"
+          },
+          {
+            "ref": "Overworld/Halloween Hill/Q Mystery Lake",
+            "name": "Q Mystery Lake"
+          },
+          {
+            "ref": "Overworld/Frankenjulie's Laboratory/Q Beneath The Lake",
+            "name": "Q Beneath The Lake"
           }
         ],
         "map_locations": [
@@ -1026,6 +1064,16 @@
                 "$sequence_break|Frankenjulie's Reward"
               ],
               "{$peek|Frankenjulie's Reward}"
+            ]
+          },
+          {
+            "name": "Q Beneath The Lake",
+            "access_rules": [
+              [
+                "[$access|Q Beneath The Lake]",
+                "$sequence_break|Q Beneath The Lake"
+              ],
+              "{$peek|Q Beneath The Lake}"
             ]
           },
           {
@@ -1152,6 +1200,16 @@
                 "$sequence_break|PolterGuy's Reward"
               ],
               "{$peek|PolterGuy's Reward}"
+            ]
+          },
+          {
+            "name": "Q The Haunted Tower",
+            "access_rules": [
+              [
+                "[$access|Q The Haunted Tower]",
+                "$sequence_break|Q The Haunted Tower"
+              ],
+              "{$peek|Q The Haunted Tower}"
             ]
           },
           {
@@ -1305,6 +1363,16 @@
                 "$sequence_break|Happy Stick Reward"
               ],
               "{$peek|Happy Stick Reward}"
+            ]
+          },
+          {
+            "name": "Q Happy Stick?!?",
+            "access_rules": [
+              [
+                "[$access|Q Happy Stick?!?]",
+                "$sequence_break|Q Happy Stick?!?"
+              ],
+              "{$peek|Q Happy Stick?!?}"
             ]
           },
           {
@@ -1477,6 +1545,16 @@
                 "$sequence_break|Under The Ravine Right Vine"
               ],
               "{$peek|Under The Ravine Right Vine}"
+            ]
+          },
+          {
+            "name": "Q A True Hero",
+            "access_rules": [
+              [
+                "[$access|Q A True Hero]",
+                "$sequence_break|Q A True Hero"
+              ],
+              "{$peek|Q A True Hero}"
             ]
           }
         ],
@@ -1877,6 +1955,16 @@
                 "$sequence_break|Castle Vampy IV Ballroom Left"
               ],
               "{$peek|Castle Vampy IV Ballroom Left}"
+            ]
+          },
+          {
+            "name": "Q The Last Gate",
+            "access_rules": [
+              [
+                "[$access|Q The Last Gate]",
+                "$sequence_break|Q The Last Gate"
+              ],
+              "{$peek|Q The Last Gate}"
             ]
           }
         ],
@@ -2590,6 +2678,86 @@
             "map": "Overworld",
             "x": 4320,
             "y": 4392
+          }
+        ]
+      },
+      {
+        "name": "Q Scaredy Cat",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Q Scaredy Cat",
+            "name": "Q Scaredy Cat"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3040,
+            "y": 2544
+          }
+        ]
+      },
+      {
+        "name": "Q Sticky Shoes",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Q Sticky Shoes",
+            "name": "Q Sticky Shoes"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 3328,
+            "y": 2520
+          }
+        ]
+      },
+      {
+        "name": "Q Zombie Stomp",
+        "sections": [
+          {
+            "ref": "Overworld/Zombiton/Q Zombie Stomp",
+            "name": "Q Zombie Stomp"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 704,
+            "y": 4344
+          }
+        ]
+      },
+      {
+        "name": "Q Smashing Pumpkins",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Q Smashing Pumpkins",
+            "name": "Q Smashing Pumpkins"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 2976,
+            "y": 4080
+          }
+        ]
+      },
+      {
+        "name": "Q Silver Bullet",
+        "sections": [
+          {
+            "ref": "Overworld/Zombiton/Q Silver Bullet",
+            "name": "Q Silver Bullet"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Overworld",
+            "x": 256,
+            "y": 4512
           }
         ]
       }

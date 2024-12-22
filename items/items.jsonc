@@ -439,5 +439,35 @@
         "type": "toggle",
         "img": "images/items/game_items/itm_farley_free_zone.png",
         "codes": "Farley Free Zone"
+    },
+    {
+        "name": "Bowling Access",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_bowling_access.png",
+        "codes": "Bowling Access"
+    },
+    {
+        "name": "Survival Access",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_survival_access.png",
+        "codes": "Survival Access"
+    },
+    {
+        "name": "Boss Bash Access",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_boss_bash_access.png",
+        "codes": "Boss Bash Access"
+    },
+    {
+        "name": "Loony Ball Access",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_loony_ball_access.png",
+        "codes": "Loony Ball Access"
+    },
+    {
+        "name": "Remix Access",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_remix_access.png",
+        "codes": "Remix Access"
     }
 ]
