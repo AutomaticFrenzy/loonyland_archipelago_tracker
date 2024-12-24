@@ -1,46 +1,7 @@
 {
   //sets the trackers layout
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
-  "tracker_default": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "dock",
-      "dropshadow": true,
-      "content": [
-        {
-          "type": "dock",
-          "dock": "left",
-          "v_alignment": "stretch",
-          "content": [
-            {
-              "type": "group",
-              "header": "Items",
-              "dock": "top",
-              "content": {
-                "type": "layout",
-                "key": "shared_item_grid"
-              }
-            }
-          ]
-        },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Overworld"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
+  "tracker_default": {},
   "tracker_horizontal": {
     "type": "container",
     "background": "#000000",
@@ -49,38 +10,224 @@
       "dropshadow": true,
       "content": [
         {
-          "type": "dock",
-          "dock": "bottom",
+          "type": "container",
           "content": [
             {
-              "type": "group",
-              "header": "Items",
-              "dock": "left",
-              "margin": "0,0,3,0",
-              "content": {
-                "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "shared_item_grid"
-              }
+              "type": "tabbed",
+              "tabs": [
+                {
+                  "title": "Oveworld",
+                  "h_alignment": "left",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "Overworld",
+                      "Badges",
+                    ]
+                  }
+                },
+                {
+                  "title": "Other",
+                  "content": {
+                    "type": "map",
+                    "maps": [
+                      "Quests",
+                      "Badges",
+                      "Dolls"
+                    ]
+                  },
+                },
+              ]
             }
           ]
         },
         {
-          "type": "tabbed",
-          "tabs": [
+          "type": "container",
+          "dock": "bottom",
+          "content": [
             {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Overworld"
-                ]
-              }
+              "type": "array",
+              "orientation": "horizontal",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Items",
+                  "margin": "0,0,0,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "shared_item_grid"
+                  }
+                },
+                {
+                  //badges
+                  "type": "itemgrid",
+                  "margin": "20,0,0,0",
+                  "item_margin": "0, 0",
+                  "h_alignment": "left",
+                  "item_size": "33,22",
+                  "rows": [
+                    [
+                      "Quick Mode",
+                      "Combo-Bombo",
+                      "Rapid Fire",
+                      "Play As Summony"
+                    ],
+                    [
+                      "Disco Mode",
+                      "Play As Bonkula",
+                      "Touch Of Death",
+                      "Play As Ninja Girl"
+                    ],
+                    [
+                      "Vintage Mode",
+                      "Play As Swampdog",
+                      "All Access Pass",
+                      "Molecular Dispersion"
+                    ],
+                    [
+                      "Infinite Gems",
+                      "Play As Witch",
+                      "Terror Mode",
+                      "Guaranteed Survival"
+                    ],
+                    [
+                      "Sidekick",
+                      "Play As Werewolf",
+                      "Save Anywhere",
+                      "Bend It Like Bouapha"
+                    ],
+                    [
+                      "Hardcore Mode",
+                      "Play As Toad",
+                      "Guided Shots",
+                      "Stinky Farley"
+                    ],
+                    [
+                      "Homing Shots",
+                      "Enemy Overload",
+                      "Kick The Cat!",
+                      "Ultra Weapons Are Go!"
+                    ],
+                    [
+                      "20/20 Vision",
+                      "Crystal Ball",
+                      "Slo-Mo",
+                      "Thorns Aura"
+                    ],
+                    [
+                      "Ultimate Firepower",
+                      "Radar",
+                      "Infinite Survival",
+                      "Monster Regeneration"
+                    ],
+                    [
+                      "Surprise Mode",
+                      "Heavy Hitter",
+                      "Frog-o-rama",
+                      "Farley Free Zone"
+                    ],
+                  ]
+                },
+                {
+                  "type": "map",
+                  "maps": [
+                    "Quests"
+                  ]
+                },
+                {
+                  "type": "map",
+                  "maps": [
+                    "Dolls"
+                  ]
+                },
+              ]
             }
           ]
-        }
+        },
       ]
     }
-  }
+  },
+  /*
+  "tracker_resize_bug": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "container",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "content": [
+                {
+                  "type": "map",
+                  "maps": [
+                    "Badges"
+                  ]
+                },
+                {
+                  "type": "array",
+                  "orientation": "vertical",
+                  "content": [
+                    {
+                      "type": "map",
+                      "maps": [
+                        "Badges"
+                      ]
+                    },
+                    {
+                      "type": "map",
+                      "maps": [
+                        "Quests"
+                      ]
+                    },
+                    {
+                      "type": "map",
+                      "maps": [
+                        "Dolls"
+                      ]
+                    },
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "container",
+          //"dock": "bottom",
+          "content": [
+            {
+              "type": "array",
+              "orientation": "horizontal",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Items",
+                  "margin": "0,0,3,0",
+                  "content": {
+                    "type": "layout",
+                    "h_alignment": "center",
+                    "v_alignment": "center",
+                    "key": "shared_item_grid"
+                  }
+                },
+                {
+                  "type": "map",
+                  "maps": [
+                    "Dolls"
+                  ]
+                },
+              ]
+            }
+          ]
+        },
+      ]
+    }
+  }*/
 }

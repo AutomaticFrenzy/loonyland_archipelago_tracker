@@ -96,16 +96,6 @@
             ]
           },
           {
-            "name": "Scorin'",
-            "access_rules": [
-              [
-                "[$access|Scorin']",
-                "$sequence_break|Scorin'"
-              ],
-              "{$peek|Scorin'}"
-            ]
-          },
-          {
             "name": "Digitally Masterin'",
             "access_rules": [
               [
@@ -113,6 +103,86 @@
                 "$sequence_break|Digitally Masterin'"
               ],
               "{$peek|Digitally Masterin'}"
+            ]
+          },
+          {
+            "name": "Bat Drop",
+            "access_rules": [
+              [
+                "[$access|Bat Drop]",
+                "$sequence_break|Bat Drop"
+              ],
+              "{$peek|Bat Drop}"
+            ]
+          },
+          {
+            "name": "Skeleton Drop",
+            "access_rules": [
+              [
+                "[$access|Skeleton Drop]",
+                "$sequence_break|Skeleton Drop"
+              ],
+              "{$peek|Skeleton Drop}"
+            ]
+          },
+          {
+            "name": "Frog Drop",
+            "access_rules": [
+              [
+                "[$access|Frog Drop]",
+                "$sequence_break|Frog Drop"
+              ],
+              "{$peek|Frog Drop}"
+            ]
+          },
+          {
+            "name": "Ghost Drop",
+            "access_rules": [
+              [
+                "[$access|Ghost Drop]",
+                "$sequence_break|Ghost Drop"
+              ],
+              "{$peek|Ghost Drop}"
+            ]
+          },
+          {
+            "name": "Mummy Drop",
+            "access_rules": [
+              [
+                "[$access|Mummy Drop]",
+                "$sequence_break|Mummy Drop"
+              ],
+              "{$peek|Mummy Drop}"
+            ]
+          },
+          {
+            "name": "Swampdog Drop",
+            "access_rules": [
+              [
+                "[$access|Swampdog Drop]",
+                "$sequence_break|Swampdog Drop"
+              ],
+              "{$peek|Swampdog Drop}"
+            ]
+          },
+          {
+            "name": "Vampire Drop",
+            "access_rules": [
+              [
+                "[$access|Vampire Drop]",
+                "$sequence_break|Vampire Drop"
+              ],
+              "{$peek|Vampire Drop}"
+            ]
+          },
+          {
+            "name": "Wolf Drop",
+            "access_rules": [
+              [
+                "[$access|Wolf Drop]",
+                "$sequence_break|Wolf Drop"
+              ],
+              "{$peek|Wolf Drop}"
             ]
           }
         ],
@@ -202,6 +272,16 @@
             ]
           },
           {
+            "name": "Q Tree Trimming",
+            "access_rules": [
+              [
+                "[$access|Q Tree Trimming]",
+                "$sequence_break|Q Tree Trimming"
+              ],
+              "{$peek|Q Tree Trimming}"
+            ]
+          },
+          {
             "name": "Q Scaredy Cat",
             "access_rules": [
               [
@@ -249,6 +329,16 @@
                 "$sequence_break|Huntin'"
               ],
               "{$peek|Huntin'}"
+            ]
+          },
+          {
+            "name": "Farmer Reward",
+            "access_rules": [
+              [
+                "[$access|Farmer Reward]",
+                "$sequence_break|Farmer Reward"
+              ],
+              "{$peek|Farmer Reward}"
             ]
           }
         ],
@@ -331,6 +421,16 @@
                 "$sequence_break|Vandalizin'"
               ],
               "{$peek|Vandalizin'}"
+            ]
+          },
+          {
+            "name": "Mayor Reward",
+            "access_rules": [
+              [
+                "[$access|Mayor Reward]",
+                "$sequence_break|Mayor Reward"
+              ],
+              "{$peek|Mayor Reward}"
             ]
           }
         ],
@@ -421,13 +521,13 @@
         "name": "A Cabin Trees",
         "sections": [
           {
-            "name": "Q Tree Trimming",
+            "name": "Tree Trimming Reward",
             "access_rules": [
               [
-                "[$access|Q Tree Trimming]",
-                "$sequence_break|Q Tree Trimming"
+                "[$access|Tree Trimming Reward]",
+                "$sequence_break|Tree Trimming Reward"
               ],
-              "{$peek|Q Tree Trimming}"
+              "{$peek|Tree Trimming Reward}"
             ]
           }
         ],
@@ -1277,13 +1377,13 @@
         "name": "The Shrine Of Bombulus",
         "sections": [
           {
-            "name": "Shrine of Bombulus Prize",
+            "name": "Shrine Of Bombulus Prize",
             "access_rules": [
               [
-                "[$access|Shrine of Bombulus Prize]",
-                "$sequence_break|Shrine of Bombulus Prize"
+                "[$access|Shrine Of Bombulus Prize]",
+                "$sequence_break|Shrine Of Bombulus Prize"
               ],
-              "{$peek|Shrine of Bombulus Prize}"
+              "{$peek|Shrine Of Bombulus Prize}"
             ]
           }
         ],
@@ -1478,7 +1578,18 @@
       },
       {
         "name": "A Cabin Larry",
-        "sections": [],
+        "sections": [
+          {
+            "name": "Larry's Wife Reward",
+            "access_rules": [
+              [
+                "[$access|Larry's Wife Reward]",
+                "$sequence_break|Larry's Wife Reward"
+              ],
+              "{$peek|Larry's Wife Reward}"
+            ]
+          }
+        ],
         "map_locations": [
           {
             "map": "Overworld",
@@ -2158,6 +2269,16 @@
               ],
               "{$peek|Mad Skeelz}"
             ]
+          },
+          {
+            "name": "Scorin'",
+            "access_rules": [
+              [
+                "[$access|Scorin']",
+                "$sequence_break|Scorin'"
+              ],
+              "{$peek|Scorin'}"
+            ]
           }
         ],
         "map_locations": [
@@ -2682,6 +2803,43 @@
         ]
       },
       {
+        "name": "Q Save Halloween Hill",
+        "sections": [
+          {
+            "ref": "Overworld/The Evilizer/Q Save Halloween Hill",
+            "name": "Q Save Halloween Hill"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 25,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Q Tree Trimming",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Q Tree Trimming",
+            "name": "Q Tree Trimming"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 25,
+            "y": 68
+          },
+          {
+            "map": "Overworld",
+            "x": 2912,
+            "y": 3096
+          }
+        ]
+      },
+      {
         "name": "Q Scaredy Cat",
         "sections": [
           {
@@ -2690,6 +2848,11 @@
           }
         ],
         "map_locations": [
+          {
+            "map": "Quests",
+            "x": 25,
+            "y": 92
+          },
           {
             "map": "Overworld",
             "x": 3040,
@@ -2707,9 +2870,62 @@
         ],
         "map_locations": [
           {
+            "map": "Quests",
+            "x": 25,
+            "y": 116
+          },
+          {
             "map": "Overworld",
             "x": 3328,
             "y": 2520
+          }
+        ]
+      },
+      {
+        "name": "Q Mushroom Hunt",
+        "sections": [
+          {
+            "ref": "Overworld/The Witch's Cabin/Q Mushroom Hunt",
+            "name": "Q Mushroom Hunt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 25,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Q Picking Daisies",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Q Picking Daisies",
+            "name": "Q Picking Daisies"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 25,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "Q Curse The Darkness",
+        "sections": [
+          {
+            "ref": "Overworld/Swamp Gas Cavern/Q Curse The Darkness",
+            "name": "Q Curse The Darkness"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 25,
+            "y": 188
           }
         ]
       },
@@ -2722,6 +2938,11 @@
           }
         ],
         "map_locations": [
+          {
+            "map": "Quests",
+            "x": 25,
+            "y": 212
+          },
           {
             "map": "Overworld",
             "x": 704,
@@ -2739,9 +2960,83 @@
         ],
         "map_locations": [
           {
+            "map": "Quests",
+            "x": 25,
+            "y": 236
+          },
+          {
             "map": "Overworld",
             "x": 2976,
             "y": 4080
+          }
+        ]
+      },
+      {
+        "name": "Q Mystery Lake",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Q Mystery Lake",
+            "name": "Q Mystery Lake"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 25,
+            "y": 260
+          },
+          {
+            "map": "Overworld",
+            "x": 608,
+            "y": 2400
+          }
+        ]
+      },
+      {
+        "name": "Q Beneath The Lake",
+        "sections": [
+          {
+            "ref": "Overworld/Frankenjulie's Laboratory/Q Beneath The Lake",
+            "name": "Q Beneath The Lake"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 263,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Q Happy Stick?!?",
+        "sections": [
+          {
+            "ref": "Overworld/Happy Stick Woods/Q Happy Stick?!?",
+            "name": "Q Happy Stick?!?"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 263,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Q A True Hero",
+        "sections": [
+          {
+            "ref": "Overworld/Under The Ravine/Q A True Hero",
+            "name": "Q A True Hero"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 263,
+            "y": 92
           }
         ]
       },
@@ -2755,9 +3050,952 @@
         ],
         "map_locations": [
           {
+            "map": "Quests",
+            "x": 263,
+            "y": 116
+          },
+          {
             "map": "Overworld",
             "x": 256,
             "y": 4512
+          }
+        ]
+      },
+      {
+        "name": "Q Hairy Larry",
+        "sections": [
+          {
+            "ref": "Overworld/The Wolf Den/Q Hairy Larry",
+            "name": "Q Hairy Larry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 263,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Q Ghostbusting",
+        "sections": [
+          {
+            "ref": "Overworld/The Witch's Cabin/Q Ghostbusting",
+            "name": "Q Ghostbusting"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 263,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "Q The Haunted Tower",
+        "sections": [
+          {
+            "ref": "Overworld/Haunted Tower Roof/Q The Haunted Tower",
+            "name": "Q The Haunted Tower"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 263,
+            "y": 188
+          }
+        ]
+      },
+      {
+        "name": "Q The Last Gate",
+        "sections": [
+          {
+            "ref": "Overworld/Castle Vampy IV/Q The Last Gate",
+            "name": "Q The Last Gate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 263,
+            "y": 212
+          }
+        ]
+      },
+      {
+        "name": "Q The Rescue",
+        "sections": [
+          {
+            "ref": "Overworld/A Gloomy Cavern/Q The Rescue",
+            "name": "Q The Rescue"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 263,
+            "y": 236
+          }
+        ]
+      },
+      {
+        "name": "Q The Collection",
+        "sections": [
+          {
+            "ref": "Overworld/A Cabin Collector/Q The Collection",
+            "name": "Q The Collection"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 263,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Evil Smashin'",
+        "sections": [
+          {
+            "ref": "Overworld/The Evilizer/Evil Smashin'",
+            "name": "Evil Smashin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 29
+          }
+        ]
+      },
+      {
+        "name": "Bowlin'",
+        "sections": [
+          {
+            "ref": "Overworld/Bowling/Bowlin'",
+            "name": "Bowlin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Vandalizin'",
+        "sections": [
+          {
+            "ref": "Overworld/Zombiton/Vandalizin'",
+            "name": "Vandalizin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 121
+          }
+        ]
+      },
+      {
+        "name": "Greed",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Greed",
+            "name": "Greed"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Monster Slayin'",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Monster Slayin'",
+            "name": "Monster Slayin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 213
+          }
+        ]
+      },
+      {
+        "name": "Monster Poundin'",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Monster Poundin'",
+            "name": "Monster Poundin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Ghostbustin'",
+        "sections": [
+          {
+            "ref": "Overworld/Haunted Tower Roof/Ghostbustin'",
+            "name": "Ghostbustin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Lookin'",
+        "sections": [
+          {
+            "ref": "Overworld/The Witch's Cabin/Lookin'",
+            "name": "Lookin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "name": "Ultimate Victory",
+        "sections": [
+          {
+            "ref": "Overworld/The Evilizer/Ultimate Victory",
+            "name": "Ultimate Victory"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 397
+          }
+        ]
+      },
+      {
+        "name": "Kickin'",
+        "sections": [
+          {
+            "ref": "Overworld/Loony Ball/Kickin'",
+            "name": "Kickin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 19,
+            "y": 443
+          }
+        ]
+      },
+      {
+        "name": "Boss Bashin'",
+        "sections": [
+          {
+            "ref": "Overworld/Boss Bash/Boss Bashin'",
+            "name": "Boss Bashin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 29
+          }
+        ]
+      },
+      {
+        "name": "Vampire Slayin'",
+        "sections": [
+          {
+            "ref": "Overworld/The Heart Of Terror/Vampire Slayin'",
+            "name": "Vampire Slayin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Sneakin'",
+        "sections": [
+          {
+            "ref": "Overworld/Haunted Tower/Sneakin'",
+            "name": "Sneakin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 121
+          }
+        ]
+      },
+      {
+        "name": "Witch Hunt",
+        "sections": [
+          {
+            "ref": "Overworld/Happy Stick Woods/Witch Hunt",
+            "name": "Witch Hunt"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Animal Control",
+        "sections": [
+          {
+            "ref": "Overworld/The Wolf Den/Animal Control",
+            "name": "Animal Control"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 213
+          }
+        ]
+      },
+      {
+        "name": "Annoyance",
+        "sections": [
+          {
+            "ref": "Overworld/The Witch's Cabin/Annoyance",
+            "name": "Annoyance"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Civic Duty",
+        "sections": [
+          {
+            "ref": "Overworld/A Gloomy Cavern/Civic Duty",
+            "name": "Civic Duty"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Winnin'",
+        "sections": [
+          {
+            "ref": "Overworld/The Evilizer/Winnin'",
+            "name": "Winnin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "name": "Combo Plate",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Combo Plate",
+            "name": "Combo Plate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 397
+          }
+        ]
+      },
+      {
+        "name": "Cleanin' Up",
+        "sections": [
+          {
+            "ref": "Overworld/Rocky Cliffs/Cleanin' Up",
+            "name": "Cleanin' Up"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 115,
+            "y": 443
+          }
+        ]
+      },
+      {
+        "name": "Findin'",
+        "sections": [
+          {
+            "ref": "Overworld/The Wolf Den/Findin'",
+            "name": "Findin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 29
+          }
+        ]
+      },
+      {
+        "name": "Extreme Survivin'",
+        "sections": [
+          {
+            "ref": "Overworld/Survival/Extreme Survivin'",
+            "name": "Extreme Survivin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Huntin'",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Huntin'",
+            "name": "Huntin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 121
+          }
+        ]
+      },
+      {
+        "name": "Advanced Winnin'",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Advanced Winnin'",
+            "name": "Advanced Winnin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Survivin'",
+        "sections": [
+          {
+            "ref": "Overworld/Survival/Survivin'",
+            "name": "Survivin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 213
+          }
+        ]
+      },
+      {
+        "name": "Puppy Poundin'",
+        "sections": [
+          {
+            "ref": "Overworld/Larry's Lair/Puppy Poundin'",
+            "name": "Puppy Poundin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Mad Skeelz",
+        "sections": [
+          {
+            "ref": "Overworld/The Evilizer/Mad Skeelz",
+            "name": "Mad Skeelz"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Frankenfryin'",
+        "sections": [
+          {
+            "ref": "Overworld/Frankenjulie's Laboratory/Frankenfryin'",
+            "name": "Frankenfryin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "name": "Combo Magic",
+        "sections": [
+          {
+            "ref": "Overworld/Survival/Combo Magic",
+            "name": "Combo Magic"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 397
+          }
+        ]
+      },
+      {
+        "name": "Hedge Clippin'",
+        "sections": [
+          {
+            "ref": "Overworld/Slurpy Swamp Mud/Hedge Clippin'",
+            "name": "Hedge Clippin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 211,
+            "y": 443
+          }
+        ]
+      },
+      {
+        "name": "R-R-R-Remix!",
+        "sections": [
+          {
+            "ref": "Overworld/Remix/R-R-R-Remix!",
+            "name": "R-R-R-Remix!"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 29
+          }
+        ]
+      },
+      {
+        "name": "Witchcraft",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Witchcraft",
+            "name": "Witchcraft"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 75
+          }
+        ]
+      },
+      {
+        "name": "Ninjitsu",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Ninjitsu",
+            "name": "Ninjitsu"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 121
+          }
+        ]
+      },
+      {
+        "name": "Stayin' Alive",
+        "sections": [
+          {
+            "ref": "Overworld/Survival/Stayin' Alive",
+            "name": "Stayin' Alive"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 167
+          }
+        ]
+      },
+      {
+        "name": "Hooliganin'",
+        "sections": [
+          {
+            "ref": "Overworld/Loony Ball/Hooliganin'",
+            "name": "Hooliganin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 213
+          }
+        ]
+      },
+      {
+        "name": "Swampdoggin'",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Swampdoggin'",
+            "name": "Swampdoggin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Scorin'",
+        "sections": [
+          {
+            "ref": "Overworld/The Evilizer/Scorin'",
+            "name": "Scorin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 305
+          }
+        ]
+      },
+      {
+        "name": "Brawlin'",
+        "sections": [
+          {
+            "ref": "Overworld/Benny's Cocktails/Brawlin'",
+            "name": "Brawlin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "name": "Minin' For Treasure",
+        "sections": [
+          {
+            "ref": "Overworld/Remix/Minin' For Treasure",
+            "name": "Minin' For Treasure"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 397
+          }
+        ]
+      },
+      {
+        "name": "Digitally Masterin'",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Digitally Masterin'",
+            "name": "Digitally Masterin'"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Badges",
+            "x": 307,
+            "y": 443
+          }
+        ]
+      },
+      {
+        "name": "Tree Trimming Reward",
+        "sections": [
+          {
+            "ref": "Overworld/A Cabin Trees/Tree Trimming Reward",
+            "name": "Tree Trimming Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 49,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Larry's Wife Reward",
+        "sections": [
+          {
+            "ref": "Overworld/A Cabin Larry/Larry's Wife Reward",
+            "name": "Larry's Wife Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 287,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Farmer Reward",
+        "sections": [
+          {
+            "ref": "Overworld/Halloween Hill/Farmer Reward",
+            "name": "Farmer Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 49,
+            "y": 236
+          },
+          {
+            "map": "Overworld",
+            "x": 2976,
+            "y": 4080
+          }
+        ]
+      },
+      {
+        "name": "Mayor Reward",
+        "sections": [
+          {
+            "ref": "Overworld/Zombiton/Mayor Reward",
+            "name": "Mayor Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 49,
+            "y": 212
+          },
+          {
+            "map": "Overworld",
+            "x": 704,
+            "y": 4344
+          }
+        ]
+      },
+      {
+        "name": "Bat Drop",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Bat Drop",
+            "name": "Bat Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dolls",
+            "x": 29,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Skeleton Drop",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Skeleton Drop",
+            "name": "Skeleton Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dolls",
+            "x": 69,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Frog Drop",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Frog Drop",
+            "name": "Frog Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dolls",
+            "x": 109,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Ghost Drop",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Ghost Drop",
+            "name": "Ghost Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dolls",
+            "x": 149,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Mummy Drop",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Mummy Drop",
+            "name": "Mummy Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dolls",
+            "x": 189,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Swampdog Drop",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Swampdog Drop",
+            "name": "Swampdog Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dolls",
+            "x": 229,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Vampire Drop",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Vampire Drop",
+            "name": "Vampire Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dolls",
+            "x": 269,
+            "y": 56
+          }
+        ]
+      },
+      {
+        "name": "Wolf Drop",
+        "sections": [
+          {
+            "ref": "Overworld/Menu/Wolf Drop",
+            "name": "Wolf Drop"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dolls",
+            "x": 309,
+            "y": 56
           }
         ]
       }

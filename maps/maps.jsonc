@@ -3,7 +3,25 @@
   {
     "name": "Overworld",
     "location_size": 96,
-    "location_border_thickness": 8,
+    "location_border_thickness": 12,
     "img": "images/maps/LoonylandMap.png"
+  },
+  {
+    "name": "Badges",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/Badgelocs.png"
+  },
+  {
+    "name": "Quests",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/quests.png"
+  },
+  {
+    "name": "Dolls",
+    "location_size": 16,
+    "location_border_thickness": 2,
+    "img": "images/maps/dolls.png"
   }
 ]

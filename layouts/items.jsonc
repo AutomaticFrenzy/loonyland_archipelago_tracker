@@ -3,59 +3,83 @@
   // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
   "shared_item_grid": {
     "type": "array",
-    "orientation": "vertical",
+    "orientation": "horizontal",
     "margin": "0,0",
     "content": [
       {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
-        "content": [
-          {
-            "type": "itemgrid",
-            "item_margin": "10, 10",
-            "h_alignment": "left",
-            "rows": [
-              [
-                "Heart",
-                "Lightning",
-                "Arrow",
-                "Pants",
-                "Mushroom",
-                "Orb",
-                "Bombs",
-                "Shock Wand",
-                "Ice Spear",
-                "Cactus",
-                "Boomerang",
-                "Whoopee",
-                "Hot Pants",
-                "Skull Key",
-                "Bat Key",
-                "Pumpkin Key",
-              ],
-              [
-                "Boots",
-              "Stick",
-              "Fertilizer",
-              "Silver",
-              "Doom Daisy",
-              "Ghost Potion",
-              "Vampire Bust",
-              "Cat",
-              "Big Gem",
-              "100 Gems",
-              "Triple Fire Gem",
-              "Happy Stick",
-              "Bat Statue",
-              "Lantern",
-              "Reflect Gem",
-              "Silver Sling",
-            ]
-            ]
-          }
+        //powerups
+        "type": "itemgrid",
+        "item_margin": "10, 4",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+          [
+            "Lightning"
+          ],
+          [
+            "Pants"
+          ],
+          [
+            "Arrow"
+          ],
+          [
+            "Big Gem"
+          ],
+          [
+            "Heart"
+          ],
         ]
-      }
+      },
+      {
+        //main inv
+        "type": "itemgrid",
+        "item_margin": "10, 4",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+          [
+            "Silver Sling",
+            "Boots",
+            "Cat",
+            "Stick",
+            "Lantern",
+            "Mushroom",
+            "Doom Daisy",
+            "Silver",
+            "Ghost Potion",
+            "Fertilizer",
+            "Orb",
+          ],
+          [
+            "Skull Key",
+            "Bat Key",
+            "Pumpkin Key",
+            "Bombs",
+            "Shock Wand",
+            "Ice Spear",
+            "Cactus",
+            "Boomerang",
+            "Whoopee",
+            "Hot Pants",
+            "100 Gems",
+          ],
+          [
+            "Bat Statue",
+            "Vampire Bust",
+            "Triple Fire Gem",
+            "Reflect Gem",
+            "Happy Stick",
+            "Bat Doll",
+            "Skeleton Doll",
+            "Frog Doll",
+            "Ghost Doll",
+            "Mummy Doll",
+            "Swampdog Doll",
+            "Vampire Doll",
+            "Wolfman Doll"
+          ],
+        ]
+      },
     ]
   }
 }

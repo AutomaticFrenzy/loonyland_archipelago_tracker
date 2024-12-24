@@ -113,6 +113,35 @@ function have_all_weapons()
     return false -- state.has_all(state.multiworld.worlds[player].item_name_groups["special_weapons"], player)
 end
 
+function can_reach_bats()
+    return can_reach("The Shrine Of Bombulus")
+end
+function can_reach_skeleton()
+    return can_reach("Halloween Hill")
+end
+function can_reach_frog()
+    return can_reach("Halloween Hill")
+end
+function can_reach_ghost()
+    return can_reach("Haunted Tower")
+end
+function can_reach_mummy()
+    return can_reach("Rocky Cliffs")
+end
+function can_reach_swampdog()
+    return can_reach("Halloween Hill")
+end
+function can_reach_vampire()
+    return can_reach("Castle Vampy")
+end
+function can_reach_wolves()
+    return can_reach("Halloween Hill")
+end
+
+function can_kill_werewolves()
+    return state:has("Silver Sling") or state:has("Touch Of Death")
+end
+
 function access(location_name)
     --print(location_name)
     local loc = def:get_location(location_name)
