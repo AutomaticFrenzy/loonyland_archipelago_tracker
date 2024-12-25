@@ -66,6 +66,16 @@
             ]
           },
           {
+            "name": "R-R-R-Remix!",
+            "access_rules": [
+              [
+                "[$access|R-R-R-Remix!]",
+                "$sequence_break|R-R-R-Remix!"
+              ],
+              "{$peek|R-R-R-Remix!}"
+            ]
+          },
+          {
             "name": "Witchcraft",
             "access_rules": [
               [
@@ -93,6 +103,16 @@
                 "$sequence_break|Swampdoggin'"
               ],
               "{$peek|Swampdoggin'}"
+            ]
+          },
+          {
+            "name": "Minin' For Treasure",
+            "access_rules": [
+              [
+                "[$access|Minin' For Treasure]",
+                "$sequence_break|Minin' For Treasure"
+              ],
+              "{$peek|Minin' For Treasure}"
             ]
           },
           {
@@ -2522,28 +2542,7 @@
       },
       {
         "name": "Remix",
-        "sections": [
-          {
-            "name": "R-R-R-Remix!",
-            "access_rules": [
-              [
-                "[$access|R-R-R-Remix!]",
-                "$sequence_break|R-R-R-Remix!"
-              ],
-              "{$peek|R-R-R-Remix!}"
-            ]
-          },
-          {
-            "name": "Minin' For Treasure",
-            "access_rules": [
-              [
-                "[$access|Minin' For Treasure]",
-                "$sequence_break|Minin' For Treasure"
-              ],
-              "{$peek|Minin' For Treasure}"
-            ]
-          }
-        ],
+        "sections": [],
         "map_locations": []
       },
       {
@@ -3641,7 +3640,7 @@
         "name": "R-R-R-Remix!",
         "sections": [
           {
-            "ref": "Overworld/Remix/R-R-R-Remix!",
+            "ref": "Overworld/Menu/R-R-R-Remix!",
             "name": "R-R-R-Remix!"
           }
         ],
@@ -3769,7 +3768,7 @@
         "name": "Minin' For Treasure",
         "sections": [
           {
-            "ref": "Overworld/Remix/Minin' For Treasure",
+            "ref": "Overworld/Menu/Minin' For Treasure",
             "name": "Minin' For Treasure"
           }
         ],

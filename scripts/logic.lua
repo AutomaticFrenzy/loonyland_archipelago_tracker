@@ -25,11 +25,16 @@ local _count = State.count
 -- logic resolvers (called from json locations)
 
 function have_light_source() 
-    return state:has("Lantern") or (state:has("Stick") and state:has("Boots"))
+    return state:has("Lantern") or (state:has("Stick") and state:has("Boots") and can_reach("Swamp Gas Cavern")) or state:has("20/20 vision")
 end
 
 function have_bombs() 
-    return state:has("Bombs")
+    return state:has("Bombs") or state:has("Combo-Bombo") or state:has("Play As Werewolf")
+end
+
+
+function have_many_bombs()
+    return state:has("Bombs") or (state:has("Play As Werewolf") and state:has("Infinite Gems"))
 end
 
 
@@ -73,9 +78,8 @@ function have_special_weapon_through_walls()
 end
 
 function can_cleanse_crypts() 
-    return have_light_source() and can_enter_zombiton() and have_special_weapon_bullet(
-        )
-    end
+    return have_light_source() and have_special_weapon_bullet() and can_reach("Musty Crypt") and can_reach("Dusty Crypt") and can_reach("Rusty Crypt")
+end
 
 function can_enter_zombiton() 
     return state:has("Boots")
@@ -102,15 +106,15 @@ function can_enter_vampy_iv()
 end
 
 function hundred_percent()
-    return false
+    return state:has("ITEM", 105)
 end
 
 function have_39_badges()
-    return false -- state.has_from_list_unique(state.multiworld.worlds[player].item_name_groups["cheats"], player, 39)
+    return state:has("CHEAT", 39)
 end
 
 function have_all_weapons()
-    return false -- state.has_all(state.multiworld.worlds[player].item_name_groups["special_weapons"], player)
+    return state:has_all{"Bombs", "Shock Wand", "Ice Spear", "Cactus", "Boomerang", "Whoopee", "Hot Pants"}
 end
 
 function can_reach_bats()
@@ -141,6 +145,19 @@ end
 function can_kill_werewolves()
     return state:has("Silver Sling") or state:has("Touch Of Death")
 end
+
+function can_do_collection()
+    return state:has("DOLL", 8)
+end
+
+function power_level(state, level_goal)
+    local level = 0
+    level = level + state:count("PWR")
+    level = level + state:count("PWR_BIG") * 5
+    level = level + state:count("PWR_MAX") * 50
+    return (level > level_goal)
+end
+
 
 function access(location_name)
     --print(location_name)
