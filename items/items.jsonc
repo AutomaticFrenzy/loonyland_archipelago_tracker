@@ -234,7 +234,7 @@
         "name": "Infinite Gems",
         "type": "toggle",
         "img": "images/items/badges/badge_3.png",
-        "codes": "Infinite Gems, CHEAT"
+        "codes": "Infinite Gems, CHEAT, LONG"
     },
     {
         "name": "Sidekick",
@@ -252,7 +252,7 @@
         "name": "Ultimate Firepower",
         "type": "toggle",
         "img": "images/items/badges/badge_8.png",
-        "codes": "Ultimate Firepower, CHEAT"
+        "codes": "Ultimate Firepower, CHEAT, MULTISAVE"
     },
     {
         "name": "Vintage Mode",
@@ -264,13 +264,13 @@
         "name": "Play As Bonkula",
         "type": "toggle",
         "img": "images/items/badges/badge_11.png",
-        "codes": "Play As Bonkula, CHEAT"
+        "codes": "Play As Bonkula, CHEAT, MULTISAVE"
     },
     {
         "name": "Play As Toad",
         "type": "toggle",
         "img": "images/items/badges/badge_15.png",
-        "codes": "Play As Toad, CHEAT"
+        "codes": "Play As Toad, CHEAT, MULTISAVE"
     },
     {
         "name": "Crystal Ball",
@@ -300,25 +300,25 @@
         "name": "Touch Of Death",
         "type": "toggle",
         "img": "images/items/badges/badge_21.png",
-        "codes": "Touch Of Death, CHEAT, PWR_MAX"
+        "codes": "Touch Of Death, CHEAT, PWR_MAX, OP"
     },
     {
         "name": "All Access Pass",
         "type": "toggle",
         "img": "images/items/badges/badge_22.png",
-        "codes": "All Access Pass, CHEAT"
+        "codes": "All Access Pass, CHEAT, MULTISAVE"
     },
     {
         "name": "Play As Swampdog",
         "type": "toggle",
         "img": "images/items/badges/badge_12.png",
-        "codes": "Play As Swampdog, CHEAT"
+        "codes": "Play As Swampdog, CHEAT, MULTISAVE, LONG"
     },
     {
         "name": "Hardcore Mode",
         "type": "toggle",
         "img": "images/items/badges/badge_4.png",
-        "codes": "Hardcore Mode, CHEAT"
+        "codes": "Hardcore Mode, CHEAT, MULTISAVE"
     },
     {
         "name": "Save Anywhere",
@@ -354,13 +354,13 @@
         "name": "Play As Witch",
         "type": "toggle",
         "img": "images/items/badges/badge_13.png",
-        "codes": "Play As Witch, CHEAT"
+        "codes": "Play As Witch, CHEAT, MULTISAVE, LONG"
     },
     {
         "name": "Play As Werewolf",
         "type": "toggle",
         "img": "images/items/badges/badge_14.png",
-        "codes": "Play As Werewolf, CHEAT"
+        "codes": "Play As Werewolf, CHEAT, MULTISAVE"
     },
     {
         "name": "Enemy Overload",
@@ -384,13 +384,13 @@
         "name": "Play As Summony",
         "type": "toggle",
         "img": "images/items/badges/badge_30.png",
-        "codes": "Play As Summony, CHEAT"
+        "codes": "Play As Summony, CHEAT, MULTISAVE"
     },
     {
         "name": "Play As Ninja Girl",
         "type": "toggle",
         "img": "images/items/badges/badge_31.png",
-        "codes": "Play As Ninja Girl, CHEAT"
+        "codes": "Play As Ninja Girl, CHEAT, MULTISAVE"
     },
     {
         "name": "Molecular Dispersion",
@@ -402,7 +402,7 @@
         "name": "Guaranteed Survival",
         "type": "toggle",
         "img": "images/items/badges/badge_33.png",
-        "codes": "Guaranteed Survival, CHEAT, PWR_MAX"
+        "codes": "Guaranteed Survival, CHEAT, PWR_MAX, OP"
     },
     {
         "name": "Bend It Like Bouapha",

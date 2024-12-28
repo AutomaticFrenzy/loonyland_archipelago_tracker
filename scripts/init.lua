@@ -18,6 +18,7 @@ ScriptHost:LoadScript("scripts/logic.lua")
 
 -- Items
 Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/settings.jsonc")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
@@ -27,7 +28,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 end
 
 -- Layout
-Tracker:AddLayouts("layouts/items.jsonc")
+Tracker:AddLayouts("layouts/items_layout.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
 

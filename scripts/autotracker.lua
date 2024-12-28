@@ -7,7 +7,7 @@
 
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 AUTOTRACKER_ENABLE_LOCATION_TRACKING = true and not IS_ITEMS_ONLY
-AUTOTRACKER_ENABLE_DEBUG_LOGGING = false
+AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
 AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP = true and AUTOTRACKER_ENABLE_DEBUG_LOGGING
 
 CUR_INDEX = -1
@@ -81,7 +81,27 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
+	print(slot_data)
+	for key, value in pairs(slot_data) do
+		print(key)
+		print(value)
+		local obj = Tracker:FindObjectForCode("SET_" .. key)
+		if obj then
+			print (obj.Type)
+			if obj.Type == "toggle" then
+				obj.Active = (value == 1)
+			elseif obj.Type == "consumable" then
+				obj.AcquiredCount = value
+			elseif obj.Type == "progressive" then
+				obj.CurrentStage = value			
+			end
+		end
+	end
 	-- put any code here that slot_data should affect (toggling setting items for example)
+
+	--iterate through each location
+	-- if it has a flag and the matching setting in the slot data table, disable it
+
 end
 
 -- called right after an AP slot is connected
@@ -272,3 +292,5 @@ if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 end
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+
+--TODO Archipelago:AddSetReplyHandler() for datastorage stuff

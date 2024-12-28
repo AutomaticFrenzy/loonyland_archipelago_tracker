@@ -13,6 +13,9 @@
                 "$sequence_break|Q Picking Daisies"
               ],
               "{$peek|Q Picking Daisies}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Picking Daisies"
             ]
           },
           {
@@ -23,6 +26,9 @@
                 "$sequence_break|Greed"
               ],
               "{$peek|Greed}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Greed"
             ]
           },
           {
@@ -33,6 +39,9 @@
                 "$sequence_break|Monster Slayin'"
               ],
               "{$peek|Monster Slayin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Monster Slayin'"
             ]
           },
           {
@@ -43,6 +52,9 @@
                 "$sequence_break|Monster Poundin'"
               ],
               "{$peek|Monster Poundin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Monster Poundin'"
             ]
           },
           {
@@ -53,6 +65,9 @@
                 "$sequence_break|Combo Plate"
               ],
               "{$peek|Combo Plate}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Combo Plate"
             ]
           },
           {
@@ -63,6 +78,9 @@
                 "$sequence_break|Advanced Winnin'"
               ],
               "{$peek|Advanced Winnin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Advanced Winnin'"
             ]
           },
           {
@@ -73,6 +91,9 @@
                 "$sequence_break|R-R-R-Remix!"
               ],
               "{$peek|R-R-R-Remix!}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|R-R-R-Remix!"
             ]
           },
           {
@@ -83,6 +104,9 @@
                 "$sequence_break|Witchcraft"
               ],
               "{$peek|Witchcraft}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Witchcraft"
             ]
           },
           {
@@ -93,6 +117,9 @@
                 "$sequence_break|Ninjitsu"
               ],
               "{$peek|Ninjitsu}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Ninjitsu"
             ]
           },
           {
@@ -103,6 +130,9 @@
                 "$sequence_break|Swampdoggin'"
               ],
               "{$peek|Swampdoggin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swampdoggin'"
             ]
           },
           {
@@ -113,6 +143,9 @@
                 "$sequence_break|Minin' For Treasure"
               ],
               "{$peek|Minin' For Treasure}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Minin' For Treasure"
             ]
           },
           {
@@ -123,6 +156,9 @@
                 "$sequence_break|Digitally Masterin'"
               ],
               "{$peek|Digitally Masterin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Digitally Masterin'"
             ]
           },
           {
@@ -133,6 +169,9 @@
                 "$sequence_break|Bat Drop"
               ],
               "{$peek|Bat Drop}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bat Drop"
             ]
           },
           {
@@ -143,6 +182,9 @@
                 "$sequence_break|Skeleton Drop"
               ],
               "{$peek|Skeleton Drop}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Skeleton Drop"
             ]
           },
           {
@@ -153,6 +195,9 @@
                 "$sequence_break|Frog Drop"
               ],
               "{$peek|Frog Drop}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Frog Drop"
             ]
           },
           {
@@ -163,6 +208,9 @@
                 "$sequence_break|Ghost Drop"
               ],
               "{$peek|Ghost Drop}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Ghost Drop"
             ]
           },
           {
@@ -173,6 +221,9 @@
                 "$sequence_break|Mummy Drop"
               ],
               "{$peek|Mummy Drop}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Mummy Drop"
             ]
           },
           {
@@ -183,6 +234,9 @@
                 "$sequence_break|Swampdog Drop"
               ],
               "{$peek|Swampdog Drop}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swampdog Drop"
             ]
           },
           {
@@ -193,6 +247,9 @@
                 "$sequence_break|Vampire Drop"
               ],
               "{$peek|Vampire Drop}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Vampire Drop"
             ]
           },
           {
@@ -203,6 +260,9 @@
                 "$sequence_break|Wolf Drop"
               ],
               "{$peek|Wolf Drop}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Wolf Drop"
             ]
           }
         ],
@@ -219,6 +279,9 @@
                 "$sequence_break|Swamp Bog Beast"
               ],
               "{$peek|Swamp Bog Beast}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp Bog Beast"
             ]
           },
           {
@@ -229,6 +292,9 @@
                 "$sequence_break|Terror Glade South Trees"
               ],
               "{$peek|Terror Glade South Trees}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Terror Glade South Trees"
             ]
           },
           {
@@ -239,6 +305,9 @@
                 "$sequence_break|Swamp Outside Luniton"
               ],
               "{$peek|Swamp Outside Luniton}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp Outside Luniton"
             ]
           },
           {
@@ -249,6 +318,9 @@
                 "$sequence_break|Swamp East 1"
               ],
               "{$peek|Swamp East 1}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp East 1"
             ]
           },
           {
@@ -259,6 +331,9 @@
                 "$sequence_break|Swamp Top Left dry"
               ],
               "{$peek|Swamp Top Left dry}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp Top Left dry"
             ]
           },
           {
@@ -269,6 +344,9 @@
                 "$sequence_break|Swamp East 2"
               ],
               "{$peek|Swamp East 2}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp East 2"
             ]
           },
           {
@@ -279,6 +357,9 @@
                 "$sequence_break|Woods Above Castle"
               ],
               "{$peek|Woods Above Castle}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Woods Above Castle"
             ]
           },
           {
@@ -289,6 +370,9 @@
                 "$sequence_break|Woods SW of Cabin"
               ],
               "{$peek|Woods SW of Cabin}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Woods SW of Cabin"
             ]
           },
           {
@@ -299,6 +383,9 @@
                 "$sequence_break|Q Tree Trimming"
               ],
               "{$peek|Q Tree Trimming}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Tree Trimming"
             ]
           },
           {
@@ -309,6 +396,9 @@
                 "$sequence_break|Q Scaredy Cat"
               ],
               "{$peek|Q Scaredy Cat}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Scaredy Cat"
             ]
           },
           {
@@ -319,6 +409,9 @@
                 "$sequence_break|Q Sticky Shoes"
               ],
               "{$peek|Q Sticky Shoes}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Sticky Shoes"
             ]
           },
           {
@@ -329,6 +422,9 @@
                 "$sequence_break|Q Smashing Pumpkins"
               ],
               "{$peek|Q Smashing Pumpkins}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Smashing Pumpkins"
             ]
           },
           {
@@ -339,6 +435,9 @@
                 "$sequence_break|Q Mystery Lake"
               ],
               "{$peek|Q Mystery Lake}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Mystery Lake"
             ]
           },
           {
@@ -349,6 +448,9 @@
                 "$sequence_break|Huntin'"
               ],
               "{$peek|Huntin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Huntin'"
             ]
           },
           {
@@ -359,6 +461,9 @@
                 "$sequence_break|Farmer Reward"
               ],
               "{$peek|Farmer Reward}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Farmer Reward"
             ]
           }
         ],
@@ -375,6 +480,9 @@
                 "$sequence_break|Swamp Mud Path"
               ],
               "{$peek|Swamp Mud Path}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp Mud Path"
             ]
           },
           {
@@ -385,6 +493,9 @@
                 "$sequence_break|Swamp Sapling Shrine"
               ],
               "{$peek|Swamp Sapling Shrine}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp Sapling Shrine"
             ]
           },
           {
@@ -395,6 +506,9 @@
                 "$sequence_break|Hedge Clippin'"
               ],
               "{$peek|Hedge Clippin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Hedge Clippin'"
             ]
           }
         ],
@@ -421,6 +535,9 @@
                 "$sequence_break|Q Zombie Stomp"
               ],
               "{$peek|Q Zombie Stomp}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Zombie Stomp"
             ]
           },
           {
@@ -431,6 +548,9 @@
                 "$sequence_break|Q Silver Bullet"
               ],
               "{$peek|Q Silver Bullet}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Silver Bullet"
             ]
           },
           {
@@ -441,6 +561,9 @@
                 "$sequence_break|Vandalizin'"
               ],
               "{$peek|Vandalizin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Vandalizin'"
             ]
           },
           {
@@ -451,6 +574,9 @@
                 "$sequence_break|Mayor Reward"
               ],
               "{$peek|Mayor Reward}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Mayor Reward"
             ]
           }
         ],
@@ -467,6 +593,9 @@
                 "$sequence_break|Rocky Cliffs Upper Ledge"
               ],
               "{$peek|Rocky Cliffs Upper Ledge}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Rocky Cliffs Upper Ledge"
             ]
           },
           {
@@ -477,6 +606,9 @@
                 "$sequence_break|Rocky Cliffs Vine"
               ],
               "{$peek|Rocky Cliffs Vine}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Rocky Cliffs Vine"
             ]
           },
           {
@@ -487,6 +619,9 @@
                 "$sequence_break|Rocky Cliffs Grand Pharoh"
               ],
               "{$peek|Rocky Cliffs Grand Pharoh}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Rocky Cliffs Grand Pharoh"
             ]
           },
           {
@@ -497,6 +632,9 @@
                 "$sequence_break|Rocky Cliffs Rock Corner"
               ],
               "{$peek|Rocky Cliffs Rock Corner}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Rocky Cliffs Rock Corner"
             ]
           },
           {
@@ -507,6 +645,9 @@
                 "$sequence_break|Rocky Cliffs Entrance Ledge"
               ],
               "{$peek|Rocky Cliffs Entrance Ledge}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Rocky Cliffs Entrance Ledge"
             ]
           },
           {
@@ -517,6 +658,9 @@
                 "$sequence_break|Rocky Cliffs Peak"
               ],
               "{$peek|Rocky Cliffs Peak}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Rocky Cliffs Peak"
             ]
           },
           {
@@ -527,6 +671,9 @@
                 "$sequence_break|Cleanin' Up"
               ],
               "{$peek|Cleanin' Up}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Cleanin' Up"
             ]
           }
         ],
@@ -548,6 +695,9 @@
                 "$sequence_break|Tree Trimming Reward"
               ],
               "{$peek|Tree Trimming Reward}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tree Trimming Reward"
             ]
           }
         ],
@@ -570,6 +720,9 @@
                 "$sequence_break|Witch's Cabin Bedroom"
               ],
               "{$peek|Witch's Cabin Bedroom}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Witch's Cabin Bedroom"
             ]
           },
           {
@@ -584,6 +737,9 @@
                 "$sequence_break|Q Mushroom Hunt"
               ],
               "{$peek|Q Mushroom Hunt}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Mushroom Hunt"
             ]
           },
           {
@@ -594,6 +750,9 @@
                 "$sequence_break|Q Ghostbusting"
               ],
               "{$peek|Q Ghostbusting}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Ghostbusting"
             ]
           },
           {
@@ -604,6 +763,9 @@
                 "$sequence_break|Lookin'"
               ],
               "{$peek|Lookin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Lookin'"
             ]
           },
           {
@@ -614,6 +776,22 @@
                 "$sequence_break|Annoyance"
               ],
               "{$peek|Annoyance}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Annoyance"
+            ]
+          },
+          {
+            "name": "Witch Mushroom Reward",
+            "access_rules": [
+              [
+                "[$access|Witch Mushroom Reward]",
+                "$sequence_break|Witch Mushroom Reward"
+              ],
+              "{$peek|Witch Mushroom Reward}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Witch Mushroom Reward"
             ]
           }
         ],
@@ -636,6 +814,9 @@
                 "$sequence_break|Witch's Cabin Backroom"
               ],
               "{$peek|Witch's Cabin Backroom}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Witch's Cabin Backroom"
             ]
           }
         ],
@@ -652,6 +833,9 @@
                 "$sequence_break|Bonita's Cabin Barrel Maze"
               ],
               "{$peek|Bonita's Cabin Barrel Maze}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bonita's Cabin Barrel Maze"
             ]
           }
         ],
@@ -674,6 +858,9 @@
                 "$sequence_break|Bog Pit Top Door"
               ],
               "{$peek|Bog Pit Top Door}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bog Pit Top Door"
             ]
           },
           {
@@ -684,6 +871,9 @@
                 "$sequence_break|Bog Pit Posts Room"
               ],
               "{$peek|Bog Pit Posts Room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bog Pit Posts Room"
             ]
           },
           {
@@ -694,6 +884,9 @@
                 "$sequence_break|Bog Pit Drippy Window"
               ],
               "{$peek|Bog Pit Drippy Window}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bog Pit Drippy Window"
             ]
           },
           {
@@ -704,6 +897,9 @@
                 "$sequence_break|Bog Pit Green room"
               ],
               "{$peek|Bog Pit Green room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bog Pit Green room"
             ]
           },
           {
@@ -714,6 +910,9 @@
                 "$sequence_break|Bog Pit Arena"
               ],
               "{$peek|Bog Pit Arena}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bog Pit Arena"
             ]
           },
           {
@@ -724,6 +923,9 @@
                 "$sequence_break|Bog Pit Sw Switch"
               ],
               "{$peek|Bog Pit Sw Switch}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bog Pit Sw Switch"
             ]
           }
         ],
@@ -746,6 +948,9 @@
                 "$sequence_break|Tunnel Swampdog Pumpkin Door"
               ],
               "{$peek|Tunnel Swampdog Pumpkin Door}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tunnel Swampdog Pumpkin Door"
             ]
           },
           {
@@ -756,6 +961,9 @@
                 "$sequence_break|Tunnel Scratch Wall"
               ],
               "{$peek|Tunnel Scratch Wall}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tunnel Scratch Wall"
             ]
           },
           {
@@ -766,6 +974,9 @@
                 "$sequence_break|Tunnel Narrow Passage"
               ],
               "{$peek|Tunnel Narrow Passage}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tunnel Narrow Passage"
             ]
           },
           {
@@ -776,6 +987,9 @@
                 "$sequence_break|Tunnel Top Frogs"
               ],
               "{$peek|Tunnel Top Frogs}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tunnel Top Frogs"
             ]
           },
           {
@@ -790,6 +1004,9 @@
                 "$sequence_break|Tunnel Small Room"
               ],
               "{$peek|Tunnel Small Room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tunnel Small Room"
             ]
           }
         ],
@@ -812,6 +1029,9 @@
                 "$sequence_break|Tunnel Torch Island"
               ],
               "{$peek|Tunnel Torch Island}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tunnel Torch Island"
             ]
           }
         ],
@@ -833,6 +1053,9 @@
                 "$sequence_break|Swamp Gas Scratch Wall"
               ],
               "{$peek|Swamp Gas Scratch Wall}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp Gas Scratch Wall"
             ]
           },
           {
@@ -843,6 +1066,9 @@
                 "$sequence_break|Swamp Gas Bat Door"
               ],
               "{$peek|Swamp Gas Bat Door}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp Gas Bat Door"
             ]
           },
           {
@@ -853,6 +1079,9 @@
                 "$sequence_break|Swamp Gas Rock Prison"
               ],
               "{$peek|Swamp Gas Rock Prison}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp Gas Rock Prison"
             ]
           },
           {
@@ -863,6 +1092,9 @@
                 "$sequence_break|Q Curse The Darkness"
               ],
               "{$peek|Q Curse The Darkness}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Curse The Darkness"
             ]
           }
         ],
@@ -885,6 +1117,9 @@
                 "$sequence_break|Swamp Gas Stair room"
               ],
               "{$peek|Swamp Gas Stair room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swamp Gas Stair room"
             ]
           }
         ],
@@ -907,6 +1142,9 @@
                 "$sequence_break|A Tiny Cabin"
               ],
               "{$peek|A Tiny Cabin}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|A Tiny Cabin"
             ]
           }
         ],
@@ -929,6 +1167,9 @@
                 "$sequence_break|Seer Bedside"
               ],
               "{$peek|Seer Bedside}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Seer Bedside"
             ]
           }
         ],
@@ -951,6 +1192,9 @@
                 "$sequence_break|Brawlin'"
               ],
               "{$peek|Brawlin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Brawlin'"
             ]
           }
         ],
@@ -973,6 +1217,9 @@
                 "$sequence_break|Dusty Crypt Pumpkin Door"
               ],
               "{$peek|Dusty Crypt Pumpkin Door}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Dusty Crypt Pumpkin Door"
             ]
           },
           {
@@ -983,6 +1230,9 @@
                 "$sequence_break|Dusty Crypt Maze"
               ],
               "{$peek|Dusty Crypt Maze}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Dusty Crypt Maze"
             ]
           }
         ],
@@ -1010,6 +1260,9 @@
                 "$sequence_break|Musty Crypt Maze Room"
               ],
               "{$peek|Musty Crypt Maze Room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Musty Crypt Maze Room"
             ]
           }
         ],
@@ -1037,6 +1290,9 @@
                 "$sequence_break|Rusty Crypt Vine"
               ],
               "{$peek|Rusty Crypt Vine}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Rusty Crypt Vine"
             ]
           },
           {
@@ -1047,6 +1303,9 @@
                 "$sequence_break|Rusty Crypt Boulders"
               ],
               "{$peek|Rusty Crypt Boulders}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Rusty Crypt Boulders"
             ]
           }
         ],
@@ -1074,6 +1333,9 @@
                 "$sequence_break|A Messy Cabin"
               ],
               "{$peek|A Messy Cabin}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|A Messy Cabin"
             ]
           }
         ],
@@ -1096,6 +1358,9 @@
                 "$sequence_break|Under The Lake Behind Lightning Rod"
               ],
               "{$peek|Under The Lake Behind Lightning Rod}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Under The Lake Behind Lightning Rod"
             ]
           },
           {
@@ -1106,6 +1371,9 @@
                 "$sequence_break|Under The Lake Bat Door"
               ],
               "{$peek|Under The Lake Bat Door}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Under The Lake Bat Door"
             ]
           },
           {
@@ -1158,6 +1426,9 @@
                 "$sequence_break|Deeper Lake Corner"
               ],
               "{$peek|Deeper Lake Corner}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Deeper Lake Corner"
             ]
           },
           {
@@ -1168,6 +1439,9 @@
                 "$sequence_break|Deeper Lake Rhombus"
               ],
               "{$peek|Deeper Lake Rhombus}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Deeper Lake Rhombus"
             ]
           }
         ],
@@ -1184,6 +1458,9 @@
                 "$sequence_break|Frankenjulie's Reward"
               ],
               "{$peek|Frankenjulie's Reward}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Frankenjulie's Reward"
             ]
           },
           {
@@ -1194,6 +1471,9 @@
                 "$sequence_break|Q Beneath The Lake"
               ],
               "{$peek|Q Beneath The Lake}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Beneath The Lake"
             ]
           },
           {
@@ -1204,6 +1484,9 @@
                 "$sequence_break|Frankenfryin'"
               ],
               "{$peek|Frankenfryin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Frankenfryin'"
             ]
           }
         ],
@@ -1220,6 +1503,9 @@
                 "$sequence_break|Tower Barracks"
               ],
               "{$peek|Tower Barracks}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tower Barracks"
             ]
           },
           {
@@ -1242,6 +1528,9 @@
                 "$sequence_break|Sneakin'"
               ],
               "{$peek|Sneakin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Sneakin'"
             ]
           }
         ],
@@ -1279,6 +1568,9 @@
                 "$sequence_break|Tower F2 Skull Puzzle"
               ],
               "{$peek|Tower F2 Skull Puzzle}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tower F2 Skull Puzzle"
             ]
           }
         ],
@@ -1320,6 +1612,9 @@
                 "$sequence_break|PolterGuy's Reward"
               ],
               "{$peek|PolterGuy's Reward}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|PolterGuy's Reward"
             ]
           },
           {
@@ -1330,6 +1625,9 @@
                 "$sequence_break|Q The Haunted Tower"
               ],
               "{$peek|Q The Haunted Tower}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q The Haunted Tower"
             ]
           },
           {
@@ -1340,6 +1638,9 @@
                 "$sequence_break|Ghostbustin'"
               ],
               "{$peek|Ghostbustin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Ghostbustin'"
             ]
           }
         ],
@@ -1356,6 +1657,9 @@
                 "$sequence_break|Tower Basement DoorDoorDoorDoorDoorDoor"
               ],
               "{$peek|Tower Basement DoorDoorDoorDoorDoorDoor}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Tower Basement DoorDoorDoorDoorDoorDoor"
             ]
           }
         ],
@@ -1377,6 +1681,9 @@
                 "$sequence_break|Abandoned Mine Shaft"
               ],
               "{$peek|Abandoned Mine Shaft}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Abandoned Mine Shaft"
             ]
           }
         ],
@@ -1404,6 +1711,9 @@
                 "$sequence_break|Shrine Of Bombulus Prize"
               ],
               "{$peek|Shrine Of Bombulus Prize}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Shrine Of Bombulus Prize"
             ]
           }
         ],
@@ -1426,6 +1736,9 @@
                 "$sequence_break|Gloomy Cavern Lockpick"
               ],
               "{$peek|Gloomy Cavern Lockpick}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Gloomy Cavern Lockpick"
             ]
           },
           {
@@ -1436,6 +1749,9 @@
                 "$sequence_break|Q The Rescue"
               ],
               "{$peek|Q The Rescue}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q The Rescue"
             ]
           },
           {
@@ -1446,6 +1762,9 @@
                 "$sequence_break|Civic Duty"
               ],
               "{$peek|Civic Duty}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Civic Duty"
             ]
           }
         ],
@@ -1473,6 +1792,9 @@
                 "$sequence_break|Happy Stick Hidden"
               ],
               "{$peek|Happy Stick Hidden}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Happy Stick Hidden"
             ]
           },
           {
@@ -1483,6 +1805,9 @@
                 "$sequence_break|Happy Stick Reward"
               ],
               "{$peek|Happy Stick Reward}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Happy Stick Reward"
             ]
           },
           {
@@ -1493,6 +1818,9 @@
                 "$sequence_break|Q Happy Stick?!?"
               ],
               "{$peek|Q Happy Stick?!?}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Happy Stick?!?"
             ]
           },
           {
@@ -1503,6 +1831,9 @@
                 "$sequence_break|Witch Hunt"
               ],
               "{$peek|Witch Hunt}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Witch Hunt"
             ]
           }
         ],
@@ -1525,6 +1856,9 @@
                 "$sequence_break|Wolf Den Top Left"
               ],
               "{$peek|Wolf Den Top Left}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Wolf Den Top Left"
             ]
           },
           {
@@ -1535,6 +1869,9 @@
                 "$sequence_break|Wolf Den Pumpkin Door"
               ],
               "{$peek|Wolf Den Pumpkin Door}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Wolf Den Pumpkin Door"
             ]
           },
           {
@@ -1545,6 +1882,9 @@
                 "$sequence_break|Wolf Den Vine"
               ],
               "{$peek|Wolf Den Vine}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Wolf Den Vine"
             ]
           },
           {
@@ -1555,6 +1895,9 @@
                 "$sequence_break|Q Hairy Larry"
               ],
               "{$peek|Q Hairy Larry}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Hairy Larry"
             ]
           },
           {
@@ -1565,6 +1908,9 @@
                 "$sequence_break|Animal Control"
               ],
               "{$peek|Animal Control}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Animal Control"
             ]
           },
           {
@@ -1575,6 +1921,9 @@
                 "$sequence_break|Findin'"
               ],
               "{$peek|Findin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Findin'"
             ]
           }
         ],
@@ -1607,6 +1956,9 @@
                 "$sequence_break|Larry's Wife Reward"
               ],
               "{$peek|Larry's Wife Reward}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Larry's Wife Reward"
             ]
           }
         ],
@@ -1629,6 +1981,9 @@
                 "$sequence_break|Upper Cavern Three Gold Skeletons"
               ],
               "{$peek|Upper Cavern Three Gold Skeletons}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Upper Cavern Three Gold Skeletons"
             ]
           }
         ],
@@ -1666,6 +2021,9 @@
                 "$sequence_break|Under The Ravine Left Vine"
               ],
               "{$peek|Under The Ravine Left Vine}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Under The Ravine Left Vine"
             ]
           },
           {
@@ -1676,6 +2034,9 @@
                 "$sequence_break|Under The Ravine Right Vine"
               ],
               "{$peek|Under The Ravine Right Vine}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Under The Ravine Right Vine"
             ]
           },
           {
@@ -1686,6 +2047,9 @@
                 "$sequence_break|Q A True Hero"
               ],
               "{$peek|Q A True Hero}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q A True Hero"
             ]
           }
         ],
@@ -1729,6 +2093,9 @@
                 "$sequence_break|Creepy Caverns M Pharaoh Bat Door"
               ],
               "{$peek|Creepy Caverns M Pharaoh Bat Door}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Creepy Caverns M Pharaoh Bat Door"
             ]
           },
           {
@@ -1739,6 +2106,9 @@
                 "$sequence_break|Creepy Caverns M Gargoyles"
               ],
               "{$peek|Creepy Caverns M Gargoyles}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Creepy Caverns M Gargoyles"
             ]
           }
         ],
@@ -1771,6 +2141,9 @@
                 "$sequence_break|Creepy Caverns R Top Pharaohs"
               ],
               "{$peek|Creepy Caverns R Top Pharaohs}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Creepy Caverns R Top Pharaohs"
             ]
           }
         ],
@@ -1803,6 +2176,9 @@
                 "$sequence_break|Castle Vampy Top Room"
               ],
               "{$peek|Castle Vampy Top Room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy Top Room"
             ]
           },
           {
@@ -1813,6 +2189,9 @@
                 "$sequence_break|Castle Vampy Maze"
               ],
               "{$peek|Castle Vampy Maze}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy Maze"
             ]
           },
           {
@@ -1823,6 +2202,9 @@
                 "$sequence_break|Castle Vampy Gauntlet"
               ],
               "{$peek|Castle Vampy Gauntlet}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy Gauntlet"
             ]
           },
           {
@@ -1833,6 +2215,9 @@
                 "$sequence_break|Castle Vampy Bat Closet"
               ],
               "{$peek|Castle Vampy Bat Closet}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy Bat Closet"
             ]
           }
         ],
@@ -1860,6 +2245,9 @@
                 "$sequence_break|Castle Vampy II Candle Room"
               ],
               "{$peek|Castle Vampy II Candle Room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy II Candle Room"
             ]
           },
           {
@@ -1870,6 +2258,9 @@
                 "$sequence_break|Castle Vampy II Bloodsucker Room"
               ],
               "{$peek|Castle Vampy II Bloodsucker Room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy II Bloodsucker Room"
             ]
           },
           {
@@ -1880,6 +2271,9 @@
                 "$sequence_break|Castle Vampy II Vampire Lord"
               ],
               "{$peek|Castle Vampy II Vampire Lord}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy II Vampire Lord"
             ]
           },
           {
@@ -1890,6 +2284,9 @@
                 "$sequence_break|Castle Vampy II Bat Room"
               ],
               "{$peek|Castle Vampy II Bat Room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy II Bat Room"
             ]
           }
         ],
@@ -1937,6 +2334,9 @@
                 "$sequence_break|Cabin in the Woods Gold Skull"
               ],
               "{$peek|Cabin in the Woods Gold Skull}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Cabin in the Woods Gold Skull"
             ]
           }
         ],
@@ -1959,6 +2359,9 @@
                 "$sequence_break|Castle Vampy III Center"
               ],
               "{$peek|Castle Vampy III Center}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy III Center"
             ]
           },
           {
@@ -1969,6 +2372,9 @@
                 "$sequence_break|Castle Vampy III Behind the Pews"
               ],
               "{$peek|Castle Vampy III Behind the Pews}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy III Behind the Pews"
             ]
           },
           {
@@ -1979,6 +2385,9 @@
                 "$sequence_break|Castle Vampy III AMBUSH!"
               ],
               "{$peek|Castle Vampy III AMBUSH!}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy III AMBUSH!"
             ]
           },
           {
@@ -1989,6 +2398,9 @@
                 "$sequence_break|Castle Vampy III Halloween"
               ],
               "{$peek|Castle Vampy III Halloween}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy III Halloween"
             ]
           },
           {
@@ -1999,6 +2411,9 @@
                 "$sequence_break|Castle Vampy III Bat room"
               ],
               "{$peek|Castle Vampy III Bat room}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy III Bat room"
             ]
           }
         ],
@@ -2046,6 +2461,9 @@
                 "$sequence_break|Castle Vampy IV Right Path"
               ],
               "{$peek|Castle Vampy IV Right Path}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy IV Right Path"
             ]
           },
           {
@@ -2056,6 +2474,9 @@
                 "$sequence_break|Castle Vampy IV Left Path"
               ],
               "{$peek|Castle Vampy IV Left Path}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy IV Left Path"
             ]
           },
           {
@@ -2066,6 +2487,9 @@
                 "$sequence_break|Castle Vampy IV Ballroom Right"
               ],
               "{$peek|Castle Vampy IV Ballroom Right}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy IV Ballroom Right"
             ]
           },
           {
@@ -2076,6 +2500,9 @@
                 "$sequence_break|Castle Vampy IV Right Secret Wall"
               ],
               "{$peek|Castle Vampy IV Right Secret Wall}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy IV Right Secret Wall"
             ]
           },
           {
@@ -2086,6 +2513,9 @@
                 "$sequence_break|Castle Vampy IV Ballroom Left"
               ],
               "{$peek|Castle Vampy IV Ballroom Left}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Castle Vampy IV Ballroom Left"
             ]
           },
           {
@@ -2096,6 +2526,9 @@
                 "$sequence_break|Q The Last Gate"
               ],
               "{$peek|Q The Last Gate}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q The Last Gate"
             ]
           }
         ],
@@ -2138,6 +2571,9 @@
                 "$sequence_break|Q The Collection"
               ],
               "{$peek|Q The Collection}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q The Collection"
             ]
           }
         ],
@@ -2160,6 +2596,9 @@
                 "$sequence_break|Roof NE Stoney the Elder"
               ],
               "{$peek|Roof NE Stoney the Elder}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Roof NE Stoney the Elder"
             ]
           }
         ],
@@ -2182,6 +2621,9 @@
                 "$sequence_break|Roof SE Toasty the Elder"
               ],
               "{$peek|Roof SE Toasty the Elder}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Roof SE Toasty the Elder"
             ]
           }
         ],
@@ -2204,6 +2646,9 @@
                 "$sequence_break|Roof SW Drippy the Elder"
               ],
               "{$peek|Roof SW Drippy the Elder}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Roof SW Drippy the Elder"
             ]
           }
         ],
@@ -2226,6 +2671,9 @@
                 "$sequence_break|Roof NW Gutsy the Elder"
               ],
               "{$peek|Roof NW Gutsy the Elder}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Roof NW Gutsy the Elder"
             ]
           }
         ],
@@ -2248,6 +2696,9 @@
                 "$sequence_break|Q Save Halloween Hill"
               ],
               "{$peek|Q Save Halloween Hill}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Save Halloween Hill"
             ]
           },
           {
@@ -2258,6 +2709,9 @@
                 "$sequence_break|Evil Smashin'"
               ],
               "{$peek|Evil Smashin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Evil Smashin'"
             ]
           },
           {
@@ -2268,6 +2722,9 @@
                 "$sequence_break|Ultimate Victory"
               ],
               "{$peek|Ultimate Victory}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Ultimate Victory"
             ]
           },
           {
@@ -2278,6 +2735,9 @@
                 "$sequence_break|Winnin'"
               ],
               "{$peek|Winnin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Winnin'"
             ]
           },
           {
@@ -2288,6 +2748,9 @@
                 "$sequence_break|Mad Skeelz"
               ],
               "{$peek|Mad Skeelz}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Mad Skeelz"
             ]
           },
           {
@@ -2298,6 +2761,9 @@
                 "$sequence_break|Scorin'"
               ],
               "{$peek|Scorin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Scorin'"
             ]
           }
         ],
@@ -2320,6 +2786,9 @@
                 "$sequence_break|Bonkula Item"
               ],
               "{$peek|Bonkula Item}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bonkula Item"
             ]
           },
           {
@@ -2330,6 +2799,9 @@
                 "$sequence_break|Vampire Slayin'"
               ],
               "{$peek|Vampire Slayin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Vampire Slayin'"
             ]
           }
         ],
@@ -2357,6 +2829,9 @@
                 "$sequence_break|Hidey-Hole Bat Door"
               ],
               "{$peek|Hidey-Hole Bat Door}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Hidey-Hole Bat Door"
             ]
           },
           {
@@ -2367,6 +2842,9 @@
                 "$sequence_break|Hidey-Hole Pebbles"
               ],
               "{$peek|Hidey-Hole Pebbles}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Hidey-Hole Pebbles"
             ]
           }
         ],
@@ -2394,6 +2872,9 @@
                 "$sequence_break|Swampdog Lair Entrance"
               ],
               "{$peek|Swampdog Lair Entrance}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swampdog Lair Entrance"
             ]
           },
           {
@@ -2404,6 +2885,9 @@
                 "$sequence_break|Swampdog Lair End"
               ],
               "{$peek|Swampdog Lair End}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Swampdog Lair End"
             ]
           }
         ],
@@ -2431,6 +2915,9 @@
                 "$sequence_break|Puppy Poundin'"
               ],
               "{$peek|Puppy Poundin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Puppy Poundin'"
             ]
           }
         ],
@@ -2447,6 +2934,9 @@
                 "$sequence_break|Bowlin'"
               ],
               "{$peek|Bowlin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Bowlin'"
             ]
           }
         ],
@@ -2463,6 +2953,9 @@
                 "$sequence_break|Extreme Survivin'"
               ],
               "{$peek|Extreme Survivin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Extreme Survivin'"
             ]
           },
           {
@@ -2473,6 +2966,9 @@
                 "$sequence_break|Survivin'"
               ],
               "{$peek|Survivin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Survivin'"
             ]
           },
           {
@@ -2483,6 +2979,9 @@
                 "$sequence_break|Combo Magic"
               ],
               "{$peek|Combo Magic}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Combo Magic"
             ]
           },
           {
@@ -2493,6 +2992,9 @@
                 "$sequence_break|Stayin' Alive"
               ],
               "{$peek|Stayin' Alive}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Stayin' Alive"
             ]
           }
         ],
@@ -2509,6 +3011,9 @@
                 "$sequence_break|Boss Bashin'"
               ],
               "{$peek|Boss Bashin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Boss Bashin'"
             ]
           }
         ],
@@ -2525,6 +3030,9 @@
                 "$sequence_break|Kickin'"
               ],
               "{$peek|Kickin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Kickin'"
             ]
           },
           {
@@ -2535,6 +3043,9 @@
                 "$sequence_break|Hooliganin'"
               ],
               "{$peek|Hooliganin'}"
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Hooliganin'"
             ]
           }
         ],
@@ -2809,6 +3320,9 @@
             "name": "Q Save Halloween Hill"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Save Halloween Hill"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -2824,6 +3338,9 @@
             "ref": "Overworld/Halloween Hill/Q Tree Trimming",
             "name": "Q Tree Trimming"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Tree Trimming"
         ],
         "map_locations": [
           {
@@ -2846,6 +3363,9 @@
             "name": "Q Scaredy Cat"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Scaredy Cat"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -2866,6 +3386,9 @@
             "ref": "Overworld/Halloween Hill/Q Sticky Shoes",
             "name": "Q Sticky Shoes"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Sticky Shoes"
         ],
         "map_locations": [
           {
@@ -2888,6 +3411,9 @@
             "name": "Q Mushroom Hunt"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Mushroom Hunt"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -2903,6 +3429,9 @@
             "ref": "Overworld/Menu/Q Picking Daisies",
             "name": "Q Picking Daisies"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Picking Daisies"
         ],
         "map_locations": [
           {
@@ -2920,6 +3449,9 @@
             "name": "Q Curse The Darkness"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Curse The Darkness"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -2935,6 +3467,9 @@
             "ref": "Overworld/Zombiton/Q Zombie Stomp",
             "name": "Q Zombie Stomp"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Zombie Stomp"
         ],
         "map_locations": [
           {
@@ -2957,6 +3492,9 @@
             "name": "Q Smashing Pumpkins"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Smashing Pumpkins"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -2978,16 +3516,14 @@
             "name": "Q Mystery Lake"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Mystery Lake"
+        ],
         "map_locations": [
           {
             "map": "Quests",
             "x": 25,
             "y": 260
-          },
-          {
-            "map": "Overworld",
-            "x": 608,
-            "y": 2400
           }
         ]
       },
@@ -2998,6 +3534,9 @@
             "ref": "Overworld/Frankenjulie's Laboratory/Q Beneath The Lake",
             "name": "Q Beneath The Lake"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Beneath The Lake"
         ],
         "map_locations": [
           {
@@ -3015,6 +3554,9 @@
             "name": "Q Happy Stick?!?"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Happy Stick?!?"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -3031,6 +3573,9 @@
             "name": "Q A True Hero"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q A True Hero"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -3046,6 +3591,9 @@
             "ref": "Overworld/Zombiton/Q Silver Bullet",
             "name": "Q Silver Bullet"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Silver Bullet"
         ],
         "map_locations": [
           {
@@ -3068,6 +3616,9 @@
             "name": "Q Hairy Larry"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Hairy Larry"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -3083,6 +3634,9 @@
             "ref": "Overworld/The Witch's Cabin/Q Ghostbusting",
             "name": "Q Ghostbusting"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q Ghostbusting"
         ],
         "map_locations": [
           {
@@ -3100,6 +3654,9 @@
             "name": "Q The Haunted Tower"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q The Haunted Tower"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -3115,6 +3672,9 @@
             "ref": "Overworld/Castle Vampy IV/Q The Last Gate",
             "name": "Q The Last Gate"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q The Last Gate"
         ],
         "map_locations": [
           {
@@ -3132,6 +3692,9 @@
             "name": "Q The Rescue"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q The Rescue"
+        ],
         "map_locations": [
           {
             "map": "Quests",
@@ -3147,6 +3710,9 @@
             "ref": "Overworld/A Cabin Collector/Q The Collection",
             "name": "Q The Collection"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Q The Collection"
         ],
         "map_locations": [
           {
@@ -3164,6 +3730,9 @@
             "name": "Evil Smashin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Evil Smashin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3179,6 +3748,9 @@
             "ref": "Overworld/Bowling/Bowlin'",
             "name": "Bowlin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Bowlin'"
         ],
         "map_locations": [
           {
@@ -3196,6 +3768,9 @@
             "name": "Vandalizin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Vandalizin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3211,6 +3786,9 @@
             "ref": "Overworld/Menu/Greed",
             "name": "Greed"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Greed"
         ],
         "map_locations": [
           {
@@ -3228,6 +3806,9 @@
             "name": "Monster Slayin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Monster Slayin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3243,6 +3824,9 @@
             "ref": "Overworld/Menu/Monster Poundin'",
             "name": "Monster Poundin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Monster Poundin'"
         ],
         "map_locations": [
           {
@@ -3260,6 +3844,9 @@
             "name": "Ghostbustin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Ghostbustin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3275,6 +3862,9 @@
             "ref": "Overworld/The Witch's Cabin/Lookin'",
             "name": "Lookin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Lookin'"
         ],
         "map_locations": [
           {
@@ -3292,6 +3882,9 @@
             "name": "Ultimate Victory"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Ultimate Victory"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3307,6 +3900,9 @@
             "ref": "Overworld/Loony Ball/Kickin'",
             "name": "Kickin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Kickin'"
         ],
         "map_locations": [
           {
@@ -3324,6 +3920,9 @@
             "name": "Boss Bashin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Boss Bashin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3339,6 +3938,9 @@
             "ref": "Overworld/The Heart Of Terror/Vampire Slayin'",
             "name": "Vampire Slayin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Vampire Slayin'"
         ],
         "map_locations": [
           {
@@ -3356,6 +3958,9 @@
             "name": "Sneakin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Sneakin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3371,6 +3976,9 @@
             "ref": "Overworld/Happy Stick Woods/Witch Hunt",
             "name": "Witch Hunt"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Witch Hunt"
         ],
         "map_locations": [
           {
@@ -3388,6 +3996,9 @@
             "name": "Animal Control"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Animal Control"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3403,6 +4014,9 @@
             "ref": "Overworld/The Witch's Cabin/Annoyance",
             "name": "Annoyance"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Annoyance"
         ],
         "map_locations": [
           {
@@ -3420,6 +4034,9 @@
             "name": "Civic Duty"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Civic Duty"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3435,6 +4052,9 @@
             "ref": "Overworld/The Evilizer/Winnin'",
             "name": "Winnin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Winnin'"
         ],
         "map_locations": [
           {
@@ -3452,6 +4072,9 @@
             "name": "Combo Plate"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Combo Plate"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3467,6 +4090,9 @@
             "ref": "Overworld/Rocky Cliffs/Cleanin' Up",
             "name": "Cleanin' Up"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Cleanin' Up"
         ],
         "map_locations": [
           {
@@ -3484,6 +4110,9 @@
             "name": "Findin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Findin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3499,6 +4128,9 @@
             "ref": "Overworld/Survival/Extreme Survivin'",
             "name": "Extreme Survivin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Extreme Survivin'"
         ],
         "map_locations": [
           {
@@ -3516,6 +4148,9 @@
             "name": "Huntin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Huntin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3531,6 +4166,9 @@
             "ref": "Overworld/Menu/Advanced Winnin'",
             "name": "Advanced Winnin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Advanced Winnin'"
         ],
         "map_locations": [
           {
@@ -3548,6 +4186,9 @@
             "name": "Survivin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Survivin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3563,6 +4204,9 @@
             "ref": "Overworld/Larry's Lair/Puppy Poundin'",
             "name": "Puppy Poundin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Puppy Poundin'"
         ],
         "map_locations": [
           {
@@ -3580,6 +4224,9 @@
             "name": "Mad Skeelz"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Mad Skeelz"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3595,6 +4242,9 @@
             "ref": "Overworld/Frankenjulie's Laboratory/Frankenfryin'",
             "name": "Frankenfryin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Frankenfryin'"
         ],
         "map_locations": [
           {
@@ -3612,6 +4262,9 @@
             "name": "Combo Magic"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Combo Magic"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3627,6 +4280,9 @@
             "ref": "Overworld/Slurpy Swamp Mud/Hedge Clippin'",
             "name": "Hedge Clippin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Hedge Clippin'"
         ],
         "map_locations": [
           {
@@ -3644,6 +4300,9 @@
             "name": "R-R-R-Remix!"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|R-R-R-Remix!"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3659,6 +4318,9 @@
             "ref": "Overworld/Menu/Witchcraft",
             "name": "Witchcraft"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Witchcraft"
         ],
         "map_locations": [
           {
@@ -3676,6 +4338,9 @@
             "name": "Ninjitsu"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Ninjitsu"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3691,6 +4356,9 @@
             "ref": "Overworld/Survival/Stayin' Alive",
             "name": "Stayin' Alive"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Stayin' Alive"
         ],
         "map_locations": [
           {
@@ -3708,6 +4376,9 @@
             "name": "Hooliganin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Hooliganin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3723,6 +4394,9 @@
             "ref": "Overworld/Menu/Swampdoggin'",
             "name": "Swampdoggin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Swampdoggin'"
         ],
         "map_locations": [
           {
@@ -3740,6 +4414,9 @@
             "name": "Scorin'"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Scorin'"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3755,6 +4432,9 @@
             "ref": "Overworld/Benny's Cocktails/Brawlin'",
             "name": "Brawlin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Brawlin'"
         ],
         "map_locations": [
           {
@@ -3772,6 +4452,9 @@
             "name": "Minin' For Treasure"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Minin' For Treasure"
+        ],
         "map_locations": [
           {
             "map": "Badges",
@@ -3787,6 +4470,9 @@
             "ref": "Overworld/Menu/Digitally Masterin'",
             "name": "Digitally Masterin'"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Digitally Masterin'"
         ],
         "map_locations": [
           {
@@ -3850,6 +4536,22 @@
         ]
       },
       {
+        "name": "Witch Mushroom Reward",
+        "sections": [
+          {
+            "ref": "Overworld/The Witch's Cabin/Witch Mushroom Reward",
+            "name": "Witch Mushroom Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Quests",
+            "x": 287,
+            "y": 68
+          }
+        ]
+      },
+      {
         "name": "Mayor Reward",
         "sections": [
           {
@@ -3878,6 +4580,9 @@
             "name": "Bat Drop"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Bat Drop"
+        ],
         "map_locations": [
           {
             "map": "Dolls",
@@ -3893,6 +4598,9 @@
             "ref": "Overworld/Menu/Skeleton Drop",
             "name": "Skeleton Drop"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Skeleton Drop"
         ],
         "map_locations": [
           {
@@ -3910,6 +4618,9 @@
             "name": "Frog Drop"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Frog Drop"
+        ],
         "map_locations": [
           {
             "map": "Dolls",
@@ -3925,6 +4636,9 @@
             "ref": "Overworld/Menu/Ghost Drop",
             "name": "Ghost Drop"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Ghost Drop"
         ],
         "map_locations": [
           {
@@ -3942,6 +4656,9 @@
             "name": "Mummy Drop"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Mummy Drop"
+        ],
         "map_locations": [
           {
             "map": "Dolls",
@@ -3957,6 +4674,9 @@
             "ref": "Overworld/Menu/Swampdog Drop",
             "name": "Swampdog Drop"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Swampdog Drop"
         ],
         "map_locations": [
           {
@@ -3974,6 +4694,9 @@
             "name": "Vampire Drop"
           }
         ],
+        "visibility_rules": [
+          "$enabled_in_settings|Vampire Drop"
+        ],
         "map_locations": [
           {
             "map": "Dolls",
@@ -3989,6 +4712,9 @@
             "ref": "Overworld/Menu/Wolf Drop",
             "name": "Wolf Drop"
           }
+        ],
+        "visibility_rules": [
+          "$enabled_in_settings|Wolf Drop"
         ],
         "map_locations": [
           {

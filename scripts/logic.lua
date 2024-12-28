@@ -174,6 +174,52 @@ function peek(location_name)
     return false
 end
 
+function enabled_in_settings(location_name)
+    local AP_DIS <const> = 0
+    local AP_EN <const> = 1
+    local AP_NONE <const> = 0
+    local AP_VANILLA <const> = 1
+    local AP_FULL <const> = 2
+    local AP_WIN_EVIL <const> = 0
+    local AP_WIN_BADGE <const> = 1
+
+    loc = loonyland_location_table[location_name]
+    if (loc) then
+        location_flags = loc.flags
+        if not location_flags then
+            location_flags = {}
+        end
+        location_type = loc.type
+        --print(type)
+        if(location_type == "BADGE" and Tracker:FindObjectForCode("SET_Badges").CurrentStage == AP_DIS) then --badges are none
+            return false
+        end
+        if(Tracker:FindObjectForCode("SET_Dolls").CurrentStage == AP_DIS and (location_type == "DOLL" or location_flags["DOLL"])) then --badges are none
+            return false
+        end
+        if(Tracker:FindObjectForCode("SET_LongChecks").Active == false and (location_flags["LONG"] or 
+        (
+            location_flags["LONG_VANILLA_BADGES"] and Tracker:FindObjectForCode("SET_Badges").CurrentStage == AP_VANILLA
+        ))) then
+            return false
+        end
+        if(Tracker:FindObjectForCode("SET_Remix").Active == false and location_flags["REMIX"]) then
+            return false
+        end
+        if(Tracker:FindObjectForCode("SET_MultipleSaves").Active == false and location_flags["MULTISAVE"]) then
+            return false
+        end
+        if(Tracker:FindObjectForCode("SET_WinCondition").CurrentStage == AP_WIN_EVIL and location_flags["POSTGAME"]) then
+            return false
+        end
+        if(Tracker:FindObjectForCode("SET_OverpoweredCheats").Active == false and location_flags["OP"]) then
+            return false
+        end
+    end
+    return true
+
+end
+
 function can_reach(location_name)
     if not hasAnyWatch then
         state.stale = true
