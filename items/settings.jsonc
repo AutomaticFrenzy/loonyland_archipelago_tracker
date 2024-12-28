@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Win Condition",
+        "type": "progressive",
+        "img": "images/items/settings/goal_evil.png",
+        "codes": "Win Condition, SET_WinCondition",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/settings/goal_evil.png",
+            },
+            {
+                "img": "images/items/settings/goal_badges.png",
+            }
+        ]
+    },
+    {
+        "name": "Badges Required",
+        "type": "consumable",
+        "img": "images/items/settings/badges_required.png",
+        "codes": "Badges Required, SET_BadgesRequired"
+    },
+    {
+        "name": "Long Checks",
+        "type": "toggle",
+        "img": "images/items/settings/long_checks.png",
+        "codes": "Long Checks, SET_LongChecks"
+    },
+    {
+        "name": "Multiple Saves",
+        "type": "toggle",
+        "img": "images/items/settings/multi_save.png",
+        "codes": "Multiple Saves, SET_MultipleSaves"
+    },
+    {
+        "name": "Remix",
+        "type": "toggle",
+        "img": "images/items/settings/remix.png",
+        "codes": "Remix, SET_Remix"
+    },
+    {
+        "name": "Overpowered Cheats",
+        "type": "toggle",
+        "img": "images/items/settings/overpowered_cheats.png",
+        "codes": "Overpowered Cheats, SET_OverpoweredCheats"
+    },
+    {
+        "name": "Badges",
+        "type": "progressive",
+        "img": "images/items/settings/badge_none.png",
+        "codes": "Badges, SET_Badges",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/settings/badge_none.png",
+            },
+            {
+                "img": "images/items/settings/badge_vanilla.png",
+            },
+            {
+                "img": "images/items/settings/badge_full.png",
+            }
+        ]
+    },
+    {
+        "name": "Dolls",
+        "type": "progressive",
+        "img": "images/items/settings/dolls.png",
+        "codes": "Dolls, SET_Dolls",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/settings/dolls_none.png",
+            },
+            {
+                "img": "images/items/settings/dolls_vanilla.png",
+            },
+            {
+                "img": "images/items/settings/dolls_full.png",
+            }
+        ]
+    }
+]

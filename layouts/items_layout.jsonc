@@ -1,0 +1,102 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        //powerups
+        "type": "itemgrid",
+        "item_margin": "10, 4",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+          [
+            "Lightning"
+          ],
+          [
+            "Pants"
+          ],
+          [
+            "Arrow"
+          ],
+          [
+            "Big Gem"
+          ],
+          [
+            "Heart"
+          ],
+        ]
+      },
+      {
+        //main inv
+        "type": "itemgrid",
+        "item_margin": "10, 4",
+        "item_h_alignment": "center",
+        "h_alignment": "left",
+        "rows": [
+          [
+            "Silver Sling",
+            "Boots",
+            "Cat",
+            "Stick",
+            "Lantern",
+            "Mushroom",
+            "Doom Daisy",
+            "Silver",
+            "Ghost Potion",
+            "Fertilizer",
+            "Orb",
+          ],
+          [
+            "Skull Key",
+            "Bat Key",
+            "Pumpkin Key",
+            "Bombs",
+            "Shock Wand",
+            "Ice Spear",
+            "Cactus",
+            "Boomerang",
+            "Whoopee",
+            "Hot Pants",
+            "100 Gems",
+          ],
+          [
+            "Bat Statue",
+            "Vampire Bust",
+            "Triple Fire Gem",
+            "Reflect Gem",
+            "Happy Stick",
+            "Bat Doll",
+            "Skeleton Doll",
+            "Frog Doll",
+            "Ghost Doll",
+            "Mummy Doll",
+            "Swampdog Doll",
+            "Vampire Doll",
+            "Wolfman Doll"
+          ],
+          [
+            "Bowling Access",
+            "Survival Access",
+            "Boss Bash Access",
+            "Loony Ball Access",
+            "Remix Access",
+          ],
+          [
+            "SET_WinCondition",
+            "SET_BadgesRequired",
+            "SET_LongChecks",
+            "SET_MultipleSaves",
+            "SET_Remix",
+            "SET_OverpoweredCheats",
+            "SET_Badges",
+            "SET_Dolls",
+          ],
+        ]
+      },
+    ]
+  }
+}
