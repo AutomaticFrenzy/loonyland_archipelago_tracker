@@ -48,7 +48,6 @@
     {
         "name": "Badges",
         "type": "progressive",
-        "img": "images/items/settings/badge_none.png",
         "codes": "Badges, SET_Badges",
         "allow_disabled": false,
         "loop": true,
@@ -67,7 +66,6 @@
     {
         "name": "Dolls",
         "type": "progressive",
-        "img": "images/items/settings/dolls.png",
         "codes": "Dolls, SET_Dolls",
         "allow_disabled": false,
         "loop": true,

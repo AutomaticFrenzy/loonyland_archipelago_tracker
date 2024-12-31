@@ -17,7 +17,6 @@
               "tabs": [
                 {
                   "title": "Oveworld",
-                  "h_alignment": "left",
                   "content": {
                     "type": "map",
                     "maps": [
