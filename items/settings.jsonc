@@ -2,7 +2,6 @@
     {
         "name": "Win Condition",
         "type": "progressive",
-        "img": "images/items/settings/goal_evil.png",
         "codes": "Win Condition, SET_WinCondition",
         "allow_disabled": false,
         "loop": true,
