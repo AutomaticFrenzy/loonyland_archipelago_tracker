@@ -25,7 +25,7 @@ local _count = State.count
 -- logic resolvers (called from json locations)
 
 function have_light_source() 
-    return state:has("Lantern") or (state:has("Stick") and state:has("Boots") and can_reach("Swamp Gas Cavern")) or state:has("20/20 vision")
+    return state:has("Lantern") or (state:has("Stick") and state:has("Boots")) or state:has("20/20 vision")
 end
 
 function have_bombs() 
