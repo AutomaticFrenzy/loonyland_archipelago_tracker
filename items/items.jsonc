@@ -517,5 +517,11 @@
         "type": "toggle",
         "img": "images/items/game_items/itm_wolfman_doll.png",
         "codes": "Wolfman Doll, DOLL"
+    },
+    {
+        "name": "Torch",
+        "type": "toggle",
+        "img": "images/items/game_items/itm_torch.png",
+        "codes": "Torch, ITEM, TORCH"
     }
 ]

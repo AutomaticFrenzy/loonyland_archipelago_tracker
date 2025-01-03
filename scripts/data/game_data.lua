@@ -85,6 +85,7 @@ ITEM_MAPPING = {
     [2877086] = {{"Swampdog Doll", "toggle"}},
     [2877087] = {{"Vampire Doll", "toggle"}},
     [2877088] = {{"Wolfman Doll", "toggle"}},
+    [2877016] = {{"Torch", "toggle"}},
 }
 loonyland_region_table = {
     ["Menu"] = {real=False},
@@ -333,7 +334,7 @@ loonyland_location_table = {
     ["Combo Plate"]  = {id=132, type="BADGE", region="Menu"},
     ["Cleanin' Up"]  = {id=133, type="BADGE", region="Rocky Cliffs"},
     ["Findin'"]  = {id=134, type="BADGE", region="The Wolf Den"},
-    ["Extreme Survivin'"]  = {id=135, type="BADGE", region="Survival", flags={ LONG_VANILLA_BADGES=true }},
+    ["Extreme Survivin'"]  = {id=135, type="BADGE", region="Survival", flags={ LONG_VANILLA_BADGES=true, VANILLA_POSTGAME=true }},
     ["Huntin'"]  = {id=136, type="BADGE", region="Halloween Hill"},
     ["Advanced Winnin'"]  = {id=137, type="BADGE", region="Menu", flags={ LONG=true, POSTGAME=true }},
     ["Survivin'"]  = {id=138, type="BADGE", region="Survival"},
@@ -349,7 +350,7 @@ loonyland_location_table = {
     ["Hooliganin'"]  = {id=148, type="BADGE", region="Loony Ball"},
     ["Swampdoggin'"]  = {id=149, type="BADGE", region="Menu", flags={ LONG=true, MULTISAVE=true }},
     ["Scorin'"]  = {id=150, type="BADGE", region="The Evilizer", flags={ LONG=true }},
-    ["Brawlin'"]  = {id=151, type="BADGE", region="Benny's Cocktails", flags={ LONG_VANILLA_BADGES=true, OP=true }},
+    ["Brawlin'"]  = {id=151, type="BADGE", region="Benny's Cocktails", flags={ LONG_VANILLA_BADGES=true, OP=true, VANILLA_POSTGAME=true }},
     ["Minin' For Treasure"]  = {id=152, type="BADGE", region="Menu", flags={ REMIX=true }},
     ["Digitally Masterin'"]  = {id=153, type="BADGE", region="Menu", flags={ LONG=true, REMIX=true, MULTISAVE=true, POSTGAME=true, LONG_VANILLA_BADGES=true }},
     ["Tree Trimming Reward"]  = {id=154, type="REWARD", region="A Cabin Trees"},
