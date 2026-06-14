@@ -6,21 +6,6 @@
         "name": "Menu",
         "sections": [
           {
-            "name": "Q Picking Daisies",
-            "access_rules": [
-              [
-                "[$access|Q Picking Daisies]",
-                "$sequence_break|Q Picking Daisies"
-              ],
-              [
-                "{$peek|Q Picking Daisies}"
-              ]
-            ],
-            "visibility_rules": [
-              "$enabled_in_settings|Q Picking Daisies"
-            ]
-          },
-          {
             "name": "Greed",
             "access_rules": [
               [
@@ -844,6 +829,21 @@
             ],
             "visibility_rules": [
               "$enabled_in_settings|Q Mushroom Hunt"
+            ]
+          },
+          {
+            "name": "Q Picking Daisies",
+            "access_rules": [
+              [
+                "[$access|Q Picking Daisies]",
+                "$sequence_break|Q Picking Daisies"
+              ],
+              [
+                "{$peek|Q Picking Daisies}"
+              ]
+            ],
+            "visibility_rules": [
+              "$enabled_in_settings|Q Picking Daisies"
             ]
           },
           {
@@ -2480,6 +2480,26 @@
         ]
       },
       {
+        "name": "Castle Vampy NW",
+        "sections": [],
+        "map_locations": []
+      },
+      {
+        "name": "Castle Vampy NE",
+        "sections": [],
+        "map_locations": []
+      },
+      {
+        "name": "Castle Vampy SW",
+        "sections": [],
+        "map_locations": []
+      },
+      {
+        "name": "Castle Vampy SE",
+        "sections": [],
+        "map_locations": []
+      },
+      {
         "name": "Castle Vampy Skull Jail",
         "sections": [],
         "map_locations": []
@@ -3760,7 +3780,7 @@
         "name": "Q Picking Daisies",
         "sections": [
           {
-            "ref": "Overworld/Menu/Q Picking Daisies",
+            "ref": "Overworld/The Witch's Cabin/Q Picking Daisies",
             "name": "Q Picking Daisies"
           }
         ],
